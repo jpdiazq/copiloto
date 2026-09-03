@@ -1,0 +1,169 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T12:15:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-02T21:30:00-05:00",
+        "end": "2026-09-03T05:00:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 05:00."
+      },
+      {
+        "title": "Entreno",
+        "start": "2026-09-03T05:00:00-05:00",
+        "end": "2026-09-03T06:15:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque semanal recurrente (mismo horario cada semana); la actividad puntual varía (Bici, Run, Rudiments, Fortalecimiento)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-03T06:15:00-05:00",
+        "end": "2026-09-03T06:55:00-05:00",
+        "duration_minutes": 40,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-03T07:00:00-05:00",
+        "end": "2026-09-03T07:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-03T07:30:00-05:00",
+        "end": "2026-09-03T08:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-03T08:00:00-05:00",
+        "end": "2026-09-03T16:30:00-05:00",
+        "duration_minutes": 510,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-03T16:30:00-05:00",
+        "end": "2026-09-03T17:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Styling con Bea Vieda",
+        "start": "2026-09-03T17:00:00-05:00",
+        "end": "2026-09-03T18:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Sesión de styling con invitado (palejandraacuna@gmail.com), agendada apenas el 27-ago."
+      },
+      {
+        "title": "Sesión Terapia",
+        "start": "2026-09-03T18:00:00-05:00",
+        "end": "2026-09-03T18:45:00-05:00",
+        "duration_minutes": 45,
+        "category": "salud",
+        "is_atypical": false,
+        "note": "Título similar ('Terapia', 'Ir a Terapia', 'Terapia de Descarga') apareció 4 veces en las 3 semanas previas, pero todas concentradas entre el 31-ago y el 2-sep, no repartidas en el periodo — patrón nuevo, no histórico."
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-03T18:45:00-05:00",
+        "end": "2026-09-03T19:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-03T19:15:00-05:00",
+        "end": "2026-09-03T19:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Hacer Maleta",
+        "start": "2026-09-03T19:40:00-05:00",
+        "end": "2026-09-03T20:25:00-05:00",
+        "duration_minutes": 45,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Coincide con vuelo LATAM LA4016 Bogotá-Medellín de mañana 4-sep 17:00."
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-03T20:25:00-05:00",
+        "end": "2026-09-03T21:00:00-05:00",
+        "duration_minutes": 35,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-03T21:00:00-05:00",
+        "end": "2026-09-04T05:00:00-05:00",
+        "duration_minutes": 480,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h (21:00-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 14.67,
+      "training_hours": 1.25,
+      "sleep_hours_within_today": 8.0,
+      "total_scheduled_hours_within_today": 23.92,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-03T06:55:00-05:00",
+        "end": "2026-09-03T07:00:00-05:00",
+        "duration_minutes": 5
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Ir a Skandia -> Trabajo Skandia (08:00, sin margen)",
+          "Ir a Casa -> Styling con Bea Vieda (17:00, sin margen)",
+          "Styling con Bea Vieda -> Sesión Terapia (18:00, sin margen)",
+          "Dormir -> Entreno (05:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "noreply@booking.com (mensaje de CITIO Hotel - Laureles)",
+        "subject": "You have a message from CITIO Hotel - Laureles",
+        "action_required": "Responder con fecha de nacimiento para completar el registro del hotel antes del check-in de mañana (vie 4-sep).",
+        "urgency": "alta"
+      },
+      {
+        "sender": "suracomunicaciones@sura.com.co (SURA)",
+        "subject": "Queremos validar el pago de tu seguro de MASCOTAS",
+        "action_required": "Confirmar si se realizó el pago del seguro de mascotas (póliza 900000747407).",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen: la agenda está llena de 00:00 a 24:00, con un solo hueco libre de 5 minutos (06:55-07:00). Cero colchón entre bloques: se llega a Skandia a las 8:00 justo cuando empieza el trabajo, se llega a casa a las 17:00 justo cuando arranca el styling, y el styling termina justo cuando arranca terapia a las 18:00. Después de 8.5 horas de trabajo se encadenan styling, terapia, comida y empacar maleta sin ningún respiro hasta las 21:00. No hay ningún hueco libre de más de 60 minutos en todo el día. Si el trabajo se extiende, el tráfico se atrasa, o el styling se corre, todo lo demás se cae en cascada — no hay dónde absorber el atraso. Además, esta semana ya van 4 eventos de terapia en 4 días (31-ago a hoy), todos nuevos, sin ser un patrón histórico de las 3 semanas previas: eso no es rutina, es una carga extra que se le sumó a un día ya sobrecargado justo antes de un viaje."
+}
