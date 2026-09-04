@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T06:59:16-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-03T21:00:00-05:00",
+        "end": "2026-09-04T05:00:00-05:00",
+        "duration_minutes": 300,
+        "duration_note": "Bloque de sueño iniciado ayer; solo se cuentan las 5h (00:00-05:00) dentro del día de hoy.",
+        "category": "sueño",
+        "is_atypical": false
+      },
+      {
+        "title": "Stay at CITIO Hotel",
+        "start": "2026-09-04",
+        "end": "2026-09-07",
+        "all_day": true,
+        "duration_minutes": null,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Evento de todo el día (reserva de hotel), sin horario puntual. No aparece en las 3 semanas previas — nuevo, asociado al viaje a Medellín."
+      },
+      {
+        "title": "Entreno",
+        "start": "2026-09-04T05:00:00-05:00",
+        "end": "2026-09-04T06:15:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque semanal recurrente (mismo horario cada semana); la actividad puntual varía (Run, Bici, Rudiments, Fortalecimiento, Piscina...)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-04T06:15:00-05:00",
+        "end": "2026-09-04T07:00:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-04T07:00:00-05:00",
+        "end": "2026-09-04T07:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-04T07:30:00-05:00",
+        "end": "2026-09-04T08:15:00-05:00",
+        "duration_minutes": 45,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-04T08:10:00-05:00",
+        "end": "2026-09-04T16:40:00-05:00",
+        "duration_minutes": 510,
+        "location": "Skandia",
+        "category": "trabajo",
+        "is_atypical": false,
+        "note": "El calendario no se ajustó para el día de viaje: se solapa 5 min con 'Ir a Skandia', 60 min con 'Ir al Aeropuerto' (14:30-15:30) y 70 min con 'Vuelo Medellín' (15:30-16:40)."
+      },
+      {
+        "title": "Office day",
+        "start": "2026-09-04T08:30:00-05:00",
+        "end": "2026-09-04T16:30:00-05:00",
+        "duration_minutes": 360,
+        "category": "trabajo",
+        "is_atypical": true,
+        "note": "Invitación de palejandraacuna@gmail.com, sin responder (needsAction). Se solapa por completo con 'Trabajo Skandia'; solo apareció una vez en las 3 semanas previas (1-sep) y ese día también se solapó con el trabajo."
+      },
+      {
+        "title": "Ir al Aeropuerto",
+        "start": "2026-09-04T14:30:00-05:00",
+        "end": "2026-09-04T15:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "transporte",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Ocurre por completo dentro del bloque 'Trabajo Skandia' (08:10-16:40)."
+      },
+      {
+        "title": "Vuelo Medellín",
+        "start": "2026-09-04T15:30:00-05:00",
+        "end": "2026-09-04T19:30:00-05:00",
+        "duration_minutes": 240,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Se solapa 70 min con 'Trabajo Skandia' (hasta las 16:40): el calendario indica que sigue 'trabajando' mientras ya debería estar volando."
+      },
+      {
+        "title": "Media Maratón Medellín",
+        "start": "2026-09-04T17:00:00-05:00",
+        "end": "2026-09-06T22:00:00-05:00",
+        "duration_minutes_today": 420,
+        "category": "evento",
+        "is_atypical": true,
+        "note": "Marcador informativo de fin de semana de carrera (3 días), no una actividad puntual. Se solapa con 'Vuelo Medellín', 'Cenar', 'Leer + Meditar + Preparar Dormida', 'Terapia' y el bloque de sueño de esta noche. No aparece en las 3 semanas previas."
+      },
+      {
+        "title": "Cenar",
+        "start": "2026-09-04T19:30:00-05:00",
+        "end": "2026-09-04T20:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "Título nuevo (no aparece en las 3 semanas previas), pero ocupa el mismo horario/función que la comida de la noche ('Comer', 11 veces en el periodo) — funcionalmente es el bloque rutinario de cena, solo renombrado."
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-04T20:40:00-05:00",
+        "end": "2026-09-04T22:00:00-05:00",
+        "duration_minutes": 80,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Bloque recurrente de cierre del día (9 apariciones combinando variantes en el periodo)."
+      },
+      {
+        "title": "Terapia",
+        "start": "2026-09-04T21:00:00-05:00",
+        "end": "2026-09-04T21:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "salud",
+        "is_atypical": true,
+        "note": "Hoy es el 5º día consecutivo con sesión de terapia (31-ago, 1, 2, 3 y 4-sep, con nombres distintos cada vez). Es un patrón nuevo y creciente, no una rutina histórica de las 3 semanas previas. Ocurre dentro de 'Leer + Meditar + Preparar Dormida' (20:40-22:00)."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-04T22:00:00-05:00",
+        "end": "2026-09-05T06:00:00-05:00",
+        "duration_minutes": 120,
+        "duration_note": "Bloque de sueño que continúa mañana; solo se cuentan las 2h (22:00-24:00) dentro del día de hoy.",
+        "category": "sueño",
+        "is_atypical": false
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 18.33,
+      "committed_hours_note": "Suma de duraciones de eventos reales (excluye sueño, entreno y los 2 marcadores/duplicados 'Office day' y 'Media Maratón Medellín').",
+      "training_hours": 1.25,
+      "sleep_hours_within_today": 7.0,
+      "total_scheduled_hours_within_today": 26.58,
+      "total_scheduled_hours_note": "Supera las 24h porque el calendario tiene solapes reales, no por error de cálculo: 'Trabajo Skandia' se solapa con 'Ir a Skandia' (5 min), 'Ir al Aeropuerto' (60 min) y 'Vuelo Medellín' (70 min); 'Terapia' está anidada dentro de 'Leer + Meditar + Preparar Dormida'.",
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-04T20:30:00-05:00",
+        "end": "2026-09-04T20:40:00-05:00",
+        "duration_minutes": 10
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "overlapping_events": [
+          "Ir a Skandia (07:30-08:15) se solapa 5 min con Trabajo Skandia (08:10-16:40).",
+          "Ir al Aeropuerto (14:30-15:30) ocurre por completo dentro de Trabajo Skandia (08:10-16:40): el calendario no se ajustó para el viaje.",
+          "Vuelo Medellín (15:30-19:30) se solapa 70 min con Trabajo Skandia (hasta 16:40): figura 'trabajando' mientras ya debería estar volando.",
+          "Office day (08:30-16:30, invitación sin responder) se solapa por completo con Trabajo Skandia.",
+          "Media Maratón Medellín (desde 17:00) se solapa con Vuelo Medellín, Cenar, Leer + Meditar + Preparar Dormida, Terapia y el bloque de sueño de la noche.",
+          "Terapia (21:00-21:30) ocurre por completo dentro de Leer + Meditar + Preparar Dormida (20:40-22:00)."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Entreno (05:00, sin margen)",
+          "Arreglar -> Bono (07:00, sin margen)",
+          "Bono -> Ir a Skandia (07:30, sin margen)",
+          "Vuelo Medellín -> Cenar (19:30, sin margen)",
+          "Leer + Meditar + Preparar Dormida -> Dormir (22:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "info@maratonmedellin.com",
+        "subject": "¡Mañana comienza la fiesta del running! Nos vemos en Expo Runners",
+        "action_required": "Recoger el kit de corredor en Expo Runners (evento empieza hoy) antes de la Media Maratón del fin de semana.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "no-reply@mercadolibre.com.co",
+        "subject": "Tu compra está en camino",
+        "action_required": "Recoger el paquete en la agencia hoy viernes 4-sep; hoy mismo se viaja a Medellín, riesgo de no alcanzar a recogerlo.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "nu@nu.com.co",
+        "subject": "En 3 días es tu fecha de pago",
+        "action_required": "Verificar que haya fondos suficientes para el débito automático del préstamo el 5-sep.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: el día está cubierto casi sin cortes desde las 06:15 hasta medianoche, con un único hueco libre de 10 minutos (20:30-20:40). Pero el problema no es solo la falta de huecos — el calendario tiene solapes reales que muestran que no se ajustó para el viaje: 'Trabajo Skandia' sigue corriendo hasta las 16:40 aunque hay que salir al aeropuerto a las 14:30 y el vuelo despega a las 15:30, es decir, el calendario dice que sigues 'trabajando' mientras deberías estar volando, con 70 minutos de solape directo. A eso se suma una invitación de 'Office day' sin responder que duplica todo el bloque de trabajo. Además, hoy es el quinto día seguido con una sesión de terapia (31-ago a hoy, cada día con nombre distinto) — eso ya no es un evento puntual, es una carga nueva que se sumó a un día de por sí sobrecargado por viaje. Fuera del calendario, hay dos pendientes con ventana de hoy que compiten por el mismo tiempo: recoger un paquete en la agencia de Mercado Libre y pasar por Expo Runners por el kit de corredor — ambos el mismo día en que hay que trabajar medio turno, ir al aeropuerto y volar. Si el trabajo se extiende aunque sea 10 minutos, o el tráfico al aeropuerto se atrasa, no hay dónde absorberlo: se pierde el vuelo o se llega corriendo."
+}
