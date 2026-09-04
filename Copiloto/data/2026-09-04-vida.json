@@ -1,0 +1,284 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T06:51:03-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_reciente": {
+      "criterio": "actividades de HOY sin importar la hora + actividades de AYER que empezaron después de las 12:00",
+      "has_activity_today": true,
+      "has_activity_yesterday_pm": true,
+      "session_count_12h": 1,
+      "session_count_12h_nota": "Ventana de 12h calculada desde generated_at (2026-09-04T06:51:03-05:00) hacia atrás, es decir desde 2026-09-03T18:51:03-05:00. La 'Evening Run' de ayer empezó a las 18:19:42, 31 min antes del corte de 12h, así que queda fuera de esta ventana aunque sí cae dentro de la ventana de alimentación (ayer después de mediodía).",
+      "actividades": [
+        {
+          "slot": "madrugada",
+          "id": "20032156188",
+          "nombre": "Morning Run",
+          "tipo": "Run",
+          "inicio": "2026-09-04T06:05:41-05:00",
+          "duracion_movimiento_min": 27.72,
+          "duracion_transcurrida_min": 28.23,
+          "distancia_km": 3.462,
+          "desnivel_m": 4,
+          "fc_media": 125.4,
+          "fc_max": 155,
+          "potencia_media_w": null,
+          "esfuerzo_relativo": 5,
+          "cadencia_media": 78.02,
+          "calorias": 224
+        },
+        {
+          "slot": "tarde_noche",
+          "id": "20027397192",
+          "nombre": "Evening Run",
+          "tipo": "Run",
+          "inicio": "2026-09-03T18:19:42-05:00",
+          "duracion_movimiento_min": 42.37,
+          "duracion_transcurrida_min": 44.48,
+          "distancia_km": 6.398,
+          "desnivel_m": 14.7,
+          "fc_media": 135.96,
+          "fc_max": 158,
+          "potencia_media_w": null,
+          "esfuerzo_relativo": 10,
+          "cadencia_media": 80.71,
+          "calorias": 415
+        }
+      ]
+    },
+    "ventana_7_dias": {
+      "rango": "2026-08-29 a 2026-09-04",
+      "actividades": [
+        {"fecha": "2026-09-04", "nombre": "Morning Run", "tipo": "Run", "distancia_km": 3.462, "duracion_movimiento_min": 27.72, "desnivel_m": 4, "esfuerzo_relativo": 5},
+        {"fecha": "2026-09-03", "nombre": "Evening Run", "tipo": "Run", "distancia_km": 6.398, "duracion_movimiento_min": 42.37, "desnivel_m": 14.7, "esfuerzo_relativo": 10},
+        {"fecha": "2026-09-02", "nombre": "Evening Run", "tipo": "Run", "distancia_km": 4.3325, "duracion_movimiento_min": 30.53, "desnivel_m": 157, "esfuerzo_relativo": 7},
+        {"fecha": "2026-08-31", "nombre": "Evening Workout", "tipo": "Workout", "distancia_km": 0, "duracion_movimiento_min": 96.5, "desnivel_m": 0, "esfuerzo_relativo": 9},
+        {"fecha": "2026-08-30", "nombre": "Morning Run", "tipo": "Run", "distancia_km": 13.9224, "duracion_movimiento_min": 83.57, "desnivel_m": 72, "esfuerzo_relativo": 63},
+        {"fecha": "2026-08-29", "nombre": "Afternoon Ride", "tipo": "Ride", "distancia_km": 16.7287, "duracion_movimiento_min": 46.38, "desnivel_m": 0, "esfuerzo_relativo": 7}
+      ],
+      "relative_effort_acumulado_7d": 101,
+      "zonas_atleta": {
+        "heart_rate_zones": [
+          {"zona": 1, "min": 0, "max": 135},
+          {"zona": 2, "min": 136, "max": 150},
+          {"zona": 3, "min": 151, "max": 165},
+          {"zona": 4, "min": 166, "max": 179},
+          {"zona": 5, "min": 180, "max": null}
+        ],
+        "heart_rate_zone_source": "Manual",
+        "power_zones": {
+          "ftp": 188,
+          "ftp_is_estimated": false,
+          "zonas": [
+            {"zona": 1, "min": 0, "max": 103},
+            {"zona": 2, "min": 104, "max": 141},
+            {"zona": 3, "min": 142, "max": 169},
+            {"zona": 4, "min": 170, "max": 197},
+            {"zona": 5, "min": 198, "max": 226},
+            {"zona": 6, "min": 227, "max": 282},
+            {"zona": 7, "min": 283, "max": null}
+          ]
+        },
+        "run_zones": {
+          "source": "RacePace",
+          "sample_race_pace": {"tipo": "Fastest5k", "tiempo": "24m 33s"},
+          "zonas_min_por_km_equivalente": "valores nativos en m/s: [0-2.494, 2.494-2.898, 2.898-3.228, 3.228-3.448, 3.448-3.668, 3.668+]"
+        }
+      },
+      "kilometraje_equipo": {
+        "status": "sin_datos",
+        "nota": "mcp__Strava__get_gear no devolvió bicicletas ni zapatillas registradas (gear: []). No se puede calcular kilometraje acumulado por pieza de equipo ni verificar el umbral de 700 km."
+      }
+    }
+  },
+  "drive": {
+    "Nutrition Plan 2026.pdf": {
+      "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+      "modifiedTime_actual": "2026-04-13T02:22:23.770Z",
+      "modifiedTime_cache": "2026-04-13T02:22:23.770Z",
+      "cambio_detectado": false,
+      "status": "cache_reutilizado",
+      "cache_usado": {"cached_at": "2026-08-06", "fileId_cache": "1wnLrcDsPcshVyrbBPTV7MtBdBRIRgl-W"},
+      "nota": "Archivo no leído en esta ejecución (modifiedTime idéntico al del cache). Contenido tomado tal cual del cache de 2026-08-06.",
+      "vencida_check_recalculado_hoy": {
+        "fecha_plan": "2026-04-13",
+        "hoy": "2026-09-04",
+        "meses_transcurridos_aprox": 4.7,
+        "restricciones_1_mes": "posiblemente_vencidas"
+      },
+      "recomendaciones": {
+        "ayuno_horas": "12-14",
+        "hora_desayuno": "7:00 am",
+        "hora_cena_max": "6:00 pm",
+        "hidratacion_litros_dia": 2.4,
+        "hidratacion_antes_mediodia_litros": 1,
+        "evitar_agua_con_gas": true,
+        "porciones_grasa_saludable_dia": 5
+      },
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+      "restricciones_temporales_1_mes": {
+        "status": "posiblemente_vencidas",
+        "items": ["Leche", "Queso", "Crema de leche / queso crema / esparcibles convencionales", "Mantequilla de maní / Nutella / mermelada convencional", "Pan blanco, pastas, trigo y derivados", "Embutidos convencionales", "Aceite vegetal", "Chocolate con azúcar para tomar"]
+      },
+      "escalones_tss": [
+        {"carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu", "pos_entreno": "no presente en el cache extraído"},
+        {"carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu", "pos_entreno": "no presente en el cache extraído"},
+        {"carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going", "pos_entreno": "no presente en el cache extraído"},
+        {"carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going", "pos_entreno": "no presente en el cache extraído"}
+      ],
+      "nota_extraccion_original": "Extraído solo de RECOMENDACIONES, SUPLEMENTOS BASE, SUPLEMENTOS EJERCICIO y DEPORTE Y NUTRICIÓN. El cache no incluye un campo de protocolo POS-EJERCICIO por escalón — no fue extraído en la calibración original."
+    },
+    "Canciones FtM": {
+      "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+      "modifiedTime_actual": "2026-08-30T22:42:11.911Z",
+      "modifiedTime_cache": "2026-08-30T22:42:11.911Z",
+      "cambio_detectado": false,
+      "status": "cache_reutilizado",
+      "cache_usado": {"cached_at": "2026-08-31", "fileId_cache": "1-Z7m-cnIMrsqkTlIOPu5AHi8NOPX90cg"},
+      "nota": "Archivo no leído en esta ejecución (modifiedTime idéntico al del cache). Contenido tomado tal cual del cache de 2026-08-31.",
+      "setlist": [
+        {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+        {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "avance_pct": 100, "ult_vez_tocada": "2026-05-23"},
+        {"orden": 3, "cancion": "Stone Cold Crazy", "autor": "Metallica", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+        {"orden": 4, "cancion": "Capitán Lawrence", "autor": "WarCry", "avance_pct": 95, "ult_vez_tocada": "2026-07-09"},
+        {"orden": 5, "cancion": "Wasted Years", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 6, "cancion": "Iron Man", "autor": "Black Sabbath", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+        {"orden": 7, "cancion": "The Memory Remains", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 8, "cancion": "Master of Puppets", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-05-23"},
+        {"orden": 9, "cancion": "The Number of the Beast", "autor": "Iron Maiden", "avance_pct": 85, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 10, "cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 11, "cancion": "For Whom the Bell Tolls", "autor": "Metallica", "avance_pct": 90, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 12, "cancion": "Pegaso", "autor": "Tierra Santa", "avance_pct": 85, "ult_vez_tocada": "2026-08-17"},
+        {"orden": 13, "cancion": "Fade to Black", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 14, "cancion": "Fear of the Dark", "autor": "Iron Maiden", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+        {"orden": 15, "cancion": "Seek and Destroy", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "avance_pct": 45, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 17, "cancion": "One", "autor": "Metallica", "avance_pct": 30, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 17, "cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "avance_pct": 0, "ult_vez_tocada": "2026-08-24"},
+        {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "avance_pct": 0, "ult_vez_tocada": null}
+      ],
+      "avance_bateria_pct": "vacío en todas las filas — no reportado como 0%",
+      "nota_extraccion_original": "Encabezados leídos desde la fila 2 de 'Setlist General'. Pestaña 'Calendario 1' (rotación 2024 de otro proyecto) ignorada por ser datos muertos. Filas 'Hallowed be Thy Name' y 'Nothing Else Matters' repiten numeración de Orden (17 y 18) — inconsistencia de la hoja fuente, reportada tal cual."
+    },
+    "Rudiments Progress": {
+      "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+      "modifiedTime_actual": "2026-07-14T00:57:41.119Z",
+      "modifiedTime_cache": "2026-07-14T00:57:41.119Z",
+      "cambio_detectado": false,
+      "status": "cache_reutilizado",
+      "cache_usado": {"cached_at": "2026-08-06", "fileId_cache": "1wPpS-_jRmTlbTIPV5KVWha2b8RfBp4o7"},
+      "nota": "Archivo no leído en esta ejecución (modifiedTime idéntico al del cache). Contenido tomado tal cual del cache de 2026-08-06.",
+      "maximos_actuales": {
+        "single_stroke": 152,
+        "double_stroke": 123,
+        "five_stroke_roll": 138,
+        "paradiddle": 119,
+        "triple_paradiddle": 118,
+        "double_pedal": 105
+      },
+      "ultima_sesion_log": {"fecha": "2026-07-12", "valores": {"single_stroke": 149, "paradiddle": 118}},
+      "plan_25_semanas": {
+        "semana_actual_por_fecha": {
+          "week": 7,
+          "date_mon": "2026-08-03",
+          "song_focus": "Pegaso",
+          "target_endurance": 125,
+          "target_burst": 160,
+          "reales_logrados": "sin dato — columnas Endurance/Speed/Max Burst BPM vacías para esta semana"
+        },
+        "ultima_semana_con_reales_logrados": {
+          "week": 4,
+          "date_mon": "2026-07-13",
+          "song_focus": "Fade to Black",
+          "mon": {"target_endurance": 116, "endurance_bpm_real": 113},
+          "wed": {"target_burst": 145, "speed_bpm_real": 139, "max_burst_bpm_real": 120}
+        }
+      },
+      "rampa_tempo": {"rango": "2026-07-10 a 2026-07-30", "ultimo_dato": {"fecha": "2026-07-30", "tempo": 110, "tempo_app": 330}},
+      "bpm_canciones": {"Stone Cold Crazy": 128, "Capitán Lawrence": 154},
+      "nota_extraccion_original": "Filas 'Max' y 'Max - 25' excluidas del histórico por ser calculadas, no sesiones. Double Pedal leída como última columna. Rampa de tempo con formato de fecha MM-DD-YYYY."
+    },
+    "Tracker Luna de Miel": {
+      "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+      "modifiedTime_actual": "2026-08-31T03:07:47.003Z",
+      "modifiedTime_cache": "2026-08-31T03:07:47.003Z",
+      "cambio_detectado": false,
+      "status": "cache_reutilizado",
+      "cache_usado": {"cached_at": "2026-08-31", "fileId_cache": "1FWSPFC2Z2TX89cj2dr-G4Zye2L1-v8fE"},
+      "nota": "Archivo no leído en esta ejecución (modifiedTime idéntico al del cache). Contenido tomado tal cual del cache de 2026-08-31.",
+      "itinerario": {"salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026"},
+      "presupuesto": {"pestana_usada": "válida (AUTORIDAD) — total $77,541,182", "total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182},
+      "gastos": {
+        "pagado": 43548858,
+        "falta": 33992324,
+        "sin_pagar": [
+          {"detalle": "Hotel Hokke Club Kyoto", "categoria": "Hotel", "quien_pago": "Ale", "monto": 1112017},
+          {"detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "categoria": "Hotel", "quien_pago": "Juan", "monto": 959260},
+          {"detalle": "Elephant Nature Park", "categoria": "Atracciones", "quien_pago": "Juan", "monto": 145395},
+          {"detalle": "Ubigi eSIM", "categoria": "Otros", "quien_pago": "Juan", "monto": 208555}
+        ]
+      },
+      "nota_extraccion_original": "Se usó la pestaña de presupuesto AUTORIDAD (fila TOTALES = $77,541,182), no la pestaña F vieja (~$88M, ignorada). 'Pagado'='CHECK' interpretado como pagado. Fila 'Hotel Hana Takayama' tiene una columna extra fuera de estructura — ignorada, se usó Monto=$659,512."
+    }
+  },
+  "alimentacion": {
+    "caso": "A",
+    "caso_descripcion": "Hay actividad de madrugada hoy (Morning Run 06:05, slot madrugada).",
+    "escalon": {
+      "carga": "1 entreno TSS ≤60",
+      "confidence": "inferred",
+      "proxy_usado": "Esfuerzo relativo (5, muy bajo) y duración (28 min de movimiento) como proxy de TSS. La actividad (3.46 km, FC media 125 = Zona 1) es sustancialmente más corta y suave que el ejemplo de referencia del propio escalón ('Run 5 km'), por lo que se ubica con margen dentro del escalón TSS ≤60.",
+      "escalacion_dos_entrenos_evaluada": {
+        "session_count_12h": 1,
+        "segunda_sesion_en_calendar_hoy": false,
+        "resultado": "No se sube de escalón — solo 1 sesión en las últimas 12h y no hay un segundo bloque de entreno agendado hoy en Calendar (el único evento 'Entreno' del día, 05:00-06:15, ya corresponde a esta actividad)."
+      },
+      "protocolo_pre_entreno": "Compon X + beet root + 1 grasa saludable",
+      "protocolo_durante": "500 ml + 1 pastilla Gu",
+      "protocolo_pos_entreno": {
+        "status": "no_disponible",
+        "nota": "El cache de Nutrition Plan 2026.pdf (reutilizado sin abrir el archivo, por no haber cambiado modifiedTime) no contiene un campo de protocolo POS-EJERCICIO por escalón — no fue parte de la calibración de extracción original."
+      }
+    },
+    "reglas_fijas_del_plan": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+      "restricciones_temporales_1_mes": {
+        "status": "posiblemente_vencidas",
+        "nota": "Plan fechado 2026-04-13; hoy es 2026-09-04 (~4.7 meses después). Las restricciones decían 'durante 1 MES'."
+      }
+    }
+  },
+  "contexto_entrenamiento": {
+    "tono": "informativo — no incluye recomendación de saltar o no saltar sesiones",
+    "carga_reciente": "Ventana de 7 días con esfuerzo relativo acumulado 101, dominado por la salida larga del 2026-08-30 (13.92 km, esfuerzo relativo 63). Las dos últimas sesiones (2026-09-03 y 2026-09-04) fueron cortas y de baja intensidad (esfuerzo relativo 10 y 5) — compatibles con una carga en descenso hacia un evento.",
+    "evento_objetivo_detectado_en_calendar": {
+      "titulo": "Media Maratón Medellín",
+      "inicio": "2026-09-04T17:00:00-05:00",
+      "fin": "2026-09-06T22:00:00-05:00",
+      "eventos_relacionados_hoy": [
+        {"titulo": "Ir al Aeropuerto", "inicio": "2026-09-04T14:30:00-05:00", "fin": "2026-09-04T15:30:00-05:00"},
+        {"titulo": "Vuelo Medellín", "inicio": "2026-09-04T15:30:00-05:00", "fin": "2026-09-04T19:30:00-05:00"},
+        {"titulo": "Stay at CITIO Hotel", "todo_el_dia": true, "rango": "2026-09-04 a 2026-09-07"}
+      ],
+      "nota": "El bloque 'Media Maratón Medellín' cubre 2026-09-04 17:00 a 2026-09-06 22:00 en Calendar — probablemente un marcador de fin de semana de carrera, no un evento puntual. Coincide con el viaje a Medellín agendado para hoy en la tarde."
+    }
+  }
+}
