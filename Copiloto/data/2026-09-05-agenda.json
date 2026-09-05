@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T06:59:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Media Maratón Medellín",
+        "start": "2026-09-04T17:00:00-05:00",
+        "end": "2026-09-06T22:00:00-05:00",
+        "duration_minutes": 3180,
+        "category": "contexto",
+        "is_atypical": true,
+        "note": "Evento de fondo multi-día (aparece 1 sola vez en las últimas 3 semanas) que cubre todo el fin de semana de la maratón en Medellín. Se solapa con todos los demás bloques de hoy, incluido el hueco libre de 12:30-18:00; no se cuenta en las estadísticas de horas porque no es un bloque de tiempo real, es un marcador de contexto."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-04T22:00:00-05:00",
+        "end": "2026-09-05T06:00:00-05:00",
+        "duration_minutes": 480,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 06:00. Título recurrente (22 veces en las últimas 3 semanas)."
+      },
+      {
+        "title": "Entrenamiento Activación",
+        "start": "2026-09-05T06:00:00-05:00",
+        "end": "2026-09-05T09:00:00-05:00",
+        "duration_minutes": 180,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "No aparece con este título en las últimas 3 semanas (sí 'Entreno' 2 veces y 'Entrenamiento' 1 vez, pero de 40-75 min). 3 horas es muy superior a cualquier bloque de entrenamiento previo; coincide en horario con el envío del recordatorio de salida del 5K de hoy, así que probablemente incluye la carrera, no solo activación."
+      },
+      {
+        "title": "Desayunar",
+        "start": "2026-09-05T09:00:00-05:00",
+        "end": "2026-09-05T10:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "Normalmente aparece combinado como 'Desayunar y Arreglar' (3 veces en las últimas 3 semanas, siempre ~09:10-10:10). Hoy está separado en dos bloques distintos."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-05T10:00:00-05:00",
+        "end": "2026-09-05T11:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Título recurrente como bloque independiente (16 veces en las últimas 3 semanas)."
+      },
+      {
+        "title": "Recoger Kit",
+        "start": "2026-09-05T11:00:00-05:00",
+        "end": "2026-09-05T12:30:00-05:00",
+        "duration_minutes": 90,
+        "category": "evento",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Recogida de kit de carrera, ligada a la Media Maratón Medellín."
+      },
+      {
+        "title": "Volver al Hotel",
+        "start": "2026-09-05T18:00:00-05:00",
+        "end": "2026-09-05T18:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Asociado a la estadía en Medellín por el viaje de la maratón."
+      },
+      {
+        "title": "Revisar reserva Cena Especial Tokio",
+        "start": "2026-09-05T18:30:00-05:00",
+        "end": "2026-09-05T18:45:00-05:00",
+        "duration_minutes": 15,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Verificación puntual de una reserva de cena."
+      },
+      {
+        "title": "Terapia",
+        "start": "2026-09-05T18:45:00-05:00",
+        "end": "2026-09-05T19:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "salud",
+        "is_atypical": false,
+        "note": "Título exacto 'Terapia' aparece 3 veces en las últimas 3 semanas (31-ago, 2-sep, 4-sep), técnicamente recurrente, pero las 3 apariciones están concentradas en la última semana (más variantes: 'Ir a Terapia', 'Terapia de Descarga', 'Sesión Terapia') — patrón nuevo y creciente, no histórico de las 3 semanas completas."
+      },
+      {
+        "title": "Lectura",
+        "start": "2026-09-05T19:15:00-05:00",
+        "end": "2026-09-05T20:00:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Título exacto nuevo, pero el bloque de lectura pre-dormir es recurrente bajo otros nombres ('Leer + Meditar + Preparar Dormida' 6 veces, 'Leer + Meditar/Estirar + Preparar Dormida' 3 veces). Hoy aparece simplificado, sin la parte de meditar/preparar dormida."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-05T20:00:00-05:00",
+        "end": "2026-09-06T04:00:00-05:00",
+        "duration_minutes": 480,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Título recurrente (22 veces en las últimas 3 semanas)."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 5.5,
+      "training_hours": 3.0,
+      "sleep_hours_within_today": 10.0,
+      "total_scheduled_hours_within_today": 18.5,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-05T12:30:00-05:00",
+          "end": "2026-09-05T18:00:00-05:00",
+          "duration_minutes": 330,
+          "note": "Único hueco libre real del día, entre 'Recoger Kit' y 'Volver al Hotel'. Coincide con la ventana de la Media Maratón Medellín: es casi seguro que aquí ocurre la carrera y la recuperación, pero no está bloqueado como tal — la agenda no dice a qué hora corre ni cuándo debería estar de vuelta."
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Entrenamiento Activación (06:00, sin margen)",
+          "Entrenamiento Activación -> Desayunar (09:00, sin margen)",
+          "Desayunar -> Arreglar (10:00, sin margen)",
+          "Arreglar -> Recoger Kit (11:00, sin margen)",
+          "Volver al Hotel -> Revisar reserva Cena Especial Tokio (18:30, sin margen)",
+          "Revisar reserva Cena Especial Tokio -> Terapia (18:45, sin margen)",
+          "Terapia -> Lectura (19:15, sin margen)",
+          "Lectura -> Dormir (20:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "info@maratonmedellin.com (Maratón Medellín)",
+        "subject": "¡Hoy corremos 5K! Recuerda el horario de salida.",
+        "action_required": "Revisar el horario exacto de salida del 5K de hoy antes de salir hacia la carrera.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "pagos@hogaru.com (Hogarú)",
+        "subject": "🔵 CANCELAREMOS TUS LIMPIEZAS PROGRAMADAS CON HOGARÚ",
+        "action_required": "Pagar el saldo pendiente de $491.800 (orden #1483742) para evitar la cancelación de las limpiezas programadas.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "info@info.latam.com (LATAM Airlines)",
+        "subject": "Aquí está la tarjeta de embarque para Bogotá",
+        "action_required": "Revisar la tarjeta de embarque del vuelo LA4019 Medellín-Bogotá, mañana 6-sep 3:10 p.m.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "La ventana de 12:30 a 18:00 de hoy, justo el día de la carrera, no tiene ningún bloque en el calendario: son 5.5 horas sin registrar que casi seguro son la carrera y la recuperación, pero si algo se atrasa (la salida del 5K, la fila del kit, el transporte) no hay manera de saberlo desde la agenda porque no existe una referencia horaria para ese tramo. El recordatorio de Maratón Medellín sobre el horario de salida de hoy llegó a las 4:04 a.m., mientras dormías (el bloque de sueño termina justo a las 6:00, cuando arranca 'Entrenamiento Activación') — es fácil que se pase por alto justo el día que más importa tenerlo claro; revísalo ya. Después de esa ventana libre, 'Volver al Hotel' a las 18:00 encadena sin ningún margen con revisar la reserva de la cena, terapia y lectura, todo pegado hasta dormir a las 20:00: si la carrera o el transporte se retrasan aunque sea media hora, toda la tarde-noche se cae en cascada, sin ningún colchón para absorberlo. Y aparte de la agenda: Hogarú está amenazando con cancelar las limpiezas programadas por un saldo pendiente de $491.800 — eso no espera a que vuelvas del viaje."
+}
