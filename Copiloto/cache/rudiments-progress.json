@@ -1,0 +1,30 @@
+{
+  "source_file": "Rudiments Progress",
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "modified_time": "2026-07-14T00:57:41.119Z",
+  "cached_at": "2026-09-05T06:55:01-05:00",
+  "schema_status": "ok",
+  "extraction": {
+    "maximos_actuales": {
+      "single_stroke": 152,
+      "double_stroke": 123,
+      "five_stroke_roll": 138,
+      "paradiddle": 119,
+      "triple_paradiddle": 118,
+      "double_pedal": 105
+    },
+    "ultima_sesion_log": "2026-07-12",
+    "nota_log": "Sin sesiones nuevas registradas en el log desde el 12-jul-2026 (calibración de maximos_actuales sin cambios).",
+    "plan_25_semanas": {
+      "semana_actual_estim": {
+        "semana": 11,
+        "inicio": "2026-08-31",
+        "target_endurance_bpm": 137,
+        "target_burst_bpm": 175,
+        "song_focus": "Hoy Gano Yo / All Nightmare Long (bursts)",
+        "reales_logrados": "no registrados esta semana"
+      },
+      "adherencia_nota": "Las columnas Endurance BPM / Speed BPM / Max Burst BPM son reales logrados, se comparan contra Target Endurance/Target Burst de la misma fila. La semana 11 no tiene reales registrados todavía."
+    }
+  }
+}

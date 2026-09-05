@@ -1,0 +1,31 @@
+{
+  "source_file": "Tracker Luna de Miel",
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "modified_time": "2026-08-31T03:07:47.003Z",
+  "cached_at": "2026-09-05T06:55:01-05:00",
+  "schema_status": "ok",
+  "extraction": {
+    "itinerario": {
+      "salida_bog": "2026-10-10",
+      "japon": "10-27 oct 2026",
+      "tailandia": "28 oct - 6 nov 2026"
+    },
+    "presupuesto_autoridad": {
+      "total_estimado": 77541182,
+      "presupuesto": 77000000,
+      "restante": -541182,
+      "nota": "Cambió desde la calibración de jul-2026 (entonces total $78,392,442). Se usó la pestaña válida identificada por presupuesto=$77,000,000 (no la de $88,103,840, que es la versión vieja a ignorar)."
+    },
+    "detalle_gastos": {
+      "pagado": 43548858,
+      "falta_vs_presupuesto": 33992324,
+      "sin_pagar_items": [
+        {"detalle": "Hotel Hokke Club Kyoto", "quien_pago": "Ale", "monto": 1112017},
+        {"detalle": "APA Hotel and Resort Osaka Namba Ekimae Tower", "quien_pago": "Juan", "monto": 959260},
+        {"detalle": "Elephant Nature Park", "quien_pago": "Juan", "monto": 145395},
+        {"detalle": "Ubigi eSIM", "quien_pago": "Juan", "monto": 208555}
+      ],
+      "nota_pagado": "Columna 'Pagado' contiene texto 'CHECK' cuando está pagado; vacío = no pagado (no es booleano)."
+    }
+  }
+}
