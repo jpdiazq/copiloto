@@ -1,0 +1,190 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T06:58:14-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "background_context": [
+      {
+        "title": "Stay at CITIO Hotel",
+        "start": "2026-09-04T00:00:00Z",
+        "end": "2026-09-07T00:00:00Z",
+        "note": "Evento de todo el día (reserva de hotel), no es un bloque horario real. No se cuenta en las estadísticas."
+      },
+      {
+        "title": "Media Maratón Medellín",
+        "start": "2026-09-04T17:00:00-05:00",
+        "end": "2026-09-06T22:00:00-05:00",
+        "note": "Evento 'paraguas' que cubre todo el fin de semana de la maratón, se solapa con todos los demás bloques del día. No es un compromiso horario independiente — el bloque real de la carrera es 'Media Maratón + 10K'. No se cuenta en las estadísticas para evitar doble conteo."
+      }
+    ],
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-05T20:00:00-05:00",
+        "end": "2026-09-06T04:00:00-05:00",
+        "duration_minutes": 240,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Solo se cuentan las 4h dentro del día de hoy."
+      },
+      {
+        "title": "Alistar",
+        "start": "2026-09-06T04:00:00-05:00",
+        "end": "2026-09-06T04:45:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas (el equivalente habitual es 'Arreglar'). Preparación específica para la carrera."
+      },
+      {
+        "title": "Ir a MM",
+        "start": "2026-09-06T04:45:00-05:00",
+        "end": "2026-09-06T05:30:00-05:00",
+        "duration_minutes": 45,
+        "category": "transporte",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Traslado al punto de salida de la Media Maratón."
+      },
+      {
+        "title": "Media Maratón + 10K",
+        "start": "2026-09-06T05:30:00-05:00",
+        "end": "2026-09-06T10:30:00-05:00",
+        "duration_minutes": 300,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "No aparece como tal en las 3 semanas previas (evento único). Reemplaza el bloque habitual de entrenamiento matutino ('Entreno'/'Run') — es la carrera en sí, 5 horas de esfuerzo físico."
+      },
+      {
+        "title": "Ir al Hotel + Arreglar + Checkout",
+        "start": "2026-09-06T10:30:00-05:00",
+        "end": "2026-09-06T11:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "logística",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas."
+      },
+      {
+        "title": "Ir al Aeropuerto",
+        "start": "2026-09-06T11:30:00-05:00",
+        "end": "2026-09-06T12:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "transporte",
+        "is_atypical": true,
+        "note": "Solo apareció 1 vez en las 3 semanas previas (4-sep, mismo viaje). No es un patrón recurrente (se necesitan 3+)."
+      },
+      {
+        "title": "Almuerzo",
+        "start": "2026-09-06T12:30:00-05:00",
+        "end": "2026-09-06T13:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "No aparece con este título en las 3 semanas previas (el equivalente habitual es 'Comer')."
+      },
+      {
+        "title": "Vuelo Bogotá",
+        "start": "2026-09-06T13:30:00-05:00",
+        "end": "2026-09-06T18:00:00-05:00",
+        "duration_minutes": 270,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Solo un vuelo similar ('Vuelo Medellín', 4-sep) apareció en las 3 semanas previas. Vuelo real LA4019 MDE-BOG a las 15:10 según correo de LATAM; el bloque incluye margen antes/después."
+      },
+      {
+        "title": "Planear Semana + LinkedIn",
+        "start": "2026-09-06T18:15:00-05:00",
+        "end": "2026-09-06T19:45:00-05:00",
+        "duration_minutes": 90,
+        "category": "trabajo",
+        "is_atypical": false,
+        "note": "Recurrente: aparece los domingos 16, 23 y 30 de agosto a la misma hora."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-06T19:45:00-05:00",
+        "end": "2026-09-06T20:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Bloque recurrente, aparece prácticamente a diario en las 3 semanas previas."
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-06T20:15:00-05:00",
+        "end": "2026-09-06T21:15:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Bloque recurrente, aparece casi a diario en las 3 semanas previas."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-06T21:15:00-05:00",
+        "end": "2026-09-07T04:30:00-05:00",
+        "duration_minutes": 165,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 2h45min (21:15-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 12.0,
+      "training_hours": 5.0,
+      "sleep_hours_within_today": 6.75,
+      "total_scheduled_hours_within_today": 23.75,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-06T18:00:00-05:00",
+        "end": "2026-09-06T18:15:00-05:00",
+        "duration_minutes": 15
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Alistar (04:00, sin margen)",
+          "Alistar -> Ir a MM (04:45, sin margen)",
+          "Ir a MM -> Media Maratón + 10K (05:30, sin margen)",
+          "Media Maratón + 10K -> Ir al Hotel + Arreglar + Checkout (10:30, sin margen)",
+          "Ir al Hotel + Arreglar + Checkout -> Ir al Aeropuerto (11:30, sin margen)",
+          "Ir al Aeropuerto -> Almuerzo (12:30, sin margen)",
+          "Almuerzo -> Vuelo Bogotá (13:30, sin margen)",
+          "Planear Semana + LinkedIn -> Bono (19:45, sin margen)",
+          "Bono -> Preparar Dormida (20:15, sin margen)",
+          "Preparar Dormida -> Dormir (21:15, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "info@info.latam.com (LATAM Airlines)",
+        "subject": "Lo último que tienes que saber sobre tu vuelo a Bogotá",
+        "action_required": "Revisar detalles del vuelo LA4019 MDE→BOG de hoy 15:10 (reserva YRUPQT) antes de salir al aeropuerto.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "etbcobranza@coguasimales.co (cobranza ETB vía Coguasimales)",
+        "subject": "Información Factura ETB",
+        "action_required": "Pagar factura ETB pendiente ($112.480, ref. 12053122415) antes del 10-sep; verificar legitimidad, el remitente es una cobranza externa con enlaces atípicos (masivapp.com), posible phishing.",
+        "urgency": "media"
+      },
+      {
+        "sender": "notifications-noreply@linkedin.com",
+        "subject": "You have 2 new invitations",
+        "action_required": "Revisar 2 invitaciones de conexión y 2 mensajes nuevos pendientes en LinkedIn.",
+        "urgency": "baja"
+      },
+      {
+        "sender": "info@focorace.com (Focorace Investment Sport LLC)",
+        "subject": "😱 ¡ÚLTIMAS HORAS! - ASEGURA TUS FOTOS DE MARATÓN MEDELLÍN",
+        "action_required": "Decidir si compra las fotos oficiales de la carrera antes de que cierre la oferta (correo comercial, urgencia probablemente exagerada).",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: 23h45min del día están comprometidas y el único hueco libre es de 15 minutos (18:00-18:15). Hay 10 transiciones sin ningún colchón, empezando apenas se despierta a las 04:00. El problema de fondo es la secuencia: 5 horas de esfuerzo físico (media maratón + 10K) encadenadas sin pausa a checkout, transporte al aeropuerto, almuerzo y un vuelo — y del aeropuerto se pasa directo a 'Planear Semana + LinkedIn', Bono y Preparar Dormida antes de dormir, como si fuera un domingo normal de oficina. No lo es: el cuerpo acaba de correr 21+10km y la agenda no le da ni una hora de descanso real en todo el día. Si el vuelo se atrasa (algo común en LATAM Medellín-Bogotá) o el trámite del aeropuerto toma más de lo previsto, todo lo de la tarde-noche se corre sin ningún colchón para absorberlo. Además, aparece una factura de ETB con vencimiento el 10-sep desde un remitente de cobranza externo con enlaces poco confiables — antes de pagar, confirmar que no es phishing."
+}
