@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T06:58:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-06T21:15:00-05:00",
+        "end": "2026-09-07T04:30:00-05:00",
+        "duration_minutes": 270,
+        "duration_minutes_note": "Bloque de sueño de la noche anterior; solo cuentan las 4.5h (00:00-04:30) dentro de hoy.",
+        "category": "sueño",
+        "is_atypical": false
+      },
+      {
+        "title": "Run",
+        "start": "2026-09-07T04:15:00-05:00",
+        "end": "2026-09-07T05:45:00-05:00",
+        "duration_minutes": 90,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Choca con el bloque de sueño: empieza a las 04:15, 15 minutos antes de que termine 'Dormir' (04:30)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-07T05:45:00-05:00",
+        "end": "2026-09-07T06:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-07T06:15:00-05:00",
+        "end": "2026-09-07T06:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-07T06:40:00-05:00",
+        "end": "2026-09-07T07:15:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-07T07:15:00-05:00",
+        "end": "2026-09-07T16:30:00-05:00",
+        "duration_minutes": 555,
+        "category": "trabajo",
+        "location": "SKANDIA Planeacion Financiera S.A.",
+        "is_atypical": false
+      },
+      {
+        "title": "Office day Ale",
+        "start": "2026-09-07T08:30:00-05:00",
+        "end": "2026-09-07T16:30:00-05:00",
+        "duration_minutes": 480,
+        "category": "otro",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas (ni exacto ni similar 3+ veces; 'office day' solo aparece 2 veces). Evento creado por palejandraacuna@gmail.com el 30-ago, invitación aún sin responder (needsAction). Se solapa por completo con 'Trabajo Skandia', no es un compromiso propio."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-07T16:30:00-05:00",
+        "end": "2026-09-07T17:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-07T17:00:00-05:00",
+        "end": "2026-09-07T17:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-07T17:30:00-05:00",
+        "end": "2026-09-07T18:15:00-05:00",
+        "duration_minutes": 45,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-07T18:15:00-05:00",
+        "end": "2026-09-07T18:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-07T18:45:00-05:00",
+        "end": "2026-09-07T19:05:00-05:00",
+        "duration_minutes": 20,
+        "category": "música",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-07T19:05:00-05:00",
+        "end": "2026-09-07T19:25:00-05:00",
+        "duration_minutes": 20,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ensayo",
+        "start": "2026-09-07T19:25:00-05:00",
+        "end": "2026-09-07T22:25:00-05:00",
+        "duration_minutes": 180,
+        "category": "música",
+        "is_atypical": false
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-07T22:30:00-05:00",
+        "end": "2026-09-07T23:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-07T23:00:00-05:00",
+        "end": "2026-09-08T06:00:00-05:00",
+        "duration_minutes": 420,
+        "duration_minutes_note": "Bloque de sueño que continúa mañana. Solo cuenta 1h (23:00-24:00) dentro de hoy.",
+        "category": "sueño",
+        "is_atypical": false
+      }
+    ],
+    "stats": {
+      "sleep_hours_within_today": 5.5,
+      "training_hours": 1.5,
+      "committed_hours_non_sleep_non_training": 16.92,
+      "total_scheduled_hours_within_today": 23.92,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-07T22:25:00-05:00",
+        "end": "2026-09-07T22:30:00-05:00",
+        "duration_minutes": 5
+      },
+      "conflicts": {
+        "overlaps_with_sleep_block": true,
+        "overlaps_with_training_block": true,
+        "overlap_detail": "'Dormir' (termina 04:30) y 'Run' (empieza 04:15) se pisan 15 minutos.",
+        "zero_buffer_transitions": [
+          "Run -> Arreglar (05:45, sin margen)",
+          "Arreglar -> Bono (06:15, sin margen)",
+          "Bono -> Ir a Skandia (06:40, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:15, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (16:30, sin margen)",
+          "Ir a Casa -> Descansar (17:00, sin margen)",
+          "Descansar -> Cursos (17:30, sin margen)",
+          "Cursos -> Comer (18:15, sin margen)",
+          "Comer -> Rudiments (18:45, sin margen)",
+          "Rudiments -> Bono (19:05, sin margen)",
+          "Bono -> Ensayo (19:25, sin margen)",
+          "Preparar Dormida -> Dormir (23:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "pagos@hogaru.com",
+        "subject": "Recordatorio automático: ¡El pago de tu compra #1495713 está próximo a vencer!",
+        "action_required": "Pagar la compra #1495713 (servicio de limpieza) antes del vencimiento para que no se cancele.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "info@focorace.com",
+        "subject": "ÚLTIMAS HORAS DE TU PREVENTA DE FOTOS DE MARATÓN MEDELLÍN",
+        "action_required": "Decidir si comprar las fotos del maratón en preventa antes de que se acabe el descuento.",
+        "urgency": "media"
+      },
+      {
+        "sender": "donotreply@interactivebrokers.com",
+        "subject": "Message Center Notification",
+        "action_required": "Revisar el mensaje nuevo en el Message Center de la cuenta IBKR.",
+        "urgency": "media"
+      },
+      {
+        "sender": "info@focorace.com",
+        "subject": "😱 TUS FOTOS LISTAS DE MARATÓN MEDELLÍN 📷",
+        "action_required": "Revisar y descargar las fotos ya disponibles del maratón.",
+        "urgency": "baja"
+      },
+      {
+        "sender": "noreply@booking.com",
+        "subject": "Rate CITIO Hotel - Laureles",
+        "action_required": "Calificar la estadía en CITIO Hotel Laureles (opcional).",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: 23h55min de 24h están comprometidas, con un único hueco libre de 5 minutos (22:25-22:30). Cero huecos de más de 60 minutos en todo el día. Hay un choque directo entre sueño y entrenamiento: 'Dormir' termina a las 04:30 pero 'Run' arranca a las 04:15, 15 minutos de superposición — o se acorta el sueño o se acorta el entrenamiento, no hay forma de que ambos ocurran completos. Casi todas las transiciones del día son de cero margen (Trabajo Skandia -> Ir a Casa -> Descansar -> Cursos -> Comer -> Rudiments -> Bono -> Ensayo, una detrás de otra sin colchón), así que un retraso en Skandia o en el tráfico se propaga en cadena hasta la noche. Además 'Office day Ale' (08:30-16:30) está metido en el calendario justo encima de 'Trabajo Skandia': no es tuyo, pero si en algún punto sí requiere tu atención, no hay dónde meterlo sin sacrificar otra cosa. Con este nivel de ocupación, cualquier imprevisto de la lista de correos (por ejemplo resolver el pago de Hogaru) tiene que robarle tiempo a otro bloque, porque no queda ninguno libre."
+}
