@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T06:58:29-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-07T23:00:00-05:00",
+        "end": "2026-09-08T06:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 06:00 (más tarde que el patrón usual de 05:00)."
+      },
+      {
+        "title": "Nadar",
+        "start": "2026-09-08T06:00:00-05:00",
+        "end": "2026-09-08T07:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque de entrenamiento matutino recurrente; el título cambia según la actividad del día (Run, Bici, Rudiments, Fortalecimiento, Piscina, Nadar). 'Nadar' ya apareció una vez en las 3 semanas previas (19-ago)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-08T07:00:00-05:00",
+        "end": "2026-09-08T07:35:00-05:00",
+        "duration_minutes": 35,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-08T07:35:00-05:00",
+        "end": "2026-09-08T08:10:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-08T08:10:00-05:00",
+        "end": "2026-09-08T17:00:00-05:00",
+        "duration_minutes": 530,
+        "category": "trabajo",
+        "location": "SKANDIA Planeacion Financiera S.A.",
+        "is_atypical": false
+      },
+      {
+        "title": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR FISIOTERAPIA ESPECIALIZADA",
+        "start": "2026-09-08T17:00:00-05:00",
+        "end": "2026-09-08T17:46:00-05:00",
+        "duration_minutes": 46,
+        "category": "salud",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas (los eventos de 'Terapia' previos son de salud mental, no fisioterapia). Cita puntual, agendada apenas ayer (6-sep)."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-08T18:00:00-05:00",
+        "end": "2026-09-08T18:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Hacer Mercado!",
+        "start": "2026-09-08T19:00:00-05:00",
+        "end": "2026-09-08T21:00:00-05:00",
+        "duration_minutes": 120,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Con Alejandra (palejandraacuna@gmail.com); estaba agendado originalmente para el domingo 6-sep a las 15:00 y se corrió para hoy. Se traslapa con 'Comer', 'Llamar a George' y 'Bono' (ver conflicts)."
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-08T19:30:00-05:00",
+        "end": "2026-09-08T20:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Se traslapa con 'Hacer Mercado!' (ver conflicts)."
+      },
+      {
+        "title": "Llamar a George",
+        "start": "2026-09-08T20:00:00-05:00",
+        "end": "2026-09-08T21:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las últimas 3 semanas. Se traslapa por completo con 'Hacer Mercado!' y parcialmente con 'Bono' (ver conflicts)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-08T20:00:00-05:00",
+        "end": "2026-09-08T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Se traslapa con 'Hacer Mercado!' y con 'Llamar a George' (ver conflicts)."
+      },
+      {
+        "title": "Leer + Meditar/Estirar + Preparar Dormida",
+        "start": "2026-09-08T21:00:00-05:00",
+        "end": "2026-09-08T21:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Título similar ('Leer + Meditar + Preparar Dormida') es recurrente; variante con '/Estirar' ya usada 3 veces en las 3 semanas previas."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-08T21:30:00-05:00",
+        "end": "2026-09-09T05:00:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 2.5h (21:30-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.77,
+      "training_hours": 1.0,
+      "sleep_hours_within_today": 8.5,
+      "total_scheduled_hours_within_today": 23.27,
+      "free_gaps_over_60min": [],
+      "gaps_under_60min": [
+        {
+          "start": "2026-09-08T17:46:00-05:00",
+          "end": "2026-09-08T18:00:00-05:00",
+          "duration_minutes": 14
+        },
+        {
+          "start": "2026-09-08T18:30:00-05:00",
+          "end": "2026-09-08T19:00:00-05:00",
+          "duration_minutes": 30
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "overlapping_events": [
+          "Hacer Mercado! (19:00-21:00) se traslapa con Comer (19:30-20:00)",
+          "Hacer Mercado! (19:00-21:00) se traslapa con Llamar a George (20:00-21:00)",
+          "Hacer Mercado! (19:00-21:00) se traslapa con Bono (20:00-20:15)",
+          "Llamar a George (20:00-21:00) se traslapa con Bono (20:00-20:15)",
+          "Entre 20:00 y 20:15 hay 3 compromisos simultáneos: Hacer Mercado!, Llamar a George y Bono"
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Nadar (06:00, sin margen)",
+          "Nadar -> Arreglar (07:00, sin margen)",
+          "Arreglar -> Ir a Skandia (07:35, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (08:10, sin margen)",
+          "Trabajo Skandia -> Consulta Fisioterapia (17:00, sin margen)",
+          "Hacer Mercado!/Llamar a George -> Leer+Meditar+Preparar Dormida (21:00, sin margen)",
+          "Leer+Meditar+Preparar Dormida -> Dormir (21:30, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "nu@nu.com.co (Nu)",
+        "subject": "Hoy es tu fecha de pago",
+        "action_required": "Pagar hoy antes de la fecha límite para evitar intereses y afectar el historial crediticio.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "pagos@hogaru.com (Hogaru)",
+        "subject": "Recordatorio automático: ¡El pago de tu compra #1495713 vence mañana!",
+        "action_required": "Pagar la compra #1495713 antes de mañana para no perder el servicio de limpieza agendado el miércoles 9-sep 1:00pm.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "no-reply@primevideo.com (Prime Video)",
+        "subject": "Important notice: Payment failed (3 pedidos: #D01-9611623-9366609, #D01-5909422-2947441, #D01-1540138-2454633)",
+        "action_required": "Actualizar el método de pago para evitar la cancelación de los 3 pedidos/suscripción.",
+        "urgency": "media"
+      },
+      {
+        "sender": "francisco@tributi.com (Tributi)",
+        "subject": "🔔 Es ahora o nunca! Presenta tu declaración de renta sin estrés",
+        "action_required": "Revisar el plazo de la declaración de renta y presentar antes del vencimiento.",
+        "urgency": "media"
+      },
+      {
+        "sender": "portaleps@epssanitas.notify-it.com (EPS Sanitas)",
+        "subject": "Servicio de Alertas y Notificaciones EPS Sanitas",
+        "action_required": "Verificar que el registro del dispositivo Chrome en la app fue hecho por mí; si no, revocar el acceso.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: fuera del sueño (termina 06:00, arranca 21:30), solo quedan dos huecos libres en todo el día — 14 y 30 minutos — ninguno llega a 60. Toda la mañana (Nadar → Arreglar → Ir a Skandia → Trabajo Skandia) está encadenada sin colchón: cualquier atraso se propaga en cascada. Pero el problema serio es el bloque de 19:00 a 21:00: ahí no falta margen, hay un choque real. 'Hacer Mercado!' con Alejandra (19:00-21:00) se traslapa con 'Comer' (19:30-20:00) y con 'Llamar a George' (20:00-21:00), y estos dos últimos se traslapan a su vez con 'Bono' (20:00-20:15) — entre 20:00 y 20:15 hay tres compromisos simultáneos. Tal como está agendado, es físicamente imposible cumplir los cuatro; algo hay que moverlo o cancelarlo antes de las 19:00. Además, ni 'Hacer Mercado!' (que además es una reprogramación: estaba el domingo 6-sep y se corrió para hoy), ni 'Llamar a George', ni la consulta de fisioterapia de las 17:00 tienen precedente en las últimas 3 semanas — es carga nueva metida en un día que ya estaba lleno de punta a punta. En paralelo, Gmail trae un pago de Nu que vence HOY y uno de Hogaru que vence mañana antes del servicio de limpieza: dos vencimientos financieros cayendo justo en medio de un día sin huecos para resolverlos con calma."
+}
