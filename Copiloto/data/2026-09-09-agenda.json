@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T07:05:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-08T21:30:00-05:00",
+        "end": "2026-09-09T05:00:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 05:00. Serie recurrente (recurringEventId presente)."
+      },
+      {
+        "title": "Entrenamiento",
+        "start": "2026-09-09T05:00:00-05:00",
+        "end": "2026-09-09T06:30:00-05:00",
+        "duration_minutes": 90,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "El título exacto 'Entrenamiento' solo aparece 2 veces en las 3 semanas previas, pero el bloque genérico de entreno matutino (05:00-ish) se repite 12 veces con nombre variable (Run, Bici, Entreno, Activación) — se trata como patrón recurrente."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-09T06:30:00-05:00",
+        "end": "2026-09-09T07:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-09T07:30:00-05:00",
+        "end": "2026-09-09T08:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-09T08:10:00-05:00",
+        "end": "2026-09-09T17:00:00-05:00",
+        "duration_minutes": 530,
+        "category": "trabajo",
+        "location": "Skandia, Cra 19 #109A - 30, Bogotá, Colombia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-09T17:00:00-05:00",
+        "end": "2026-09-09T17:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Fortalecimiento General Skandia",
+        "start": "2026-09-09T17:30:00-05:00",
+        "end": "2026-09-09T18:45:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "El título exacto solo aparece 1 vez en las 3 semanas previas. Contando la familia 'Fortalecimiento*' (General Skandia, Tren Inferior, genérico) suma 3 apariciones — justo en el límite, no un patrón claramente consolidado."
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-09T19:00:00-05:00",
+        "end": "2026-09-09T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Aparece 3 veces en las 3 semanas previas (justo en el umbral). Se solapa por completo con 'Comer' (ambas 19:00-19:30) — ver conflictos."
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-09T19:00:00-05:00",
+        "end": "2026-09-09T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Se solapa por completo con 'Rudiments' (ambas 19:00-19:30) — ver conflictos."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-09T19:30:00-05:00",
+        "end": "2026-09-09T19:45:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "🎫 GHIBLI — Compra entradas Octubre (se agotan en minutos)",
+        "start": "2026-09-09T19:45:00-05:00",
+        "end": "2026-09-09T20:30:00-05:00",
+        "duration_minutes": 45,
+        "category": "viaje",
+        "location": "Online — sitio oficial Museo Ghibli",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Venta de entradas del Museo Ghibli abre hoy 8:00PM Bogotá (10-sep 10:00 JST), con invitado (palejandraacuna@gmail.com) y videollamada. Se solapa con 'Leer + Meditar + Preparar Dormida' (19:45-20:30) y con 'RESERVAR Museo Ghibli' (20:00-20:30) — ver conflictos."
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-09T19:45:00-05:00",
+        "end": "2026-09-09T20:30:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Se solapa con 'GHIBLI — Compra entradas Octubre' y con 'RESERVAR Museo Ghibli' en la misma franja (19:45-20:30) — ver conflictos."
+      },
+      {
+        "title": "🚨 RESERVAR: Museo Ghibli (Lawson Ticket) — objetivo 14-oct",
+        "start": "2026-09-09T20:00:00-05:00",
+        "end": "2026-09-09T20:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Es el mismo objetivo que el evento de compra de entradas Ghibli (recordatorio duplicado de la misma acción). Se solapa totalmente con 'GHIBLI — Compra entradas Octubre' y con 'Leer + Meditar + Preparar Dormida' (19:45-20:30) — ver conflictos."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-09T20:45:00-05:00",
+        "end": "2026-09-10T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h15m (20:45-24:00) dentro del día de hoy. Empieza apenas 15 min después de terminar la franja de compra de entradas Ghibli / rutina de dormida."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.58,
+      "training_hours": 3.25,
+      "sleep_hours_within_today": 8.25,
+      "total_scheduled_hours_within_today": 23.33,
+      "double_booked_minutes": 105,
+      "free_gaps_over_60min": [],
+      "gaps_under_60min": [
+        { "start": "2026-09-09T08:00:00-05:00", "end": "2026-09-09T08:10:00-05:00", "duration_minutes": 10 },
+        { "start": "2026-09-09T18:45:00-05:00", "end": "2026-09-09T19:00:00-05:00", "duration_minutes": 15 },
+        { "start": "2026-09-09T20:30:00-05:00", "end": "2026-09-09T20:45:00-05:00", "duration_minutes": 15 }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": true,
+        "overlaps_with_sleep_block": false,
+        "overlapping_events": [
+          "Rudiments (19:00-19:30) se solapa por completo con Comer (19:00-19:30) — entrenamiento y comida al mismo tiempo.",
+          "GHIBLI — Compra entradas Octubre (19:45-20:30) se solapa por completo con Leer + Meditar + Preparar Dormida (19:45-20:30).",
+          "RESERVAR: Museo Ghibli (Lawson Ticket) (20:00-20:30) se solapa con GHIBLI — Compra entradas Octubre y con Leer + Meditar + Preparar Dormida (triple choque 20:00-20:30)."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Entrenamiento (05:00, sin margen)",
+          "Entrenamiento -> Arreglar (06:30, sin margen)",
+          "Arreglar -> Ir a Skandia (07:30, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (17:00, sin margen)",
+          "Ir a Casa -> Fortalecimiento General Skandia (17:30, sin margen)",
+          "Rudiments/Comer -> Bono (19:30, sin margen)",
+          "Bono -> GHIBLI Compra Entradas / Leer+Meditar+Preparar Dormida (19:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "DAVIbankInforma@davibank.com (DAVIbank)",
+        "subject": "Débito Automático",
+        "action_required": "Resolver el pago fallido del CREDITO DE CONSUMO *6918: el débito automático no se pudo hacer porque la cuenta asociada está cancelada; hay que actualizar el medio de pago o pagar manual antes de que genere mora.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "DAVIbankInforma@davibank.com (DAVIbank)",
+        "subject": "Facturación pago favorito",
+        "action_required": "Pagar la factura de ENEL COLOMBIA / CODENSA *5388 por $112.700, ya disponible.",
+        "urgency": "media"
+      },
+      {
+        "sender": "sistema@medifolios.net (Physical Care Ltda)",
+        "subject": "Su cita del 08 de Septiembre de 2026 - 05:00 PM ha sido cancelada",
+        "action_required": "La cita de fisioterapia de ayer fue cancelada; hay que reagendarla.",
+        "urgency": "media"
+      },
+      {
+        "sender": "notificaciones@medifolios.net (Physical Care Ltda)",
+        "subject": "Cita Programada con DUVAN CAMILO MONTENEGRO BERNAL",
+        "action_required": "Verificar la fecha/hora de la nueva cita de control de fisioterapia agendada y confirmar que no choca con la agenda.",
+        "urgency": "baja"
+      },
+      {
+        "sender": "notifications-noreply@linkedin.com (LinkedIn)",
+        "subject": "You have 2 new invitations",
+        "action_required": "Revisar y responder 2 invitaciones de contacto pendientes.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: 23.3 horas del día están ocupadas, con solo tres huecos de 10-15 minutos — ninguno supera los 60 minutos. Pero es peor que 'apretado': hay choques reales, no solo falta de colchón. A las 19:00-19:30 'Rudiments' (entrenamiento) y 'Comer' están agendados exactamente al mismo tiempo — no se puede tocar tambor y comer a la vez. Y de 19:45 a 20:30 hay TRES compromisos simultáneos: comprar las entradas del Museo Ghibli (proceso que dice literalmente 'se agotan en minutos' y necesita atención activa), la rutina de 'Leer + Meditar + Preparar Dormida', y desde las 20:00 un segundo recordatorio para reservar el mismo ticket. Es imposible hacer las tres. Y esa ventana de compra de tickets —de por sí estresante, contra reloj— termina a las 20:30, quince minutos antes de acostarse a dormir a las 20:45: cero transición entre una compra apurada y apagar la luz. Encima, el día ya viene sin respiro desde las 5:00 AM: entrenar, arreglarse, ir a Skandia, 8.5 horas de trabajo e ir a casa se encadenan sin un solo minuto de colchón entre bloque y bloque. Y sobre esa agenda ya sobrecargada cae un problema financiero real y sin resolver: el débito automático del crédito de consumo falló porque la cuenta está cancelada — eso no se arregla solo, y no hay un hueco libre en todo el día para atenderlo."
+}
