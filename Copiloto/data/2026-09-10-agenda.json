@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T06:59:35-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-09T20:45:00-05:00",
+        "end": "2026-09-10T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Recurrente (21 instancias de 'Dormir' en las 3 semanas previas)."
+      },
+      {
+        "title": "Bici",
+        "start": "2026-09-10T04:00:00-05:00",
+        "end": "2026-09-10T05:45:00-05:00",
+        "duration_minutes": 105,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Recurrente: 'Bici' apareció 3 veces en las 3 semanas previas (21-ago, 22-ago, 29-ago), justo en el umbral."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-10T05:45:00-05:00",
+        "end": "2026-09-10T06:25:00-05:00",
+        "duration_minutes": 40,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-10T06:25:00-05:00",
+        "end": "2026-09-10T07:10:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-10T07:10:00-05:00",
+        "end": "2026-09-10T07:45:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-10T07:45:00-05:00",
+        "end": "2026-09-10T16:45:00-05:00",
+        "duration_minutes": 540,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-10T16:45:00-05:00",
+        "end": "2026-09-10T17:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-10T17:15:00-05:00",
+        "end": "2026-09-10T17:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Recurrente y en el horario habitual (17:00-18:00) de las 5 instancias previas de 'Descansar'."
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-10T17:45:00-05:00",
+        "end": "2026-09-10T18:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-10T18:15:00-05:00",
+        "end": "2026-09-10T18:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-10T18:45:00-05:00",
+        "end": "2026-09-10T19:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono + Llevar donde papá",
+        "start": "2026-09-10T19:15:00-05:00",
+        "end": "2026-09-10T19:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Variante del bloque recurrente 'Bono' (24 instancias en 3 semanas) con un mandado añadido ('Llevar donde papá'). Choca 15 min con 'Ensayo', que empieza a las 19:25 mientras este bloque sigue activo hasta las 19:40."
+      },
+      {
+        "title": "Ensayo",
+        "start": "2026-09-10T19:25:00-05:00",
+        "end": "2026-09-10T22:25:00-05:00",
+        "duration_minutes": 180,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "Solo apareció 2 veces en las 3 semanas previas (24-ago y 31-ago, ambos lunes). Hoy es jueves, rompe también el patrón de día de la semana. No llega al umbral de 3+ para ser recurrente. Se solapa 15 min (19:25-19:40) con 'Bono + Llevar donde papá'."
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-10T22:30:00-05:00",
+        "end": "2026-09-10T23:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Mismo título recurrente ('Descansar', 5 instancias en 3 semanas), pero esta instancia es a las 22:30 — las 5 previas fueron todas entre 17:00 y 18:00. Horario atípico para este bloque aunque el título en sí es recurrente."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-10T23:00:00-05:00",
+        "end": "2026-09-11T06:15:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuenta 1h (23:00-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 17.42,
+      "training_hours": 1.75,
+      "sleep_hours_within_today": 5.0,
+      "total_scheduled_hours_within_today": 24.17,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-10T22:25:00-05:00",
+        "end": "2026-09-10T22:30:00-05:00",
+        "duration_minutes": 5
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "event_overlap": {
+          "description": "Doble reserva real: 'Bono + Llevar donde papá' (19:15-19:40) y 'Ensayo' (19:25-22:25) se solapan 15 minutos. Es físicamente imposible estar en ambos.",
+          "events": ["Bono + Llevar donde papá", "Ensayo"],
+          "overlap_start": "2026-09-10T19:25:00-05:00",
+          "overlap_end": "2026-09-10T19:40:00-05:00",
+          "overlap_minutes": 15
+        },
+        "zero_buffer_transitions": [
+          "Dormir -> Bici (04:00, sin margen)",
+          "Bici -> Arreglar (05:45, sin margen)",
+          "Arreglar -> Bono (06:25, sin margen)",
+          "Bono -> Ir a Skandia (07:10, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:45, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (16:45, sin margen)",
+          "Ir a Casa -> Descansar (17:15, sin margen)",
+          "Descansar -> Cursos (17:45, sin margen)",
+          "Cursos -> Comer (18:15, sin margen)",
+          "Comer -> Cursos (18:45, sin margen)",
+          "Cursos -> Bono + Llevar donde papá (19:15, sin margen)",
+          "Descansar -> Dormir (23:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "DAVIbankInforma@davibank.com",
+        "subject": "Débito Automático",
+        "action_required": "Verificar en canales oficiales del banco (no desde este correo) si realmente falló el pago automático del crédito de consumo *6918 — dominio 'davibank.com' no es el oficial y el correo tiene señales de phishing (urgencia, cuenta 'cancelada', enlaces a pagar).",
+        "urgency": "alta"
+      },
+      {
+        "sender": "etbcobranza@coguasimales.co (ETB)",
+        "subject": "Información Factura ETB",
+        "action_required": "Pagar factura pendiente de $112.480 (referencia 12053122415) — la fecha límite es hoy 10/09/2026, antes de que corten el servicio.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "no-reply@mercadolibre.com.co",
+        "subject": "Te quedan 3 días para retirar tu compra",
+        "action_required": "Retirar la compra (Total Beets Drink Mix) en el punto de MercadoLibre antes del 12 de septiembre.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay margen real: la agenda cubre virtualmente las 24 horas (24.17h contabilizadas, con un solo hueco libre de 5 minutos entre 22:25 y 22:30). Doce transiciones seguidas sin colchón, desde que arranca el día a las 04:00 hasta que se apaga la luz a las 23:00. Y hay algo peor que falta de margen: un choque real de agenda. 'Bono + Llevar donde papá' (19:15-19:40) y 'Ensayo' (19:25-22:25) se solapan 15 minutos — no es un margen ajustado, es estar en dos sitios a la vez. Hay que resolver eso antes de que llegue la hora, no durante. Después de 9 horas de trabajo en Skandia, el tramo de 16:45 a 23:00 encadena transporte, descanso, dos bloques de curso, comida, un mandado y 3 horas de ensayo sin ningún respiro real — el único descanso de la noche (22:30-23:00) llega después del ensayo, no antes, así que no compensa el desgaste del día. Si el ensayo se extiende o el mandado donde papá toma más de los 15 minutos que ya no tiene, todo lo que sigue se corre. Adicional: el correo de 'DAVIbank' sobre un débito fallido tiene pinta de phishing (dominio no oficial, presión de pago inmediato) — no pagar ni hacer clic ahí sin confirmar primero por canales oficiales del banco."
+}
