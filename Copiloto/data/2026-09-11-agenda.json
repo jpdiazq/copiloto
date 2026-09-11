@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T06:59:15-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-10T23:00:00-05:00",
+        "end": "2026-09-11T06:15:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior; solo se cuentan dentro de hoy los 375 min de 00:00 a 06:15."
+      },
+      {
+        "title": "Entrenar",
+        "start": "2026-09-11T06:15:00-05:00",
+        "end": "2026-09-11T07:30:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Mismo bloque diario recurrente (05:00-07:30 aprox.) que en las 3 semanas previas aparece casi todos los días bajo distintos nombres (Bici, Run, Piscina, Nadar, Entrenamiento, Entreno)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-11T07:30:00-05:00",
+        "end": "2026-09-11T08:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-11T08:10:00-05:00",
+        "end": "2026-09-11T16:40:00-05:00",
+        "duration_minutes": 510,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-11T08:15:00-05:00",
+        "end": "2026-09-11T08:50:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false,
+        "note": "Título recurrente (aparece casi a diario en las 3 semanas previas), pero el horario de hoy es anómalo: empieza a las 08:15, cinco minutos después de que 'Trabajo Skandia' ya arrancó (08:10). Se solapan 35 min."
+      },
+      {
+        "title": "Fortalecimiento Tren Inferior",
+        "start": "2026-09-11T16:40:00-05:00",
+        "end": "2026-09-11T17:40:00-05:00",
+        "duration_minutes": 60,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Familia 'Fortalecimiento' aparece 3 veces en las 3 semanas previas (26-ago, 28-ago, 9-sep), repartidas en el periodo — se trata como el mismo bloque vespertino recurrente."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-11T17:40:00-05:00",
+        "end": "2026-09-11T18:10:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-11T18:10:00-05:00",
+        "end": "2026-09-11T19:25:00-05:00",
+        "duration_minutes": 75,
+        "category": "formación",
+        "is_atypical": false,
+        "note": "Aparece 6 veces en las 3 semanas previas (27-ago x2, 28-ago, 29-ago, 31-ago, 10-sep x2) — recurrente."
+      },
+      {
+        "title": "Hacer la.maleta",
+        "start": "2026-09-11T18:30:00-05:00",
+        "end": "2026-09-11T19:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Solo un precedente en las 3 semanas previas ('Hacer Maleta', 3-sep, antes del viaje a Medellín). No es rutina, es preparación puntual del vuelo internacional de esta noche. Se solapa con 'Cursos' (55 min) y con 'Bono' (5 min)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-11T19:25:00-05:00",
+        "end": "2026-09-11T19:55:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Bloque recurrente casi diario. Hoy se solapa con 'Hacer la.maleta' (5 min) y con 'Juanpi se va :( a USA' (25 min)."
+      },
+      {
+        "title": "Juanpi se va :( a USA",
+        "start": "2026-09-11T19:30:00-05:00",
+        "end": "2026-09-11T20:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "Videollamada de despedida con palejandraacuna@gmail.com, creada el 28-ago. No aparece en las 3 semanas previas — evento único ligado al viaje de hoy. Se solapa con 'Bono' (25 min)."
+      },
+      {
+        "title": "Ir al Aeropuerto",
+        "start": "2026-09-11T21:00:00-05:00",
+        "end": "2026-09-11T21:45:00-05:00",
+        "duration_minutes": 45,
+        "category": "transporte",
+        "is_atypical": true,
+        "note": "Solo 2 precedentes en las 3 semanas previas (4-sep y 6-sep, viaje a Medellín) — no llega al umbral de 3+ para considerarse recurrente; es específico de días de vuelo."
+      },
+      {
+        "title": "Vuelo a Baltimore",
+        "start": "2026-09-11T21:45:00-05:00",
+        "end": "2026-09-12T12:45:00-05:00",
+        "duration_minutes": 900,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Único vuelo con este título. La familia 'Vuelo*' solo tiene 2 precedentes en 3 semanas (Vuelo Medellín 4-sep, Vuelo Bogotá 6-sep) — no recurrente. Duración total 15h; dentro de hoy solo cuentan 135 min (21:45-24:00), el resto cae en el 12-sep."
+      }
+    ],
+    "stats": {
+      "sleep_hours_within_today": 6.25,
+      "training_hours": 2.25,
+      "committed_hours_non_sleep_non_training": 16.83,
+      "total_scheduled_hours_sum_within_today": 25.33,
+      "total_scheduled_hours_note": "La suma de duraciones supera las 24h del día porque hay eventos encimados (ver double_booked_events). El tiempo efectivamente ocupado, contando cada minuto una sola vez, es 23.33h (1400 de 1440 min).",
+      "free_gaps_over_60min": [],
+      "gaps_found_under_60min": [
+        {
+          "start": "2026-09-11T08:00:00-05:00",
+          "end": "2026-09-11T08:10:00-05:00",
+          "duration_minutes": 10,
+          "between": "Arreglar -> Trabajo Skandia"
+        },
+        {
+          "start": "2026-09-11T20:30:00-05:00",
+          "end": "2026-09-11T21:00:00-05:00",
+          "duration_minutes": 30,
+          "between": "Juanpi se va :( a USA -> Ir al Aeropuerto"
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "double_booked_events": [
+          "Ir a Skandia (08:15-08:50) solapa con Trabajo Skandia (08:10-16:40): 35 min",
+          "Hacer la.maleta (18:30-19:30) solapa con Cursos (18:10-19:25): 55 min",
+          "Hacer la.maleta (18:30-19:30) solapa con Bono (19:25-19:55): 5 min",
+          "Bono (19:25-19:55) solapa con Juanpi se va :( a USA (19:30-20:30): 25 min"
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Entrenar (06:15, sin margen)",
+          "Entrenar -> Arreglar (07:30, sin margen)",
+          "Trabajo Skandia -> Fortalecimiento Tren Inferior (16:40, sin margen)",
+          "Fortalecimiento Tren Inferior -> Ir a Casa (17:40, sin margen)",
+          "Ir a Casa -> Cursos (18:10, sin margen)",
+          "Ir al Aeropuerto -> Vuelo a Baltimore (21:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "etbcobranza@coguasimales.co (ETB)",
+        "subject": "Información Factura ETB",
+        "action_required": "Pagar factura ETB de $112.480 — la fecha límite indicada (10-sep) ya pasó, riesgo de corte de servicio.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "DAVIbankInforma@davibank.com (DAVIbank)",
+        "subject": "Débito Automático",
+        "action_required": "Falló el pago automático del crédito de consumo *6918 (cuenta cancelada) — pagar manualmente por canales digitales antes del vencimiento del mes.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "cartera@hogaru.com (Hogarú)",
+        "subject": "¡TE NECESITAMOS!",
+        "action_required": "Pagar $491.800 pendientes desde agosto por servicios de Hogarú.",
+        "urgency": "media"
+      },
+      {
+        "sender": "AMBORRER@bancolombia.com.co (Bancolombia)",
+        "subject": "🚗✨¡Estamos cada vez más cerca de nuestro evento exclusivo de Vehículos Usados Renting! ✨🚗",
+        "action_required": "Confirmar asistencia (o no) al evento de Renting si interesa; si no, ignorar.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "La suma de eventos de hoy da 25.3 horas en un día de 24 — no es una forma de hablar, hay bloques literalmente encimados. 'Ir a Skandia' arranca a las 08:15, cinco minutos después de que 'Trabajo Skandia' ya empezó. Peor: entre 18:10 y 20:30 hay cuatro eventos apilados compitiendo por hora y media de reloj — Cursos, Hacer la maleta, Bono, y la videollamada de despedida con Alejandra — y ese es justo el bloque en el que se supone que hay que empacar para un vuelo internacional que sale a las 21:45. Si Cursos se corre o la llamada se alarga, la maleta se hace corriendo o no se hace. Los únicos huecos libres del día son de 10 y 30 minutos; ninguno llega a los 60. No hay margen para tráfico, ni para que el trabajo se extienda, ni para ningún imprevisto antes de salir al aeropuerto en un día de vuelo internacional. Los bloques de entrenamiento y sueño no chocan con nada directamente, pero todo lo que los rodea sí, y la ventana de empaque antes de un vuelo intercontinental no debería depender de que cuatro cosas distintas terminen a tiempo."
+}
