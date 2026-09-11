@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T09:00:00-05:00",
+  "timezone": "America/Bogota",
+
+  "strava_ventana_12h": {
+    "window_empty": true,
+    "has_activity_today": false,
+    "has_activity_yesterday_pm": false,
+    "session_count_12h": 0,
+    "activities": [],
+    "nota": "La ventana viene vacía: no hay ninguna actividad de Strava registrada hoy (2026-09-11) ni ninguna de ayer (2026-09-10) que haya empezado después de las 12:00. No se rellenó con actividad anterior fuera de ventana — la única actividad reciente (2026-09-06) está reportada abajo en la sección de 7 días.",
+    "contexto_calendario_informativo": "Hoy hay dos bloques de entrenamiento agendados en Google Calendar: 'Entrenar' 06:15–07:30 y 'Fortalecimiento Tren Inferior' 16:40–17:40. Esto es solo contexto de agenda — no hay actividad de Strava que confirme que ya ocurrieron, y no determina el escalón de alimentación en CASO C."
+  },
+
+  "strava_7dias": {
+    "rango": "2026-09-05 a 2026-09-11",
+    "actividades": [
+      {
+        "id": "20060669355",
+        "nombre": "Media Maratón Medellín - PR!!",
+        "tipo": "Run",
+        "inicio_local": "2026-09-06T05:34:54",
+        "ubicacion": "Comuna 10 - La Candelaria, Colombia",
+        "distancia_m": 21280.9,
+        "duracion_movimiento_s": 6819,
+        "duracion_movimiento_min": 113.65,
+        "desnivel_m": 114.4,
+        "velocidad_media_kmh": 11.23,
+        "velocidad_max_kmh": 15.75,
+        "fc_media": 170.76,
+        "fc_max": 188,
+        "potencia_media": null,
+        "potencia_nota": "has_device_watts=false — sin datos de potencia para esta actividad",
+        "esfuerzo_relativo": 193,
+        "esfuerzo_percibido_rpe": 9,
+        "calorias": 1457,
+        "cadencia_media": 84.36,
+        "logros": { "kudos": 10, "achievements": 41, "prs": 41 }
+      }
+    ],
+    "esfuerzo_relativo_acumulado_7d": 193,
+    "zonas_atleta": {
+      "fc_zonas": [
+        { "zona": 1, "min": 0, "max": 135 },
+        { "zona": 2, "min": 136, "max": 150 },
+        { "zona": 3, "min": 151, "max": 165 },
+        { "zona": 4, "min": 166, "max": 179 },
+        { "zona": 5, "min": 180, "max": null }
+      ],
+      "fc_zonas_fuente": "Manual",
+      "potencia_zonas_fuente": "Ftp",
+      "ftp": 188,
+      "ftp_estimada": false,
+      "run_zonas_fuente": "RacePace",
+      "run_zonas_referencia": { "tipo": "Fastest5k", "tiempo": "24m 33s", "estimado": false },
+      "nota": "En la carrera del 06-sep, FC media 170.76 y máx 188 cayeron en zona 4-5 (166+) durante casi todo el recorrido — consistente con RPE 9/10 reportado."
+    },
+    "kilometraje_equipo": {
+      "status": "sin_datos",
+      "nota": "get_gear devolvió lista vacía — no hay bicicletas ni zapatillas registradas en el perfil de Strava. No se puede evaluar el umbral de 700 km por pieza de equipo."
+    }
+  },
+
+  "drive_archivos": {
+    "reglas_extraccion_fuente": {
+      "fileId": "1hZWQM2FvmeukiPAOYt8ZXXsrDKQmPgYw",
+      "titulo": "Reglas_Extraccion_Drive.md",
+      "nota": "Fuente de las reglas de extracción calibradas (§5) usadas para verificar la huella de estructura de cada archivo."
+    },
+    "nutrition_plan_2026": {
+      "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+      "modifiedTime_actual": "2026-04-13T02:22:23.770Z",
+      "cache_modifiedTime": "2026-04-13T02:22:23.770Z",
+      "status": "cache_reused_sin_cambios",
+      "cached_at_original": "2026-08-06",
+      "schema_drift": false,
+      "cache": {
+        "vencida_check": {
+          "fecha_plan": "abril 2026",
+          "hoy_al_calibrar": "2026-08-06",
+          "meses_transcurridos_aprox_al_calibrar": 3.8,
+          "restricciones_1_mes": "posiblemente_vencidas",
+          "nota_actualidad": "El cache no se reabrió (modifiedTime sin cambios). Hoy es 2026-09-11 — más de 5 meses después de la fecha del plan (abril 2026); las restricciones 'por 1 mes' siguen posiblemente vencidas, con mayor margen aún que al calibrar."
+        },
+        "recomendaciones": {
+          "ayuno_horas": "12-14",
+          "hora_desayuno": "7:00 am",
+          "hora_cena_max": "6:00 pm",
+          "hidratacion_litros_dia": 2.4,
+          "hidratacion_antes_mediodia_litros": 1,
+          "evitar_agua_con_gas": true,
+          "porciones_grasa_saludable_dia": 5
+        },
+        "suplementos_base": [
+          { "nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena" },
+          { "nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno" },
+          { "nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno" },
+          { "nombre": "Proteína Vitanas", "dosis": "1 scoop al día" }
+        ],
+        "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+        "escalones_tss": [
+          { "carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu" },
+          { "carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu" },
+          { "carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going" },
+          { "carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going" }
+        ]
+      }
+    },
+    "canciones_ftm": {
+      "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+      "modifiedTime_actual": "2026-08-30T22:42:11.911Z",
+      "cache_modifiedTime": "2026-08-30T22:42:11.911Z",
+      "status": "cache_reused_sin_cambios",
+      "cached_at_original": "2026-08-31",
+      "schema_drift": false,
+      "cache_resumen": "Setlist de 18 canciones (Metallica/Iron Maiden/otros), % Avance entre 0% y 100%. avance_bateria_pct vacío en todas las filas — no reportado como 0%. Última actualización de fechas 'Ult. Vez Tocada' fue 2026-08-24. Ver cache completo en Drive (Canciones FtM.json) para el detalle canción por canción — no se reprodujo aquí íntegro por brevedad, ya que no cambió desde la última extracción."
+    },
+    "rudiments_progress": {
+      "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+      "modifiedTime_actual": "2026-07-14T00:57:41.119Z",
+      "cache_modifiedTime": "2026-07-14T00:57:41.119Z",
+      "status": "cache_reused_sin_cambios",
+      "cached_at_original": "2026-08-06",
+      "schema_drift": false,
+      "cache": {
+        "maximos_actuales": {
+          "single_stroke": 152,
+          "double_stroke": 123,
+          "five_stroke_roll": 138,
+          "paradiddle": 119,
+          "triple_paradiddle": 118,
+          "double_pedal": 105
+        },
+        "ultima_sesion_log": { "fecha": "2026-07-12", "valores": { "single_stroke": 149, "paradiddle": 118 } },
+        "plan_25_semanas_ultimo_dato_con_reales": {
+          "week": 4, "date_mon": "2026-07-13", "song_focus": "Fade to Black",
+          "mon": { "target_endurance": 116, "endurance_bpm_real": 113 },
+          "wed": { "target_burst": 145, "speed_bpm_real": 139, "max_burst_bpm_real": 120 }
+        },
+        "rampa_tempo_ultimo_dato": { "fecha": "2026-07-30", "tempo": 110, "tempo_app": 330 },
+        "bpm_canciones": { "Stone Cold Crazy": 128, "Capitán Lawrence": 154 }
+      }
+    },
+    "tracker_luna_de_miel": {
+      "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+      "modifiedTime_actual": "2026-08-31T03:07:47.003Z",
+      "cache_modifiedTime": "2026-08-31T03:07:47.003Z",
+      "status": "cache_reused_sin_cambios",
+      "cached_at_original": "2026-08-31",
+      "schema_drift": false,
+      "cache": {
+        "itinerario": { "salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026" },
+        "presupuesto": { "pestana_usada": "válida (AUTORIDAD) — total $77,541,182", "total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182 },
+        "gastos": {
+          "pagado": 43548858,
+          "falta": 33992324,
+          "sin_pagar": [
+            { "detalle": "Hotel Hokke Club Kyoto", "categoria": "Hotel", "quien_pago": "Ale", "monto": 1112017 },
+            { "detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "categoria": "Hotel", "quien_pago": "Juan", "monto": 959260 },
+            { "detalle": "Elephant Nature Park", "categoria": "Atracciones", "quien_pago": "Juan", "monto": 145395 },
+            { "detalle": "Ubigi eSIM", "categoria": "Otros", "quien_pago": "Juan", "monto": 208555 }
+          ]
+        },
+        "nota_dias_restantes": "Salida BOG el 2026-10-10; hoy 2026-09-11 quedan 29 días."
+      }
+    }
+  },
+
+  "alimentacion": {
+    "caso": "C",
+    "descripcion_caso": "Ventana de actividad (madrugada hoy o tarde/noche de ayer) vacía — no hay ninguna sesión de Strava registrada en esa ventana.",
+    "escalon_recomendado": null,
+    "confidence": "no_aplica_sin_actividad_en_ventana",
+    "tabla_escalones": [
+      { "carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu" },
+      { "carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu" },
+      { "carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going" },
+      { "carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going" }
+    ],
+    "reglas_fijas": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "suplementos_base": [
+        { "nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena" },
+        { "nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno" },
+        { "nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno" },
+        { "nombre": "Proteína Vitanas", "dosis": "1 scoop al día" }
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"]
+    },
+    "mensaje": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "nota_vencida": "El plan de nutrición es de abril 2026; sus restricciones temporales 'por 1 mes' fueron calibradas como posiblemente vencidas desde agosto. Hoy (2026-09-11) el margen es aún mayor. Regla fija, se reporta tal como está escrita en el plan."
+  }
+}
