@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T06:50:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Vuelo a Baltimore",
+        "start": "2026-09-11T21:45:00-05:00",
+        "end": "2026-09-12T12:45:00-05:00",
+        "duration_minutes": 765,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Vuelo internacional (Bogotá con escala en Miami, ver check-in LATAM LA4400, reserva UWQXWT) hacia Baltimore. Empieza ayer 21:45 y termina hoy 12:45; se cuentan aquí solo las 12h45 (00:00-12:45) dentro del día de hoy. El patrón 'Vuelo X' aparece 3 veces en las últimas 3 semanas (Vuelo Medellín 4-sep, Vuelo Bogotá 6-sep), pero cada uno es un viaje puntual distinto, no una rutina semanal — se marca atípico."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 12.75,
+      "training_hours": 0,
+      "sleep_hours_within_today": 0,
+      "total_scheduled_hours_within_today": 12.75,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-12T12:45:00-05:00",
+          "end": "2026-09-13T00:00:00-05:00",
+          "duration_minutes": 675,
+          "note": "Después de aterrizar en Baltimore (12:45) no hay ningún evento agendado el resto del día: sin comida, sin descanso, sin hora de dormir definida."
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": []
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "info@info.latam.com (LATAM Pass)",
+        "subject": "Revisa la tarjeta de embarque para Miami",
+        "action_required": "Completar el check-in y descargar la tarjeta de embarque pendiente del vuelo LA4400 (reserva UWQXWT) antes de la hora límite.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "DAVIbankInforma@davibank.com (DAVIbank)",
+        "subject": "Débito Automático",
+        "action_required": "Resolver el pago automático fallido del CRÉDITO DE CONSUMO *6918 (motivo: cuenta cancelada) antes de que genere mora o intereses.",
+        "urgency": "alta"
+      }
+    ]
+  },
+  "friction": "Hoy no hay agenda, hay un vuelo. 12h45 de las 24 del día son un único bloque: Bogotá-Miami-Baltimore, saliendo anoche a las 21:45 sin un bloque de sueño real antes de embarcar. Aterrizas a las 12:45 y después de eso el calendario está completamente vacío — 11h15 sin comida, sin descanso y sin hora de dormir agendada, en un país nuevo y con cambio de huso horario. Si no se agenda al menos un bloque de sueño esta noche, llegas al primer día en USA ya con déficit de sueño arrastrado. Aparte del viaje, hay dos pendientes de plata y trámite que no se resuelven solos ni porque estés en un avión: el check-in de LATAM para el LA4400 tiene hora límite, y el débito automático de DAVIbank falló por 'cuenta cancelada' — eso hay que atenderlo hoy o se convierte en mora, viajando o no."
+}
