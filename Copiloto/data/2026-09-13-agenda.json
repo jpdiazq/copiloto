@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T09:30:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Run",
+        "start": "2026-09-13T06:30:00-05:00",
+        "end": "2026-09-13T09:10:00-05:00",
+        "duration_minutes": 160,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Título 'Run' aparece 3+ veces en las 3 semanas previas (23-ago, 24-ago, 30-ago) con el mismo bloque largo de domingo en la franja 06:30-09:10 el 23-ago y el 30-ago — patrón recurrente, incluso viajando (llegó de Baltimore ayer al mediodía tras el vuelo de la Media Maratón de Medellín)."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 0,
+      "training_hours": 2.67,
+      "sleep_hours_within_today": 0,
+      "total_scheduled_hours_within_today": 2.67,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-13T00:00:00-05:00",
+          "end": "2026-09-13T06:30:00-05:00",
+          "duration_minutes": 390
+        },
+        {
+          "start": "2026-09-13T09:10:00-05:00",
+          "end": "2026-09-14T00:00:00-05:00",
+          "duration_minutes": 890
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": []
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "DragonPass / Visa Airport Companion (noreply1@cs2.dragonpasshc.com)",
+        "subject": "Membership Removed",
+        "action_required": "Verificar si tú diste de baja la membresía de salas VIP de Visa Airport Companion/DragonPass o si fue un error/posible fraude, y contactar soporte si no la reconoces.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay sobrecarga ni choques: el único evento es el Run recurrente de domingo (6:30-9:10, 2h40). El resto del día está completamente abierto, repartido en dos huecos gigantes de 6.5h y ~14.8h. Pero ojo con lo que no está: no hay ningún bloque de sueño registrado ni hoy ni ayer, justo después de un vuelo nocturno Bogotá-Baltimore (llegaste ayer a mediodía) y de una semana con medio maratón incluido. Si no estás anotando cuándo duermes, este reporte no puede decirte si estás descansando o acumulando déficit de sueño en pleno viaje — esa es la única señal de riesgo real de hoy, no la carga de la agenda."
+}
