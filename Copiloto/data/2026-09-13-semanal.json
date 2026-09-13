@@ -1,0 +1,118 @@
+{
+  "fecha": "2026-09-13",
+  "generado_en": "2026-09-13T00:00:00-05:00",
+  "timezone": "America/Bogota",
+  "ventana_semana_actual": {
+    "definicion": "Semana calendario lunes-domingo, verificada por día de la semana (2026-09-07 = lunes, 2026-09-13 = domingo). No se reutilizó la ventana 'últimos 7 días' de los JSON diarios porque esa ventana es inconsistente entre archivos de la misma semana (ver nota_metodologica).",
+    "rango": "2026-09-07 a 2026-09-13",
+    "nota_metodologica": "El JSON del 2026-09-10 usa rango 2026-09-04/2026-09-10 (7 días), el del 2026-09-11 usa 2026-09-05/2026-09-11 (7 días), pero el del 2026-09-13 usa 2026-09-06/2026-09-13 (8 días) — hay un desfase de un día en el pipeline diario. Este reporte recalculó las semanas directamente desde Strava con límites lunes-domingo verificados, en vez de heredar ese desfase."
+  },
+  "strava": {
+    "actividades_semana_actual": [],
+    "nota_actividades": "Cero actividades registradas en Strava entre 2026-09-07 y 2026-09-13 (confirmado por mcp Strava list_activities, no solo por cache). Es una semana de descanso/recuperación completa inmediatamente después de la Media Maratón de Medellín (PR) corrida el domingo 2026-09-06, último día de la semana anterior.",
+    "totales_por_disciplina_semana_actual": {
+      "nado": {"tiempo_min": 0, "distancia_km": 0},
+      "bici": {"tiempo_min": 0, "distancia_km": 0},
+      "trote": {"tiempo_min": 0, "distancia_km": 0},
+      "otro_fortalecimiento": {"tiempo_min": 0}
+    },
+    "esfuerzo_relativo": {
+      "semana_actual_2026-09-07_a_13": 0,
+      "semana_anterior_1_2026-08-31_a_09-06": 224,
+      "semana_anterior_2_2026-08-24_a_08-30": 106,
+      "semana_anterior_3_2026-08-17_a_08-23": 194,
+      "detalle_semana_anterior_1": "Incluye la Media Maratón de Medellín (id 20060669355, RE 193) el domingo 2026-09-06, más 4 sesiones cortas de trote/fortalecimiento entre semana (RE 9+7+10+5=31).",
+      "comparacion": "0 vs. un promedio de ~175 en las 3 semanas previas (224, 106, 194). La caída a cero es coherente con descanso post-carrera, no con una interrupción inexplicada."
+    },
+    "reparto_tiempo_zona_fc_semana_actual": {
+      "zona_1": 0, "zona_2": 0, "zona_3": 0, "zona_4": 0, "zona_5": 0,
+      "nota": "Sin actividades esta semana no hay datos de FC que repartir. Como referencia (fuera de esta semana): la Media Maratón del 2026-09-06 tuvo FC media 170.8 y máxima 188, es decir corrida casi entera en zona 4 (166-179) rozando zona 5 (180+) — zonas del atleta: Z1 0-135, Z2 136-150, Z3 151-165, Z4 166-179, Z5 180+."
+    },
+    "totales_por_disciplina_3_semanas_previas": {
+      "semana_anterior_1_2026-08-31_a_09-06": {"trote": {"tiempo_min": 214.3, "distancia_km": 35.47}, "bici": {"tiempo_min": 0, "distancia_km": 0}, "nado": {"tiempo_min": 0, "distancia_km": 0}, "otro_fortalecimiento_min": 96.5},
+      "semana_anterior_2_2026-08-24_a_08-30": {"trote": {"tiempo_min": 208.9, "distancia_km": 32.65}, "bici": {"tiempo_min": 46.4, "distancia_km": 16.73}, "nado": {"tiempo_min": 0, "distancia_km": 0}, "otro_fortalecimiento_min": 90.1},
+      "semana_anterior_3_2026-08-17_a_08-23": {"trote": {"tiempo_min": 356.0, "distancia_km": 53.70}, "bici": {"tiempo_min": 48.6, "distancia_km": 18.39}, "nado": {"tiempo_min": 0, "distancia_km": 0}, "otro_fortalecimiento_min": 277.7},
+      "nota": "Cero sesiones de nado en las 4 semanas revisadas (esta y las 3 previas), pese a que el enfoque actual del atleta en Strava es 'Train for a triathlon' (vence 2026-10-04)."
+    },
+    "kilometraje_acumulado_equipo": {
+      "status": "sin_datos",
+      "nota": "mcp Strava get_gear devuelve lista vacía: no hay bicicletas ni zapatillas registradas en el perfil. No se puede calcular kilometraje acumulado de equipo ni evaluar el umbral de 700 km."
+    }
+  },
+  "contexto_carrera": {
+    "media_maraton_medellin": {
+      "fecha": "2026-09-06",
+      "estado": "ya_corrida",
+      "semanas_restantes": 0,
+      "resultado": "PR (récord personal), 21.28 km en 1:53:39 (elapsed total), mejor esfuerzo de 21.1K registrado en Strava de 1:52:37, esfuerzo relativo 193, FC media 170.8 / máx 188, RPE 9/10.",
+      "nota": "Esta carrera ya pasó, hace exactamente 1 semana. Se reporta como cierre de la semana anterior, no como carrera pendiente."
+    },
+    "cientoonce_huila": {
+      "fecha": "2026-10-04",
+      "semanas_restantes": 3,
+      "dias_restantes": 21
+    },
+    "reparto_semanal_entre_disciplinas": {
+      "semana_actual": "100% descanso (0 min en las 3 disciplinas)",
+      "semana_anterior_1": "100% trote (más fortalecimiento), incluida la media maratón",
+      "semana_anterior_2": "~82% trote / ~18% bici (en tiempo), más fortalecimiento",
+      "semana_anterior_3": "~88% trote / ~12% bici (en tiempo), más fortalecimiento",
+      "tendencia_informativa": "Las últimas 4 semanas están dominadas por trote, con bici ocasional y fortalecimiento intercalado, y cero nado. La semana actual es un corte total de actividad tras la media maratón. Esto es una descripción de lo ocurrido, no una recomendación de qué hacer la próxima semana."
+    }
+  },
+  "bateria": {
+    "fuente": "Rudiments Progress (Google Sheets, fileId 1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw), releído en vivo el 2026-09-13.",
+    "plan_25_semanas": {
+      "semana_actual": 12,
+      "rango_semana": "2026-09-07 a 2026-09-13",
+      "objetivo_resistencia_bpm_lunes": 140,
+      "objetivo_rafaga_bpm_miercoles": 175,
+      "song_focus": "Capitán Lawrence",
+      "plan_viernes": "Song: Main Riff (kit)",
+      "plan_sabado": "Free Play / Fun (kit)"
+    },
+    "reales_registrados_semana_actual": "ninguno — las columnas Endurance BPM / Speed BPM / Max Burst BPM están vacías para las 4 filas de la semana 12 en la hoja fuente.",
+    "ultima_sesion_real_logueada": {
+      "fecha": "2026-07-12",
+      "valores": {"single_stroke": 149, "paradiddle": 118},
+      "semanas_desde_entonces": 9
+    },
+    "nota": "No hay una sola sesión real registrada en el log desde el 12-jul-2026 (9 semanas). La semana 12 del plan queda, como todas las semanas recientes, sin datos reales — el plan avanza por fecha pero el log no se ha vuelto a llenar."
+  },
+  "verificacion_precision": {
+    "metodo": "Se tomaron 5 afirmaciones de los JSON diarios generados esta semana (2026-09-10-vida.json, 2026-09-11-vida.json, 2026-09-13-vida.json) y se reabrió cada source_id (actividad de Strava vía get_activity_performance, o archivo de Drive vía read_file_content) para confirmar o refutar la afirmación original.",
+    "aciertos": "4/5",
+    "verificaciones": [
+      {
+        "afirmacion": "FC media 170.76 / FC máx 188 en la Media Maratón de Medellín (2026-09-11-vida.json y 2026-09-13-vida.json)",
+        "source_id": "strava_activity:20060669355",
+        "resultado": "CORRECTO",
+        "detalle": "get_activity_performance(20060669355) devuelve average_heartrate=170.762, max_heartrate=188 — coincide exactamente."
+      },
+      {
+        "afirmacion": "FC media 125.397 / FC máx 155 en el Morning Run del 2026-09-04 (2026-09-10-vida.json)",
+        "source_id": "strava_activity:20032156188",
+        "resultado": "CORRECTO",
+        "detalle": "get_activity_performance(20032156188) devuelve average_heartrate=125.397, max_heartrate=155 — coincide exactamente."
+      },
+      {
+        "afirmacion": "Esfuerzo relativo acumulado de la ventana de 7 días = 198 (2026-09-10-vida.json, rango 2026-09-04 a 2026-09-10)",
+        "source_id": "strava_activity:20032156188 + strava_activity:20060669355",
+        "resultado": "CORRECTO",
+        "detalle": "Recalculado sumando el relative_effort de las dos actividades reabiertas: 5 + 193 = 198."
+      },
+      {
+        "afirmacion": "Kilometraje de equipo 'sin_datos' porque get_gear no devuelve bicis ni zapatillas (2026-09-10-vida.json y 2026-09-11-vida.json)",
+        "source_id": "strava_gear_endpoint",
+        "resultado": "CORRECTO",
+        "detalle": "mcp Strava get_gear devuelve {\"gear\":[]} — confirmado, sin datos de equipo."
+      },
+      {
+        "afirmacion": "'41 PRs de segmento (17 oro, 5 plata), mejor tiempo de media maratón registrado en Strava (1:52:37 elapsed)' (2026-09-10-vida.json, campo 'logros' de la actividad 20060669355)",
+        "source_id": "strava_activity:20060669355",
+        "resultado": "PARCIALMENTE INCORRECTO",
+        "detalle": "El '1:52:37' sí es correcto: coincide con el best_effort 'FastestHalfMarathon' (6757 s = 1:52:37), el mejor tramo de 21.1K dentro de la actividad. Pero '41 PRs de segmento (17 oro, 5 plata)' no cuadra: 17+5 = 22, no 41. pr_achievements de get_activity_performance solo lista 17 SegmentPersonalRecordGold + 5 SegmentPersonalRecordSilver = 22 logros de segmento. El '41' viene de achievement_count/pr_count del resumen de la actividad, que incluye otros tipos de logro (por ejemplo, mejores marcas personales por distancia estándar en best_efforts) y no corresponde solo a 'PRs de segmento oro/plata' como afirma el texto original."
+      }
+    ]
+  }
+}
