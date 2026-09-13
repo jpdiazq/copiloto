@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T06:51:30-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_reciente": {
+      "definicion": "Actividades de hoy (cualquier hora) + actividades de ayer que empezaron después de las 12:00.",
+      "has_activity_today": false,
+      "has_activity_yesterday_pm": false,
+      "session_count_12h": 0,
+      "activities": [],
+      "nota": "Ventana vacía: no hay actividad registrada hoy (2026-09-13) ni ayer (2026-09-12) después de las 12:00. La actividad más reciente en Strava es la media maratón del 2026-09-06, fuera de esta ventana — se reporta abajo en la sección de 7 días, no aquí."
+    },
+    "ventana_7_dias": {
+      "rango": "2026-09-06 a 2026-09-13",
+      "activities": [
+        {
+          "id": "20060669355",
+          "nombre": "Medía Maratón Medellín - PR!!",
+          "tipo": "Run",
+          "start_local": "2026-09-06T05:34:54",
+          "ubicacion": "Comuna 10 - La Candelaria, Colombia",
+          "duracion_s": 6819,
+          "distancia_km": 21.281,
+          "desnivel_m": 114.4,
+          "fc_media": 170.8,
+          "fc_max": 188,
+          "cadencia_media": 84.4,
+          "potencia_media": null,
+          "esfuerzo_relativo": 193,
+          "esfuerzo_percibido_rpe": 9,
+          "calorias": 1457,
+          "pr_count": 41,
+          "achievement_count": 41,
+          "nota": "Fuera de la ventana de 12h (empezó el 2026-09-06, 7 días antes de hoy). Único registro en los últimos 7 días."
+        }
+      ],
+      "relative_effort_acumulado_7d": 193,
+      "zonas_atleta": {
+        "heart_rate_zones_source": "Manual",
+        "heart_rate_zones": [
+          {"zona": 1, "min": 0, "max": 135},
+          {"zona": 2, "min": 136, "max": 150},
+          {"zona": 3, "min": 151, "max": 165},
+          {"zona": 4, "min": 166, "max": 179},
+          {"zona": 5, "min": 180, "max": null}
+        ],
+        "power_zones_source": "Ftp",
+        "ftp": 188,
+        "ftp_is_estimated": false,
+        "run_zones_source": "RacePace",
+        "sample_race_pace": {"tipo": "Fastest5k", "tiempo": "24m 33s", "is_estimated": false}
+      },
+      "kilometraje_equipo": {
+        "status": "sin_datos",
+        "nota": "El endpoint de gear de Strava no devolvió bicis ni zapatillas registradas para este atleta. No se puede calcular kilometraje acumulado de equipo ni evaluar el umbral de 700 km."
+      },
+      "alerta_700km": false,
+      "contexto_atleta": {
+        "current_focus": "Train for a triathlon",
+        "focus_expira_local": "2026-10-04T23:59:59"
+      }
+    }
+  },
+  "drive": {
+    "Nutrition Plan 2026.pdf": {
+      "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+      "modifiedTime_actual": "2026-04-13T02:22:23.770Z",
+      "cache_encontrado": {"cached_at": "2026-08-06", "modifiedTime": "2026-04-13T02:22:23.770Z"},
+      "status": "sin_cambios",
+      "nota": "modifiedTime actual coincide con el cache — no se abrió el archivo, se usó el cache tal cual.",
+      "cache": {
+        "archivo": "Nutrition Plan 2026.pdf",
+        "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+        "modifiedTime": "2026-04-13T02:22:23.770Z",
+        "cached_at": "2026-08-06",
+        "status": "extracted",
+        "schema_drift": false,
+        "vencida_check": {
+          "fecha_plan": "abril 2026",
+          "hoy": "2026-08-06",
+          "meses_transcurridos_aprox": 3.8,
+          "restricciones_1_mes": "posiblemente_vencidas"
+        },
+        "recomendaciones": {
+          "ayuno_horas": "12-14",
+          "hora_desayuno": "7:00 am",
+          "hora_cena_max": "6:00 pm",
+          "hidratacion_litros_dia": 2.4,
+          "hidratacion_antes_mediodia_litros": 1,
+          "evitar_agua_con_gas": true,
+          "porciones_grasa_saludable_dia": 5
+        },
+        "suplementos_base": [
+          {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+          {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+          {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+          {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+        ],
+        "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+        "restricciones_temporales_1_mes": {
+          "status": "posiblemente_vencidas",
+          "nota": "El plan está fechado abril 2026 y estas restricciones decían 'durante 1 MES'. A la fecha de este reporte (2026-09-13) son más de 5 meses después de la última modificación del archivo.",
+          "items": ["Leche", "Queso", "Crema de leche / queso crema / esparcibles convencionales", "Mantequilla de maní / Nutella / mermelada convencional", "Pan blanco, pastas, trigo y derivados", "Embutidos convencionales", "Aceite vegetal", "Chocolate con azúcar para tomar"]
+        },
+        "escalones_tss": [
+          {"carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu"},
+          {"carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu"},
+          {"carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going"},
+          {"carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going"}
+        ],
+        "nota_extraccion": "Extraído solo de RECOMENDACIONES, SUPLEMENTOS BASE, SUPLEMENTOS EJERCICIO y DEPORTE Y NUTRICIÓN, per regla transversal. No se extrajo de RECETAS ni tablas de porciones."
+      }
+    },
+    "Canciones FtM": {
+      "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+      "modifiedTime_actual": "2026-08-30T22:42:11.911Z",
+      "cache_encontrado": {"cached_at": "2026-08-31", "modifiedTime": "2026-08-30T22:42:11.911Z"},
+      "status": "sin_cambios",
+      "nota": "modifiedTime actual coincide con el cache — no se abrió el archivo, se usó el cache tal cual.",
+      "cache": {
+        "archivo": "Canciones FtM",
+        "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+        "modifiedTime": "2026-08-30T22:42:11.911Z",
+        "cached_at": "2026-08-31",
+        "status": "extracted",
+        "schema_drift": false,
+        "setlist": [
+          {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "avance_pct": 100, "ult_vez_tocada": "2026-05-23"},
+          {"orden": 3, "cancion": "Stone Cold Crazy", "autor": "Metallica", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 4, "cancion": "Capitán Lawrence", "autor": "WarCry", "avance_pct": 95, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 5, "cancion": "Wasted Years", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 6, "cancion": "Iron Man", "autor": "Black Sabbath", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 7, "cancion": "The Memory Remains", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 8, "cancion": "Master of Puppets", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-05-23"},
+          {"orden": 9, "cancion": "The Number of the Beast", "autor": "Iron Maiden", "avance_pct": 85, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 10, "cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 11, "cancion": "For Whom the Bell Tolls", "autor": "Metallica", "avance_pct": 90, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 12, "cancion": "Pegaso", "autor": "Tierra Santa", "avance_pct": 85, "ult_vez_tocada": "2026-08-17"},
+          {"orden": 13, "cancion": "Fade to Black", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 14, "cancion": "Fear of the Dark", "autor": "Iron Maiden", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 15, "cancion": "Seek and Destroy", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "avance_pct": 45, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 17, "cancion": "One", "autor": "Metallica", "avance_pct": 30, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 17, "cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "avance_pct": 0, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "avance_pct": 0, "ult_vez_tocada": null}
+        ],
+        "avance_bateria_pct": "vacío en todas las filas — no reportado como 0%",
+        "candidatas_nota": "Pestaña 'Repertorio' sigue listando 'Hallowed be Thy Name' (puntaje 4.6) y 'Nothing Else Matters' (puntaje 4) como candidatas, a pesar de que ya aparecen en el setlist principal — la pestaña de candidatas no se actualizó al promoverlas.",
+        "nota_extraccion": "Encabezados leídos desde la fila 2 de 'Setlist General'. Se ignoraron los paneles laterales y la pestaña 'Calendario 1' (rotación semanal 2024 de otro proyecto — datos muertos). Huella de estructura coincide con la calibración de Reglas_Extraccion_Drive.md — sin schema_drift."
+      }
+    },
+    "Rudiments Progress": {
+      "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+      "modifiedTime_actual": "2026-07-14T00:57:41.119Z",
+      "cache_encontrado": {"cached_at": "2026-08-06", "modifiedTime": "2026-07-14T00:57:41.119Z"},
+      "status": "sin_cambios",
+      "nota": "modifiedTime actual coincide con el cache — no se abrió el archivo, se usó el cache tal cual.",
+      "cache": {
+        "archivo": "Rudiments Progress",
+        "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+        "modifiedTime": "2026-07-14T00:57:41.119Z",
+        "cached_at": "2026-08-06",
+        "status": "extracted",
+        "schema_drift": false,
+        "maximos_actuales": {
+          "single_stroke": 152,
+          "double_stroke": 123,
+          "five_stroke_roll": 138,
+          "paradiddle": 119,
+          "triple_paradiddle": 118,
+          "double_pedal": 105
+        },
+        "ultima_sesion_log": {"fecha": "2026-07-12", "valores": {"single_stroke": 149, "paradiddle": 118}},
+        "plan_25_semanas": {
+          "semana_actual_por_fecha": {
+            "week": 7,
+            "date_mon": "2026-08-03",
+            "song_focus": "Pegaso",
+            "target_endurance": 125,
+            "target_burst": 160,
+            "reales_logrados": "sin dato — columnas Endurance/Speed/Max Burst BPM vacías para esta semana"
+          },
+          "ultima_semana_con_reales_logrados": {
+            "week": 4,
+            "date_mon": "2026-07-13",
+            "song_focus": "Fade to Black",
+            "mon": {"target_endurance": 116, "endurance_bpm_real": 113},
+            "wed": {"target_burst": 145, "speed_bpm_real": 139, "max_burst_bpm_real": 120}
+          }
+        },
+        "rampa_tempo": {"rango": "2026-07-10 a 2026-07-30", "ultimo_dato": {"fecha": "2026-07-30", "tempo": 110, "tempo_app": 330}},
+        "bpm_canciones": {"Stone Cold Crazy": 128, "Capitán Lawrence": 154},
+        "nota_extraccion": "Filas 'Max' y 'Max - 25' excluidas del histórico por ser calculadas, no sesiones. Double Pedal leída como última columna. Rampa de tempo con formato de fecha MM-DD-YYYY.",
+        "nota_vigencia": "Cache generado 2026-08-06; el archivo no se ha modificado desde 2026-07-14, así que 'semana_actual_por_fecha' (Week 7 / 2026-08-03) está desactualizada respecto a hoy (2026-09-13) — el archivo fuente simplemente no se ha vuelto a tocar."
+      }
+    },
+    "Tracker Luna de Miel": {
+      "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+      "modifiedTime_actual": "2026-08-31T03:07:47.003Z",
+      "cache_encontrado": {"cached_at": "2026-08-31", "modifiedTime": "2026-08-31T03:07:47.003Z"},
+      "status": "sin_cambios",
+      "nota": "modifiedTime actual coincide con el cache — no se abrió el archivo, se usó el cache tal cual.",
+      "cache": {
+        "archivo": "Tracker Luna de Miel",
+        "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+        "modifiedTime": "2026-08-31T03:07:47.003Z",
+        "cached_at": "2026-08-31",
+        "status": "extracted",
+        "schema_drift": false,
+        "itinerario": {"salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026"},
+        "presupuesto": {"pestana_usada": "válida (AUTORIDAD) — total $77,541,182", "total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182},
+        "gastos": {
+          "pagado": 43548858,
+          "falta": 33992324,
+          "sin_pagar": [
+            {"detalle": "Hotel Hokke Club Kyoto", "categoria": "Hotel", "quien_pago": "Ale", "monto": 1112017},
+            {"detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "categoria": "Hotel", "quien_pago": "Juan", "monto": 959260},
+            {"detalle": "Elephant Nature Park", "categoria": "Atracciones", "quien_pago": "Juan", "monto": 145395},
+            {"detalle": "Ubigi eSIM", "categoria": "Otros", "quien_pago": "Juan", "monto": 208555}
+          ]
+        },
+        "nota_extraccion": "Se usó la pestaña de presupuesto que totaliza $77,541,182 (AUTORIDAD, fila TOTALES), no la vieja de ~$88M (pestaña F, ignorada). En Detalle Gastos, 'Pagado'='CHECK' se interpretó como pagado y vacío como no pagado. Huella de estructura verificada contra Reglas_Extraccion_Drive.md — sin schema_drift."
+      }
+    }
+  },
+  "alimentacion": {
+    "caso": "C",
+    "motivo": "La ventana Strava del paso 1 vino vacía: sin actividad hoy (2026-09-13) ni ayer (2026-09-12) después de las 12:00.",
+    "confidence": "inferred",
+    "mensaje": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "tabla_escalones_pre_entreno": [
+      {"carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable"},
+      {"carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "Compon X + beet root + 1 grasa saludable + 1 proteína"},
+      {"carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato adicional"},
+      {"carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y también entre sesiones"}
+    ],
+    "reglas_fijas_plan": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+      ],
+      "restricciones_temporales_1_mes_status": "posiblemente_vencidas (plan de abril 2026, hoy es 2026-09-13)"
+    }
+  }
+}
