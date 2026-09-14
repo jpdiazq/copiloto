@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T06:58:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-14T08:00:00-05:00",
+        "end": "2026-09-14T17:00:00-05:00",
+        "duration_minutes": 540,
+        "category": "trabajo",
+        "location": "SKANDIA Planeación Financiera S.A.",
+        "is_atypical": false,
+        "note": "Bloque recurrente semanal (título similar apareció 15 veces en las 3 semanas previas), pero la ubicación física de la oficina en Bogotá no cuadra con el viaje: voló a Baltimore la noche del 11-sep y tuvo actividades en Baltimore el 13-sep (Acuario Nacional, cena en La Tavola). No hay vuelo de regreso registrado en el calendario antes de este bloque."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 9.0,
+      "training_hours": 0.0,
+      "sleep_hours_within_today": 0.0,
+      "total_scheduled_hours_within_today": 9.0,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-14T00:00:00-05:00",
+          "end": "2026-09-14T08:00:00-05:00",
+          "duration_minutes": 480
+        },
+        {
+          "start": "2026-09-14T17:00:00-05:00",
+          "end": "2026-09-15T00:00:00-05:00",
+          "duration_minutes": 420
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": []
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": []
+  },
+  "friction": "El bloque 'Trabajo Skandia' de hoy (08:00-17:00, ubicación física en la oficina de Bogotá) no cuadra con el viaje: voló a Baltimore la noche del 11-sep, y el 13-sep tuvo Acuario Nacional y cena en Baltimore. No hay vuelo de regreso registrado antes de este bloque. O el evento es un residuo recurrente que nadie borró y hoy no aplica, o hay un choque real entre estar en Bogotá a las 8am y seguir de viaje — eso hay que resolverlo ahora, no a las 8:00. Aparte de ese bloque, la agenda de hoy está vacía: no hay sueño, entrenamiento, comidas ni logística de regreso registrados, rompiendo el patrón de los últimos 21 días (donde 'Dormir' aparece 19 veces y 'Entrenamiento/Entreno/Arreglar' casi a diario). Si sigue de viaje, falta planear cómo y cuándo vuelve; si ya volvió, falta registrar el resto del día. En Gmail: 7 no leídos en las últimas 24h, ninguno requiere acción real (newsletters, confirmaciones de reserva/compra, marketing) — no hay nada urgente ahí que justifique interrumpir el viaje."
+}
