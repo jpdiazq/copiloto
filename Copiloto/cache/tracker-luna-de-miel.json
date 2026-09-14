@@ -1,0 +1,34 @@
+{
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "title": "Tracker Luna de Miel",
+  "modifiedTime": "2026-08-31T03:07:47.003Z",
+  "cached_at": "2026-09-14T06:50:49-05:00",
+  "status": "extracted",
+  "schema_check": "OK con nota - las pestañas de presupuesto vigente y presupuesto viejo se distinguieron por su total (vigente $77,541,182 / viejo $88,103,840, este último sin cambios desde calibración). Aparece una pestaña adicional 'Políticas Equipaje' no descrita en las reglas, pero cae en la categoría 'material de investigación, no reportar' junto con D/E.",
+  "extracted": {
+    "itinerario": {
+      "salida_bog": "2026-10-10",
+      "japon": "2026-10-10 a 2026-10-28",
+      "tailandia": "2026-10-28 a 2026-11-06"
+    },
+    "presupuesto_autoridad": {
+      "total_estimado": 77541182,
+      "presupuesto": 77000000,
+      "restante": -541182,
+      "nota": "Mejoró desde la calibración de reglas (26-jul-2026), cuando restante era -$1,392,442."
+    },
+    "presupuesto_viejo_ignorado": {"total": 88103840, "restante": -11103840, "nota": "Sin cambios desde calibración — confirmado como snapshot congelado, se ignora."},
+    "detalle_gastos": {
+      "pagado_total": 43548858,
+      "faltante_vs_presupuesto_total": 33992324,
+      "nota": "Pagado subió de $42,948,858 (calibración) a $43,548,858: se pagó Tramitadora Visa Japón ($600,000).",
+      "sin_pagar": [
+        {"detalle": "Hotel Hokke Club Kyoto", "quien_paga": "Ale", "monto": 1112017, "nota": "Monto cambió desde calibración ($1,277,000 -> $1,112,017)"},
+        {"detalle": "APA Hotel and Resort Osaka Namba Ekimae Tower", "quien_paga": "Juan", "monto": 959260, "nota": "Sin cambios desde calibración"},
+        {"detalle": "Elephant Nature Park", "quien_paga": "Juan", "monto": 145395, "nota": "Nuevo desde calibración (no existía en jul-2026)"},
+        {"detalle": "Ubigi eSIM", "quien_paga": "Juan", "monto": 208555, "nota": "Nuevo desde calibración (no existía en jul-2026)"}
+      ]
+    },
+    "pestanas_ignoradas": ["Políticas Equipaje", "comparativa de vuelos / links hoteles Krabi"]
+  }
+}

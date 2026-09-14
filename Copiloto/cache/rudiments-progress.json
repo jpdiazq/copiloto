@@ -1,0 +1,30 @@
+{
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "title": "Rudiments Progress",
+  "modifiedTime": "2026-07-14T00:57:41.119Z",
+  "cached_at": "2026-09-14T06:50:49-05:00",
+  "status": "extracted",
+  "schema_check": "OK - estructura coincide con Reglas_Extraccion_Drive.md (log disperso, filas Max/Max-25 excluidas, Double Pedal última columna, plan 25 semanas con reales en últimas 3 columnas, rampa de tempo en MM-DD-YYYY)",
+  "extracted": {
+    "maximos_actuales": {
+      "single_stroke": 152,
+      "double_stroke": 123,
+      "five_stroke_roll": 138,
+      "paradiddle": 119,
+      "triple_paradiddle": 118,
+      "double_pedal": 105
+    },
+    "ultima_sesion_logueada": "2026-07-12",
+    "dias_desde_ultima_sesion_al_generar": 64,
+    "nota_adherencia": "El log de sesiones (pestaña A) no tiene entradas desde 2026-07-12, más de dos meses antes de hoy. Double Pedal específicamente no se loguea desde 2025-08-09 (más de un año).",
+    "plan_25_semanas": {
+      "semana_actual": 13,
+      "fecha_semana_actual": "2026-09-14",
+      "fila_hoy": {"day": "Mon", "location": "PAD", "focus": "Endurance: 5 min steady", "target_endurance": 142, "target_burst": 180, "song_focus": "Capitan Lawrence", "real_endurance_bpm": null, "real_speed_bpm": null, "real_max_burst_bpm": null},
+      "ultima_fila_con_reales_logueados": {"fecha": "2026-07-13", "day": "Wed", "target_endurance": 116, "target_burst": 145, "real_endurance_bpm": 114, "real_speed_bpm": 139, "real_max_burst_bpm": 120},
+      "nota_adherencia": "Las columnas de reales (Endurance/Speed/Max Burst BPM) no se han vuelto a llenar desde la semana 4 (13-jul-2026), aunque el plan ya va en la semana 13. Sin dato de adherencia reciente."
+    },
+    "rampa_tempo": {"rango": "2026-07-10 a 2026-07-30", "tempo_inicial": 70, "tempo_final": 110, "tempo_app_final": 330},
+    "bpm_canciones": {"stone_cold_crazy": 128, "capitan_lawrence": 154}
+  }
+}
