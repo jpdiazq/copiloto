@@ -1,0 +1,34 @@
+{
+  "file": "Tracker Luna de Miel",
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "cached_at": "2026-09-15T06:53:00-05:00",
+  "modified_time_at_cache": "2026-08-31T03:07:47.003Z",
+  "schema_status": "ok",
+  "extracted": {
+    "itinerario": {
+      "salida_bog": "2026-10-10",
+      "japon": "10-28 oct 2026",
+      "tailandia": "28 oct - 6 nov 2026",
+      "dias_para_salida_desde_hoy": 25
+    },
+    "presupuesto_autoridad": {
+      "pestana": "B (identificada por TOTALES != $88,103,840, que es la vieja)",
+      "total_estimado": 77541182,
+      "presupuesto": 77000000,
+      "restante": -541182,
+      "nota": "Cifra distinta a la de calibración (26-jul-2026: $78,392,442 / -$1,392,442) porque el presupuesto se actualizó legítimamente, no es drift de esquema."
+    },
+    "presupuesto_viejo_ignorado": {"pestana": "F", "total": 88103840, "restante": -11103840},
+    "detalle_gastos": {
+      "pagado_total": 43548858,
+      "faltante_total": 33992324,
+      "sin_pagar": [
+        {"categoria": "Hotel", "detalle": "Hotel Hokke Club Kyoto", "quien_paga": "Ale", "monto": 1112017},
+        {"categoria": "Hotel", "detalle": "APA Hotel and Resort Osaka Namba Ekimae Tower", "quien_paga": "Juan", "monto": 959260},
+        {"categoria": "Atracciones", "detalle": "Elephant Nature Park", "quien_paga": "Juan", "monto": 145395},
+        {"categoria": "Otros", "detalle": "Ubigi eSIM", "quien_paga": "Juan", "monto": 208555}
+      ]
+    }
+  },
+  "extraction_notes": "Columna 'Pagado' contiene texto literal 'CHECK', no booleano; vacío = no pagado. Pestañas D/E (comparativa vuelos, links hoteles) no reportadas por regla."
+}

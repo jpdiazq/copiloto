@@ -1,0 +1,37 @@
+{
+  "file": "Nutrition Plan 2026.pdf",
+  "file_id": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+  "cached_at": "2026-09-15T06:53:00-05:00",
+  "modified_time_at_cache": "2026-04-13T02:22:23.770Z",
+  "schema_status": "ok",
+  "extracted": {
+    "recomendaciones": {
+      "ayuno_horas": "12-14h, evitar ayunos prolongados inicialmente",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "porciones_grasa_dia": 5,
+      "restricciones_1_mes": {
+        "status": "posiblemente_vencidas",
+        "razon": "El documento está fechado abril 2026 (modifiedTime 2026-04-13) y varias restricciones dicen 'durante 1 MES'. A la fecha de este reporte han pasado más de 5 meses.",
+        "items": ["comer fuera de casa (restricciones de carbohidrato/postre)", "leche, queso, crema de leche, mantequilla de maní/Nutella, pan blanco/trigo, embutidos convencionales, aceite vegetal, chocolate con azúcar"]
+      }
+    },
+    "suplementos_base": [
+      {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+      {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+      {"nombre": "Neuressens (B12)", "dosis": "½ gotero sublingual con desayuno"},
+      {"nombre": "Proteína Vitanas", "dosis": "1 scoop/día"}
+    ],
+    "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+    "mapa_tss_alimentacion": [
+      {"escalon": "1 entreno TSS ≤60", "ejemplo": "Swim 1700m · Run 5km · Indoor cycling 45min", "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (1 cda mantequilla almendras)", "durante": "500 ml + 1 pastilla Gu"},
+      {"escalon": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8-12km", "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu"},
+      {"escalon": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable; entre sesiones: 1 cda mantequilla almendras", "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"},
+      {"escalon": "2 entrenos TSS >100", "ejemplo": "Road cycling + running", "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable; entre sesiones: 1 carbohidrato + 1 grasa saludable", "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"}
+    ]
+  },
+  "extraction_notes": "Extraído solo de RECOMENDACIONES, SUPLEMENTOS BASE, SUPLEMENTOS EJERCICIO y DEPORTE Y NUTRICIÓN, por regla transversal. Secciones de RECETAS y tablas de porciones (~70% del documento) fueron ignoradas por regla."
+}

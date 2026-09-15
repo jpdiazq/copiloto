@@ -1,0 +1,41 @@
+{
+  "file": "Canciones FtM",
+  "file_id": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+  "cached_at": "2026-09-15T06:53:00-05:00",
+  "modified_time_at_cache": "2026-08-30T22:42:11.911Z",
+  "schema_status": "ok",
+  "extracted": {
+    "setlist": [
+      {"cancion": "Aces High", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "100%", "ult_vez_tocada": "7/9/2026"},
+      {"cancion": "Toxicity", "autor": "System of a Down", "idioma": "Inglés", "porcentaje_avance": "100%", "ult_vez_tocada": "5/23/2026"},
+      {"cancion": "Wasted Years", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "100%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Iron Man", "autor": "Black Sabbath", "idioma": "Inglés", "porcentaje_avance": "100%", "ult_vez_tocada": "7/9/2026"},
+      {"cancion": "The Memory Remains", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "95%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Master of Puppets", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "95%", "ult_vez_tocada": "5/23/2026"},
+      {"cancion": "Capitán Lawrence", "autor": "WarCry", "idioma": "Español", "porcentaje_avance": "95%", "ult_vez_tocada": "7/9/2026"},
+      {"cancion": "The Number of the Beast", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "85%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Pegaso", "autor": "Tierra Santa", "idioma": "Español", "porcentaje_avance": "85%", "ult_vez_tocada": "8/17/2026"},
+      {"cancion": "For Whom the Bell Tolls", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "90%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Fear of the Dark", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "80%", "ult_vez_tocada": "7/9/2026"},
+      {"cancion": "Stone Cold Crazy", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "80%", "ult_vez_tocada": "7/9/2026"},
+      {"cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "75%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Seek and Destroy", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "75%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Fade to Black", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "75%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "The Trooper", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "45%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "One", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "30%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": "0%", "ult_vez_tocada": "8/24/2026"},
+      {"cancion": "Nothing Else Matters", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": "0%", "ult_vez_tocada": null}
+    ],
+    "avance_bateria_nota": "Columna '% Avance Batería' vacía en todas las filas por regla — no se reporta como 0%.",
+    "candidatas_siguiente_tema": {
+      "nota": "Pestaña B, puntaje de dificultad 2.0-7.0, solo para sugerir próximo tema, no progreso.",
+      "mas_faciles": [
+        {"cancion": "Metallica [Seek and Destroy]", "puntaje": 3.2},
+        {"cancion": "Metallica [One]", "puntaje": 3.4},
+        {"cancion": "Iron Maiden [Fear of the Dark]", "puntaje": 2.0},
+        {"cancion": "Libre [Hoy Gano Yo - Warcry]", "puntaje": 2.2}
+      ]
+    }
+  },
+  "extraction_notes": "Encabezados leídos desde fila 2. Paneles laterales (#N/A) ignorados. Pestaña C (rotación semanal 2024, canciones de otro proyecto) ignorada por completo por regla — son datos muertos."
+}

@@ -1,0 +1,26 @@
+{
+  "file": "Rudiments Progress",
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "cached_at": "2026-09-15T06:53:00-05:00",
+  "modified_time_at_cache": "2026-07-14T00:57:41.119Z",
+  "schema_status": "ok",
+  "extracted": {
+    "maximos_actuales": {
+      "single_stroke": 152,
+      "double_stroke": 123,
+      "five_stroke_roll": 138,
+      "paradiddle": 119,
+      "triple_paradiddle": 118,
+      "double_pedal": 105
+    },
+    "ultima_sesion_log": {"fecha": "12/07/2026", "single_stroke": 149, "paradiddle": 118},
+    "plan_25_semanas": {
+      "semana_actual_aprox": 13,
+      "fila_semana_13": {"fecha_ancla": "Sep 14 2026", "target_endurance": 142, "target_burst": 180, "song_focus": "Capitan Lawrence / One (Machine Gun) para bursts"},
+      "adherencia_nota": "Las columnas de reales logrados (Endurance BPM / Speed BPM / Max Burst BPM) solo tienen datos hasta la Semana 3 (fila Sat, 112 bpm). No hay reales logrados registrados en esa pestaña desde entonces — el log de la Pestaña A sí continúa por separado hasta el 12/07/26."
+    },
+    "rampa_tempo": {"periodo": "10-30 jul 2026", "rango_bpm": "70 → 110", "status": "histórico, ya no vigente (finalizó jul 2026)"},
+    "bpm_canciones": [{"cancion": "Stone Cold Crazy", "bpm": 128}, {"cancion": "Capitán Lawrence", "bpm": 154}]
+  },
+  "extraction_notes": "Filas 'Max' y 'Max - 25' excluidas del histórico (son calculadas). 9 columnas vacías intermedias ignoradas. Fechas de rampa de tempo en MM-DD-YYYY, distinto formato al log (DD/MM/YY)."
+}

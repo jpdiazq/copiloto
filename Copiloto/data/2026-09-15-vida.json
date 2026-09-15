@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T06:53:00-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_actividad_reciente": {
+      "has_activity_today": false,
+      "has_activity_yesterday_pm": false,
+      "session_count_12h": 0,
+      "activities": [],
+      "status": "ventana_vacia",
+      "note": "No hay actividades hoy (15-sep, cualquier hora) ni ayer (14-sep) después de las 12:00. La actividad registrada más reciente en Strava es del 6-sep-2026 (9 días atrás), fuera de esta ventana — se reporta solo como contexto en la sección de 7 días, no se usa para rellenar este bloque."
+    },
+    "ventana_7_dias": {
+      "rango": "2026-09-08 a 2026-09-15",
+      "activities": [],
+      "relative_effort_acumulado_7d": 0,
+      "status": "sin_actividad_7d",
+      "note": "Cero actividades registradas en los últimos 7 días.",
+      "contexto_fuera_de_ventana": {
+        "actividad_mas_reciente": {
+          "id": "20060669355",
+          "nombre": "Medía Maratón Medellín - PR!!",
+          "tipo": "Run",
+          "inicio_local": "2026-09-06T05:34:54",
+          "dias_desde_hoy": 9,
+          "distancia_km": 21.28,
+          "duracion_min": 113.65,
+          "desnivel_m": 114.4,
+          "fc_avg_max": "no reportada por el endpoint de resumen (solo relative_effort y cadencia disponibles en el listado)",
+          "esfuerzo_relativo": 193,
+          "calorias": 1457,
+          "cadencia_avg": 84.36,
+          "logros_pr": 41
+        }
+      }
+    },
+    "zonas_atleta": {
+      "heart_rate_zone_source": "Manual",
+      "heart_rate_zones_bpm": [
+        {"zona": 1, "min": 0, "max": 135},
+        {"zona": 2, "min": 136, "max": 150},
+        {"zona": 3, "min": 151, "max": 165},
+        {"zona": 4, "min": 166, "max": 179},
+        {"zona": 5, "min": 180, "max": null}
+      ],
+      "run_zone_source": "RacePace",
+      "sample_race_pace": {"tipo": "Fastest5k", "tiempo": "24m 33s"},
+      "power_zone_source": "Ftp",
+      "ftp": 188,
+      "ftp_is_estimated": false
+    },
+    "kilometraje_equipo": {
+      "status": "sin_equipo_registrado",
+      "note": "get_gear devolvió lista vacía — no hay zapatillas ni bicicleta registradas en el perfil de Strava, no se puede calcular kilometraje de equipo ni verificar el umbral de 700 km."
+    }
+  },
+  "drive": {
+    "nutrition_plan_2026": {
+      "status": "extraido_actualizado",
+      "cache_file": "Copiloto/cache/Nutrition Plan 2026.pdf.json",
+      "modified_time": "2026-04-13T02:22:23.770Z",
+      "resumen": "Ver cache para detalle completo. Reglas fijas (ayuno, hidratación, suplementos) y mapa TSS→alimentación incluidos abajo en la sección 'alimentacion'."
+    },
+    "canciones_ftm": {
+      "status": "extraido_actualizado",
+      "cache_file": "Copiloto/cache/Canciones FtM.json",
+      "modified_time": "2026-08-30T22:42:11.911Z",
+      "resumen": {
+        "total_canciones_setlist": 18,
+        "en_100_por_ciento": ["Aces High", "Toxicity", "Wasted Years", "Iron Man"],
+        "menor_avance": [
+          {"cancion": "Nothing Else Matters", "avance": "0%"},
+          {"cancion": "Hallowed be Thy Name", "avance": "0%"},
+          {"cancion": "One", "avance": "30%"},
+          {"cancion": "The Trooper", "avance": "45%"}
+        ]
+      }
+    },
+    "rudiments_progress": {
+      "status": "extraido_sin_cambio_de_contenido_relevante",
+      "cache_file": "Copiloto/cache/Rudiments Progress.json",
+      "modified_time": "2026-07-14T00:57:41.119Z",
+      "resumen": {
+        "maximos_actuales": {"single_stroke": 152, "double_stroke": 123, "five_stroke_roll": 138, "paradiddle": 119, "triple_paradiddle": 118, "double_pedal": 105},
+        "ultima_sesion_registrada": {"fecha": "12/07/2026", "single_stroke": 149, "paradiddle": 118},
+        "semana_actual_plan_25_semanas": 13,
+        "nota_adherencia": "El plan de 25 semanas no tiene BPM reales logrados registrados desde la Semana 3 (mayo 2026); el log de rudimentos (otra pestaña) sí continúa hasta el 12/07/26."
+      }
+    },
+    "tracker_luna_de_miel": {
+      "status": "extraido_actualizado",
+      "cache_file": "Copiloto/cache/Tracker Luna de Miel.json",
+      "modified_time": "2026-08-31T03:07:47.003Z",
+      "resumen": {
+        "salida_bog": "2026-10-10",
+        "dias_para_salida": 25,
+        "presupuesto_total_estimado": 77541182,
+        "presupuesto_asignado": 77000000,
+        "restante": -541182,
+        "pagado": 43548858,
+        "faltante": 33992324,
+        "items_sin_pagar_count": 4
+      }
+    }
+  },
+  "alimentacion": {
+    "caso": "C",
+    "confidence": "inferred",
+    "mensaje": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "escalones_pre_entreno": [
+      {"escalon": "1 entreno TSS ≤60", "ejemplo": "Swim 1700m · Run 5km · Indoor cycling 45min", "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (1 cda mantequilla de almendras o similar)", "durante": "500 ml + 1 pastilla Gu"},
+      {"escalon": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8-12km", "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu"},
+      {"escalon": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable; entre sesiones: 1 cda mantequilla de almendras", "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"},
+      {"escalon": "2 entrenos TSS >100", "ejemplo": "Road cycling + running", "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable; entre sesiones: 1 carbohidrato + 1 grasa saludable", "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"}
+    ],
+    "reglas_fijas": {
+      "ayuno_horas": "12-14h entre cena y desayuno",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "porciones_grasa_dia": 5,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (B12)", "dosis": "½ gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop/día"}
+      ],
+      "restricciones_1_mes": {
+        "status": "posiblemente_vencidas",
+        "razon": "El plan está fechado abril 2026 y varias restricciones dicen 'durante 1 MES'; han pasado más de 5 meses desde la última modificación del documento (13-abr-2026)."
+      }
+    }
+  }
+}
