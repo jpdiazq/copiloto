@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T06:15:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Arreglar",
+        "start": "2026-09-15T06:00:00-05:00",
+        "end": "2026-09-15T07:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-15T07:00:00-05:00",
+        "end": "2026-09-15T07:35:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-15T07:35:00-05:00",
+        "end": "2026-09-15T17:00:00-05:00",
+        "duration_minutes": 565,
+        "category": "trabajo",
+        "location": "SKANDIA Planeacion Financiera S.A.",
+        "is_atypical": false
+      },
+      {
+        "title": "Fortalecimiento General Skandia",
+        "start": "2026-09-15T17:45:00-05:00",
+        "end": "2026-09-15T19:00:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "Solo aparece 2 veces en las últimas 3 semanas (26-ago y 9-sep, ambas separadas por ~2 semanas), no 3+ como exige el criterio de recurrencia — se marca atípico aunque hay un bloque de entrenamiento casi todos los días con título distinto cada vez (Run, Bici, Rudiments, Entrenamiento...)."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-15T19:00:00-05:00",
+        "end": "2026-09-15T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-15T19:30:00-05:00",
+        "end": "2026-09-15T20:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-15T20:00:00-05:00",
+        "end": "2026-09-15T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar/Estirar + Preparar Dormida",
+        "start": "2026-09-15T20:15:00-05:00",
+        "end": "2026-09-15T20:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Título con variantes ('Leer + Meditar + Preparar Dormida' / 'Leer + Meditar/Estirar + Preparar Dormida') que combinadas aparecen 8 veces en las últimas 3 semanas — claramente recurrente."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-15T20:45:00-05:00",
+        "end": "2026-09-16T04:00:00-05:00",
+        "duration_minutes": 195,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan 3h15 (20:45-24:00) dentro del día de hoy. No hay bloque de 'Dormir' registrado para la noche anterior (14→15-sep) ni para las 3 noches previas por el viaje a Baltimore — no aparece en el calendario, no se puede evaluar."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 12.75,
+      "training_hours": 1.25,
+      "sleep_hours_within_today": 3.25,
+      "total_scheduled_hours_within_today": 17.25,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-15T00:00:00-05:00",
+          "end": "2026-09-15T06:00:00-05:00",
+          "duration_minutes": 360,
+          "note": "No es un hueco libre real: es tiempo sin registrar en el calendario porque no hay bloque de 'Dormir' para esta madrugada (ver nota en el evento Dormir)."
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Arreglar -> Ir a Skandia (07:00, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:35, sin margen)",
+          "Fortalecimiento General Skandia -> Ir a Casa (19:00, sin margen)",
+          "Ir a Casa -> Comer (19:30, sin margen)",
+          "Comer -> Bono (20:00, sin margen)",
+          "Bono -> Leer + Meditar/Estirar + Preparar Dormida (20:15, sin margen)",
+          "Leer + Meditar/Estirar + Preparar Dormida -> Dormir (20:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "contacto@hogaru.com (Hogarú)",
+        "subject": "Tu servicio de limpieza Hogarú será el Miércoles, 16 de Septiembre del 2026",
+        "action_required": "Confirmar si puede recibir la limpieza mañana miércoles a la 1:00pm, o reprogramarla sin costo antes de la 1:00 AM del miércoles.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "notifications@united.com (United Airlines)",
+        "subject": "What to know about your trip to Bogotá",
+        "action_required": "Revisar la lista de preparación (check-in, documentos, equipaje) antes del vuelo del 17-sep a Bogotá (reserva J3NFDE).",
+        "urgency": "media"
+      },
+      {
+        "sender": "AMBORRER@bancolombia.com.co (Bancolombia - Angélica Borrero)",
+        "subject": "Experiencia Única con Tesla y Bancolombia!!",
+        "action_required": "Responder solo si le interesa asistir al evento, para inscribirse.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Después de las 17:00 el día se comprime sin ningún colchón: hay 45 min libres hasta las 17:45, y de ahí en adelante se encadenan cinco transiciones consecutivas sin margen en menos de dos horas — Fortalecimiento termina justo cuando arranca 'Ir a Casa' a las 19:00, que termina justo cuando arranca 'Comer' a las 19:30, que sigue directo a Bono, luego a la rutina de lectura/meditación, y de ahí derecho a dormir a las 20:45. Si el entreno se corre, el tráfico de salida de Skandia se atrasa, o la cena se alarga, no hay dónde absorberlo — se come directo las horas de sueño. Y esa sesión de Fortalecimiento no es rutina: solo ha aparecido 2 veces en 3 semanas, es decir que se sumó una carga extra de entrenamiento encima de un día que ya tenía 9h25 de trabajo. Aparte, no hay ningún bloque de 'Dormir' registrado para la madrugada de hoy ni para las tres noches del viaje a Baltimore — si de verdad se durmió esas horas no quedó en el calendario, así que las 3.25h de sueño de esta noche son lo único que se puede verificar."
+}
