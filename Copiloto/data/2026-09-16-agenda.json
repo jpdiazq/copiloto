@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T06:15:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-15T20:45:00-05:00",
+        "end": "2026-09-16T04:00:00-05:00",
+        "duration_minutes": 240,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00."
+      },
+      {
+        "title": "Nadar + Run",
+        "start": "2026-09-16T04:00:00-05:00",
+        "end": "2026-09-16T07:20:00-05:00",
+        "duration_minutes": 200,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque diario recurrente de entrenamiento (mismo horario cada mañana); la actividad puntual varía (Run, Nadar, Bici, Entreno, Fortalecimiento)."
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-16T07:20:00-05:00",
+        "end": "2026-09-16T08:10:00-05:00",
+        "duration_minutes": 50,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-16T08:10:00-05:00",
+        "end": "2026-09-16T17:00:00-05:00",
+        "duration_minutes": 530,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-16T17:00:00-05:00",
+        "end": "2026-09-16T17:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-16T17:30:00-05:00",
+        "end": "2026-09-16T18:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-16T18:30:00-05:00",
+        "end": "2026-09-16T19:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-16T19:00:00-05:00",
+        "end": "2026-09-16T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "música",
+        "is_atypical": false,
+        "note": "Apareció 3 veces en las 3 semanas previas (29-ago, 31-ago, 9-sep) — recurrente."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-16T19:30:00-05:00",
+        "end": "2026-09-16T19:45:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-16T19:45:00-05:00",
+        "end": "2026-09-16T20:30:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "🎫 RESERVAR: Romancecar Shinjuku→Hakone + Freepass 2 días",
+        "start": "2026-09-16T20:00:00-05:00",
+        "end": "2026-09-16T20:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "tarea",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas — recordatorio puntual único. Se traslapa 30 min completos con 'Leer + Meditar + Preparar Dormida'. La ventana de compra es sensible al horario (abre a las 20:00 Bogotá) y cae justo dentro del bloque de desconexión antes de dormir."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-16T20:45:00-05:00",
+        "end": "2026-09-17T04:00:00-05:00",
+        "duration_minutes": 195,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h15min (20:45-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.17,
+      "training_hours": 3.33,
+      "sleep_hours_within_today": 7.25,
+      "total_scheduled_hours_within_today": 23.75,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-16T20:30:00-05:00",
+        "end": "2026-09-16T20:45:00-05:00",
+        "duration_minutes": 15
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "overlapping_events": [
+          "🎫 RESERVAR: Romancecar Shinjuku→Hakone + Freepass 2 días (20:00-20:30) se traslapa por completo con Leer + Meditar + Preparar Dormida (19:45-20:30)."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Nadar + Run (04:00, sin margen para despertar)",
+          "Ir a Skandia -> Trabajo Skandia (08:10, sin margen)",
+          "Ir a Casa -> Cursos (17:30, sin margen)",
+          "Leer + Meditar + Preparar Dormida (inicio) -> se traslapa con tarea de reserva en vez de tener margen"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "facturasclarocol@claro.com.co (Claro)",
+        "subject": "800153993;COMCEL S.A.;E6105162660;01;CLARO;MOVIL",
+        "action_required": "Pagar la factura de Claro Móvil ya disponible.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy el día está copado de 00:00 a 24:00 con un solo hueco libre de 15 minutos (20:30-20:45): eso no es un día con margen, es un día sin margen. Encadenado sin colchón: sueño termina exactamente cuando arranca el entrenamiento a las 04:00, la llegada a Skandia coincide al segundo con el inicio del trabajo a las 08:10, y la llegada a casa coincide con el inicio de Cursos a las 17:30 — cualquier atraso en cualquiera de esos puntos tumba lo siguiente. El problema más concreto: la tarea 'RESERVAR Romancecar Shinjuku→Hakone' tiene ventana de compra sensible al horario (abre 20:00 Bogotá) y cae encima, sin ningún margen, del bloque de Leer + Meditar + Preparar Dormida — se van a pelear por atención los mismos 30 minutos, y si la compra se complica (falla de tarjeta, cola, tickets agotados) no hay dónde correrla porque a las 20:45 empieza a dormir. No hay choque directo con el bloque de entrenamiento ni con el de sueño, pero el margen cero alrededor de ambos hace que cualquier imprevisto de la mañana (tráfico, alistamiento lento) le quite minutos al entrenamiento o al trabajo, no hay dónde más sacarlos."
+}
