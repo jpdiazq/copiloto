@@ -1,0 +1,65 @@
+{
+  "file_id": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+  "title": "Canciones FtM",
+  "cached_at": "2026-08-30T22:42:11.911Z",
+  "extracted_at": "2026-09-17T11:55:22Z",
+  "status": "ok",
+  "schema_drift_details": null,
+  "data": {
+    "setlist": [
+      {"orden": 17, "cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 0, "ultima_vez_tocada": "2026-08-24", "porcentaje_avance_bateria": null},
+      {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 0, "ultima_vez_tocada": null, "porcentaje_avance_bateria": null},
+      {"orden": 17, "cancion": "One", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 30, "ultima_vez_tocada": "2026-08-24", "año": 1989, "duracion_s": 446, "porcentaje_avance_bateria": null},
+      {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 45, "ultima_vez_tocada": "2026-08-24", "año": 1983, "duracion_s": 252, "porcentaje_avance_bateria": null},
+      {"orden": 10, "cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 75, "ultima_vez_tocada": "2026-08-24", "año": 1984, "duracion_s": 364, "porcentaje_avance_bateria": null},
+      {"orden": 15, "cancion": "Seek and Destroy", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 75, "ultima_vez_tocada": "2026-08-24", "año": 1983, "duracion_s": 414, "porcentaje_avance_bateria": null},
+      {"orden": 13, "cancion": "Fade to Black", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 75, "ultima_vez_tocada": "2026-08-24", "año": 1984, "duracion_s": 417, "porcentaje_avance_bateria": null},
+      {"orden": 14, "cancion": "Fear of the Dark", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 80, "ultima_vez_tocada": "2026-07-09", "año": 1992, "duracion_s": 439, "porcentaje_avance_bateria": null},
+      {"orden": 3, "cancion": "Stone Cold Crazy", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 80, "ultima_vez_tocada": "2026-07-09", "año": 1998, "duracion_s": 138, "porcentaje_avance_bateria": null},
+      {"orden": 9, "cancion": "The Number of the Beast", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 85, "ultima_vez_tocada": "2026-08-24", "año": 1982, "duracion_s": 291, "porcentaje_avance_bateria": null},
+      {"orden": 12, "cancion": "Pegaso", "autor": "Tierra Santa", "idioma": "Español", "porcentaje_avance": 85, "ultima_vez_tocada": "2026-08-17", "año": 2001, "duracion_s": 242, "porcentaje_avance_bateria": null},
+      {"orden": 11, "cancion": "For Whom the Bell Tolls", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 90, "ultima_vez_tocada": "2026-08-24", "año": 1984, "duracion_s": 310, "porcentaje_avance_bateria": null},
+      {"orden": 4, "cancion": "Capitán Lawrence", "autor": "WarCry", "idioma": "Español", "porcentaje_avance": 95, "ultima_vez_tocada": "2026-07-09", "año": 2002, "duracion_s": 347, "porcentaje_avance_bateria": null},
+      {"orden": 8, "cancion": "Master of Puppets", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 95, "ultima_vez_tocada": "2026-05-23", "año": 1986, "duracion_s": 515, "porcentaje_avance_bateria": null},
+      {"orden": 7, "cancion": "The Memory Remains", "autor": "Metallica", "idioma": "Inglés", "porcentaje_avance": 95, "ultima_vez_tocada": "2026-08-24", "año": 1997, "duracion_s": 279, "porcentaje_avance_bateria": null},
+      {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 100, "ultima_vez_tocada": "2026-07-09", "año": 1984, "duracion_s": 272, "porcentaje_avance_bateria": null},
+      {"orden": 5, "cancion": "Wasted Years", "autor": "Iron Maiden", "idioma": "Inglés", "porcentaje_avance": 100, "ultima_vez_tocada": "2026-08-24", "año": 1986, "duracion_s": 310, "porcentaje_avance_bateria": null},
+      {"orden": 6, "cancion": "Iron Man", "autor": "Black Sabbath", "idioma": "Inglés", "porcentaje_avance": 100, "ultima_vez_tocada": "2026-07-09", "año": 1970, "duracion_s": 354, "porcentaje_avance_bateria": null},
+      {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "idioma": "Inglés", "porcentaje_avance": 100, "ultima_vez_tocada": "2026-05-23", "año": 2001, "duracion_s": 219, "porcentaje_avance_bateria": null}
+    ],
+    "nota_avance_bateria": "% Avance Batería está vacío en las 18 filas del setlist: sin dato, no se reporta como 0%.",
+    "candidatas": {
+      "metallica": [
+        {"cancion": "Seek and Destroy", "puntaje": 3.2},
+        {"cancion": "One", "puntaje": 3.4},
+        {"cancion": "Nothing Else Matters", "puntaje": 4.0},
+        {"cancion": "The Unforgiven", "puntaje": 4.6},
+        {"cancion": "Hero of the Day", "puntaje": 4.8},
+        {"cancion": "Lux Eterna", "puntaje": 4.8},
+        {"cancion": "All Nightmare Long", "puntaje": 5.4},
+        {"cancion": "Blackened", "puntaje": 5.8}
+      ],
+      "iron_maiden": [
+        {"cancion": "Fear of the Dark", "puntaje": 2.0},
+        {"cancion": "The Trooper", "puntaje": 4.2},
+        {"cancion": "Hallowed be Thy Name", "puntaje": 4.6},
+        {"cancion": "The Evil that Men Do", "puntaje": 5.6},
+        {"cancion": "New Frontier", "puntaje": 5.8},
+        {"cancion": "Caught Somewhere in Time", "puntaje": 6.0},
+        {"cancion": "Where Eagles Dare", "puntaje": 6.4},
+        {"cancion": "Wasting Love", "puntaje": 6.6},
+        {"cancion": "Different World", "puntaje": 6.8},
+        {"cancion": "Phantom of the Opera", "puntaje": 7.0}
+      ],
+      "libre": [
+        {"cancion": "Hoy Gano Yo – WarCry", "puntaje": 2.2},
+        {"cancion": "Ace of Spades – Motörhead", "puntaje": 2.6},
+        {"cancion": "Mr Crowley – Ozzy", "puntaje": 3.0},
+        {"cancion": "Still Loving You – Scorpions", "puntaje": 3.4},
+        {"cancion": "N.I.B. – Black Sabbath", "puntaje": 3.8}
+      ],
+      "nota": "Varias candidatas (Seek and Destroy, One, Nothing Else Matters, Fear of the Dark, The Trooper, Hallowed be Thy Name) ya están en el setlist actual; probablemente la lista de candidatas no se depuró tras agregarlas."
+    },
+    "excluido": "Pestaña de rotación semanal 2024 (9/30/2024-12/15/2024) ignorada por completo: canciones de otro proyecto."
+  }
+}

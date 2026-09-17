@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T06:55:22-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_reciente": {
+      "definicion": "Actividad de hoy (2026-09-17) sin importar la hora, más actividad de ayer (2026-09-16) que haya empezado después de las 12:00.",
+      "has_activity_today": false,
+      "has_activity_yesterday_pm": false,
+      "session_count_12h": 0,
+      "actividades": [],
+      "ventana_vacia": true,
+      "nota": "La ventana viene vacía: no hay actividad de hoy ni de ayer-tarde en Strava. La única actividad de los últimos 7 días (Morning Run, 2026-09-16 07:18:59, antes del mediodía) queda fuera de esta ventana por regla y se reporta solo en la sección de 7 días.",
+      "contexto_calendar": "Hay un bloque 'Bici' agendado hoy 04:00-05:45 (América/Bogotá) en Calendar, pero al momento de este reporte (06:55 hora local) no hay actividad sincronizada en Strava para esa sesión. No se infiere ni se rellena como actividad realizada."
+    },
+    "ventana_7_dias": {
+      "rango": "2026-09-10 a 2026-09-17",
+      "actividades": [
+        {
+          "id": "20199065073",
+          "nombre": "Morning Run",
+          "tipo": "Run",
+          "inicio_local": "2026-09-16T07:18:59-05:00",
+          "ubicacion": "Baltimore, Maryland",
+          "duracion_movimiento_s": 2547,
+          "duracion_transcurrida_s": 2552,
+          "distancia_m": 6231.4,
+          "desnivel_m": 12.8,
+          "velocidad_media_ms": 2.4465645857872005,
+          "velocidad_max_ms": 3.83333,
+          "cadencia_media": 80.3817,
+          "calorias": 396,
+          "esfuerzo_relativo": 8,
+          "fc_media": null,
+          "fc_max": null,
+          "potencia_media": null,
+          "nota": "Fuera de la ventana reciente (empezó antes de las 12:00 del día anterior); no se pidió detalle de rendimiento porque no cumplía el criterio de la ventana del paso 1."
+        }
+      ],
+      "esfuerzo_relativo_acumulado_7d": 8,
+      "zonas_atleta": {
+        "fuente_fc": "Manual",
+        "zonas_fc": [
+          {"zona": 1, "min": 0, "max": 135},
+          {"zona": 2, "min": 136, "max": 150},
+          {"zona": 3, "min": 151, "max": 165},
+          {"zona": 4, "min": 166, "max": 179},
+          {"zona": 5, "min": 180, "max": null}
+        ],
+        "fuente_potencia": "Ftp",
+        "ftp": 188,
+        "ftp_estimado": false,
+        "zonas_potencia": [
+          {"zona": 1, "min": 0, "max": 103},
+          {"zona": 2, "min": 104, "max": 141},
+          {"zona": 3, "min": 142, "max": 169},
+          {"zona": 4, "min": 170, "max": 197},
+          {"zona": 5, "min": 198, "max": 226},
+          {"zona": 6, "min": 227, "max": 282},
+          {"zona": 7, "min": 283, "max": null}
+        ],
+        "fuente_ritmo_carrera": "RacePace",
+        "referencia_ritmo": {"tipo": "Fastest5k", "tiempo": "24m 33s", "estimado": false}
+      },
+      "kilometraje_equipo": {
+        "registrado": false,
+        "bicis": [],
+        "zapatillas": [],
+        "nota": "No hay bicis ni zapatillas registradas en Strava para esta cuenta; no aplica el umbral de 700 km."
+      },
+      "perfil_atleta": {
+        "nombre": "Juan Pablo Diaz Quintero",
+        "peso_kg": 68.7,
+        "unidades": "Metric",
+        "ubicacion": "Bogotá, Colombia",
+        "objetivo_actual": {"tipo": "TrainForEvent", "descripcion": "Train for a triathlon", "vence": "2026-10-04T23:59:59"}
+      }
+    }
+  },
+  "drive": {
+    "nutrition_plan_2026": {
+      "fuente": "Nutrition Plan 2026.pdf",
+      "cache_usado": false,
+      "cambio_detectado": "primer_run_sin_cache_previo",
+      "modified_time": "2026-04-13T02:22:23.770Z",
+      "status": "ok",
+      "cache_path": "Copiloto/cache/Nutrition Plan 2026.pdf.json"
+    },
+    "canciones_ftm": {
+      "fuente": "Canciones FtM",
+      "cache_usado": false,
+      "cambio_detectado": "primer_run_sin_cache_previo",
+      "modified_time": "2026-08-30T22:42:11.911Z",
+      "status": "ok",
+      "cache_path": "Copiloto/cache/Canciones FtM.json"
+    },
+    "rudiments_progress": {
+      "fuente": "Rudiments Progress",
+      "cache_usado": false,
+      "cambio_detectado": "primer_run_sin_cache_previo",
+      "modified_time": "2026-07-14T00:57:41.119Z",
+      "status": "ok",
+      "cache_path": "Copiloto/cache/Rudiments Progress.json"
+    },
+    "tracker_luna_de_miel": {
+      "fuente": "Tracker Luna de Miel",
+      "cache_usado": false,
+      "cambio_detectado": "primer_run_sin_cache_previo",
+      "modified_time": "2026-08-31T03:07:47.003Z",
+      "status": "partial_schema_drift",
+      "schema_drift_details": {
+        "seccion": "Presupuesto",
+        "descripcion": "Ninguna de las dos pestañas de Presupuesto totaliza el valor esperado ($78,392,442 / restante -$1,392,442). Tabla A totaliza $77,541,182 (restante -$541,182); Tabla B totaliza $88,103,840 (restante -$11,103,840, ya conocida como versión vieja). No se adivinó cuál es la vigente."
+      },
+      "cache_path": "Copiloto/cache/Tracker Luna de Miel.json"
+    }
+  },
+  "alimentacion": {
+    "caso": "C",
+    "razon": "La ventana reciente de Strava (paso 1) viene vacía: no hay actividad hoy ni ayer-tarde/noche. No se recomienda un escalón específico.",
+    "confidence": "inferred",
+    "escalones": [
+      {
+        "tier": 1,
+        "condicion": "1 entreno, TSS ≤60",
+        "ejemplos": ["Swim 1700m", "SB Pierna 34", "Cardio", "Running 5km", "Indoor cycling 45 min"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable: 1 cda mantequilla de almendras o \"Nutella\""
+      },
+      {
+        "tier": 2,
+        "condicion": "1 entreno, TSS ≥60",
+        "ejemplos": ["Intervalos", "Run 8km", "Run 12km"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable: ½ scoop Vitanas + 1 cda mantequilla de almendras o \"Nutella\" — 1 huevo + ½ aguacate Hass"
+      },
+      {
+        "tier": 3,
+        "condicion": "2 entrenamientos, TSS 60-100 combinado",
+        "ejemplos": ["Run + peso", "Run + swim"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable: 3 cdas avena en hojuelas + 1 cda mantequilla de almendras o \"Nutella\" + bebida vegetal — 2 tajadas de pan Mauka + 1 cda mantequilla de almendras o \"Nutella\". Entre sesiones: 1 cda mantequilla de almendras"
+      },
+      {
+        "tier": 4,
+        "condicion": "2 entrenamientos, TSS >100 combinado",
+        "ejemplos": ["Road Cycling + running"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable: 2 tajadas de pan Mauka + 1 cda mantequilla de almendras o \"Nutella\". Entre sesiones: 1 carbohidrato + 1 grasa saludable"
+      }
+    ],
+    "instruccion": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "reglas_fijas": {
+      "ayuno_timing": "Tiempo entre cena y desayuno: 12-14h. Inicialmente evitar ayunos prolongados. Hora desayuno: 7:00 am. Hora cena máx: 6:00 pm.",
+      "hidratacion": "Mantener consumo de líquido 2,4 L/día: agua y otras bebidas en agua + hidratación deporte. Evitar agua con gas. Garantizar 1L antes de 12pm.",
+      "suplementos_base": [
+        "Magnesio Glycinato (recuperación, energía): 1 pastilla desayuno y cena.",
+        "DK Mulsion (Vitamina D): 5 gotas con desayuno.",
+        "Neuressens (vitamina B12): ½ gotero debajo de la lengua con desayuno.",
+        "Proteína Vitanas: 1 scoop al día. (marcado con '????' en el documento original)"
+      ]
+    },
+    "restricciones_posiblemente_vencidas": [
+      "Protocolo para comer fuera de casa (RECOMENDACIONES #3), marcado 'durante 1 MES' en el plan fechado abril 2026 — hoy son más de 5 meses después.",
+      "Tabla de alimentos a evitar por 1 mes y sustitutos (RECOMENDACIONES #4) — mismo motivo de vigencia."
+    ]
+  },
+  "otros_drive_resumen": {
+    "nota": "Detalle completo de Canciones FtM, Rudiments Progress y Tracker Luna de Miel disponible en sus respectivos archivos de cache (Copiloto/cache/); no se repite aquí para mantener el tono 'solo datos' sin interpretación adicional.",
+    "canciones_ftm_setlist_count": 18,
+    "rudiments_ultima_sesion_log": "2026-07-12",
+    "rudiments_gap_plan_25_semanas": "sin actuales registrados desde 2026-07-13 hasta hoy",
+    "luna_de_miel_total_pagado": 43548858,
+    "luna_de_miel_total_adeudado": 2425227
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "file_id": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+  "title": "Nutrition Plan 2026.pdf",
+  "cached_at": "2026-04-13T02:22:23.770Z",
+  "extracted_at": "2026-09-17T11:55:22Z",
+  "status": "ok",
+  "schema_drift_details": null,
+  "data": {
+    "secciones_extraidas": ["RECOMENDACIONES", "SUPLEMENTOS BASE", "SUPLEMENTOS EJERCICIO", "DEPORTE Y NUTRICIÓN"],
+    "secciones_excluidas": ["RECETAS", "OPCIONES POR TIPO DE ALIMENTO (porciones)"],
+    "reglas_fijas": {
+      "ayuno_timing": "Tiempo entre cena y desayuno: 12-14h. Inicialmente evitar ayunos prolongados. Hora desayuno: 7:00 am. Hora cena máx: 6:00 pm.",
+      "hidratacion": "Mantener consumo de líquido 2,4 L/día: agua y otras bebidas en agua + hidratación deporte. Evitar agua con gas. Garantizar 1L antes de 12pm.",
+      "suplementos_base": [
+        "Magnesio Glycinato (recuperación, energía): 1 pastilla desayuno y cena. Bluum: +57 315 7071705",
+        "DK Mulsion (Vitamina D): 5 gotas con desayuno. Nutrabiotics: +57 317 3704156",
+        "Neuressens (vitamina B12): ½ gotero debajo de la lengua con desayuno. Nutrabiotics: +57 317 3704156",
+        "Proteína Vitanas: 1 scoop al día. (marcado con '????' en el original, posible incertidumbre del nutricionista)"
+      ],
+      "suplementos_ejercicio": [
+        "Compon X (metabolismo de grasas): ver Deporte y nutrición. Nutrabiotics: +57 317 3704156",
+        "Gel Going: ver Deporte y nutrición",
+        "Creatina: ver Deporte y nutrición (nota: no aparece explícitamente en ninguna de las 4 filas de la tabla TSS extraída; posible vacío del documento o pérdida en la conversión del PDF)",
+        "Electrolitos Gu sin azúcar: ver Deporte y nutrición",
+        "Beet root powder (energía): ver Deporte y nutrición"
+      ]
+    },
+    "tabla_tss": [
+      {
+        "tier": 1,
+        "condicion": "1 entreno, TSS ≤60",
+        "ejemplos": ["Swim 1700m", "SB Pierna 34", "Cardio", "Running 5km", "Indoor cycling 45 min"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable: 1 cda mantequilla de almendras o \"Nutella\"",
+        "pos_ejercicio": "500 ml + 1 pastilla Gu"
+      },
+      {
+        "tier": 2,
+        "condicion": "1 entreno, TSS ≥60",
+        "ejemplos": ["Intervalos", "Run 8km", "Run 12km"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable: ½ scoop Vitanas + 1 cda mantequilla de almendras o \"Nutella\" — 1 huevo + ½ aguacate Hass",
+        "pos_ejercicio": "500 ml + 1 pastilla Gu"
+      },
+      {
+        "tier": 3,
+        "condicion": "2 entrenamientos, TSS 60-100 combinado",
+        "ejemplos": ["Run + peso", "Run + swim"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable: 3 cdas avena en hojuelas + 1 cda mantequilla de almendras o \"Nutella\" + bebida vegetal — 2 tajadas de pan Mauka + 1 cda mantequilla de almendras o \"Nutella\". Entre sesiones: 1 cda mantequilla de almendras",
+        "pos_ejercicio": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"
+      },
+      {
+        "tier": 4,
+        "condicion": "2 entrenamientos, TSS >100 combinado",
+        "ejemplos": ["Road Cycling + running"],
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable: 2 tajadas de pan Mauka + 1 cda mantequilla de almendras o \"Nutella\". Entre sesiones: 1 carbohidrato + 1 grasa saludable",
+        "pos_ejercicio": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"
+      }
+    ],
+    "nota_extraccion": "El texto POS-EJERCICIO de las 4 filas terminaba con la palabra 'Desayuno' en la extracción cruda del PDF; se interpretó como artefacto de linearización (bleed de la tabla siguiente 'ALIMENTACIÓN/HIDRATACIÓN DURANTE EL ENTRENAMIENTO') y se removió de los protocolos reportados.",
+    "restricciones_posiblemente_vencidas": [
+      "RECOMENDACIONES #3: protocolo para comer fuera de casa, explícitamente marcado 'durante 1 MES' (evitar pan/cremas/sopas, una sola porción de carbohidrato, evitar jugo/alcohol, restricciones de postre, listas de referencia para Crepes/Bacu/Central cevichería).",
+      "RECOMENDACIONES #4: tabla de 'Alimentos a evitar por 1 MES y opciones para consumir' (leche→bebida de coco, queso→queso de almendras, crema de leche/queso crema/esparcibles, mantequilla de maní/Nutella/mermelada, pan blanco/galletas/pastas/trigo, embutidos convencionales, aceite vegetal, chocolate con azúcar, otros como té matcha/electrolitos Going)."
+    ],
+    "vigencia_nota": "El plan está fechado abril 2026 (modifiedTime 2026-04-13). Hoy (2026-09-17) son más de 5 meses después: las restricciones 'durante 1 mes' arriba se marcan como posiblemente vencidas, no como reglas vigentes. Las reglas fijas (ayuno, hidratación, suplementos base/ejercicio) y la tabla TSS no tienen lenguaje de expiración y se reportan como vigentes."
+  }
+}

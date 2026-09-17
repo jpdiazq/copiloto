@@ -1,0 +1,39 @@
+{
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "title": "Tracker Luna de Miel",
+  "cached_at": "2026-08-31T03:07:47.003Z",
+  "extracted_at": "2026-09-17T11:55:22Z",
+  "status": "partial_schema_drift",
+  "schema_drift_details": {
+    "seccion": "Presupuesto",
+    "descripcion": "La regla calibrada identifica la pestaña válida como la que totaliza $78,392,442 (restante -$1,392,442). Ninguna de las dos pestañas de Presupuesto actuales coincide: Tabla A totaliza $77,541,182 (restante -$541,182) y Tabla B totaliza $88,103,840 (restante -$11,103,840, ya conocida como la vieja). No se adivinó cuál es la vigente; ambas son internamente consistentes con sus propias líneas."
+  },
+  "data": {
+    "itinerario": {
+      "salida_bogota": "2026-10-10/11",
+      "japon": "2026-10-12 a 2026-10-28: Tokyo (12-17), Hakone (17-18), Takayama (18-20), Kanazawa (20-21, vía Shirakawa-go), Kyoto/Nara (21-24), Hiroshima (24-25), Osaka (25-28)",
+      "tailandia": "2026-10-28 a 2026-11-06: Chiang Mai (28-31, vía Bangkok), Bangkok (31 oct-2 nov), Krabi (2-6 nov)",
+      "regreso_bogota": "2026-11-06"
+    },
+    "presupuesto": {
+      "status": "schema_drift",
+      "presupuesto_techo_comun": 77000000,
+      "candidatos": [
+        {"tabla": "A", "total": 77541182, "restante": -541182},
+        {"tabla": "B", "total": 88103840, "restante": -11103840, "nota": "conocida previamente como versión vieja"}
+      ],
+      "nota": "No se reporta un total autoritativo; requiere verificación manual de cuál pestaña es la vigente."
+    },
+    "detalle_gastos": {
+      "total_pagado": 43548858,
+      "total_adeudado": 2425227,
+      "items_no_pagados": [
+        {"categoria": "Hotel", "detalle": "Hotel Hokke Club Kyoto", "responsable": "Ale", "monto": 1112017},
+        {"categoria": "Hotel", "detalle": "APA Hotel and Resort Osaka Namba Ekimae Tower", "responsable": "Juan", "monto": 959260},
+        {"categoria": "Atracciones", "detalle": "Elephant Nature Park", "responsable": "Juan", "monto": 145395},
+        {"categoria": "Otros", "detalle": "Ubigi eSIM", "responsable": "Juan", "monto": 208555}
+      ]
+    },
+    "excluido": ["Pestaña comparativa de vuelos/equipaje", "Pestaña de links/bookmarks"]
+  }
+}

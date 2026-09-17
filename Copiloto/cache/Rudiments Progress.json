@@ -1,0 +1,41 @@
+{
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "title": "Rudiments Progress",
+  "cached_at": "2026-07-14T00:57:41.119Z",
+  "extracted_at": "2026-09-17T11:55:22Z",
+  "status": "ok",
+  "schema_drift_details": null,
+  "data": {
+    "log": {
+      "maxes": [
+        {"rudimento": "Single Stroke", "max": 152, "max_menos_25": 122, "ultimo_valor": 149, "ultima_fecha": "2026-07-12", "max_alcanzado": "2026-05-23"},
+        {"rudimento": "Double Stroke", "max": 123, "max_menos_25": 98, "ultimo_valor": 122, "ultima_fecha": "2026-07-11", "max_alcanzado": "2026-05-25"},
+        {"rudimento": "Five Stroke Roll", "max": 138, "max_menos_25": 113, "ultimo_valor": 138, "ultima_fecha": "2026-07-10", "nota": "el último valor logrado es el máximo actual"},
+        {"rudimento": "Paradiddle", "max": 119, "max_menos_25": 94, "ultimo_valor": 118, "ultima_fecha": "2026-07-12", "max_alcanzado": "2026-04-14"},
+        {"rudimento": "Triple Paradiddle", "max": 118, "max_menos_25": 93, "ultimo_valor": 118, "ultima_fecha": "2026-07-10", "nota": "el último valor logrado es el máximo actual"},
+        {"rudimento": "Double Pedal", "max": 105, "max_menos_25": 80, "ultimo_valor": 105, "ultima_fecha": "2025-09-08", "nota": "sin intentos registrados en más de un año"}
+      ],
+      "ultima_sesion_general": "2026-07-12"
+    },
+    "plan_25_semanas": {
+      "ultima_fila_con_datos": {
+        "semana": 4, "fecha": "2026-07-13", "dia": "Wed",
+        "target_endurance": 116, "actual_endurance_bpm": 114, "adherencia_endurance_pct": 98.3,
+        "target_burst": 145, "actual_speed_bpm": 139, "adherencia_speed_pct": 95.9,
+        "max_burst_bpm": 120, "max_burst_pct_target": 82.8
+      },
+      "gap_reporte": "Sin actuales registrados desde 2026-07-13 hasta hoy (2026-09-17); el plan continúa hasta semana 13+ pero el registro de BPM logrados está pausado hace ~2 meses.",
+      "tendencia": "Endurance BPM logrado consistentemente 1-3 BPM por debajo del target (97-99% adherencia). Speed/Burst BPM logrado 5-10 BPM por debajo del target (93-96% adherencia). Max Burst BPM (test de sprint separado) ronda ~83% del target de burst nominal — posible métrica distinta, no comparar directamente como déficit."
+    },
+    "rampa_tempo": {
+      "rango_fechas": ["2026-07-10", "2026-07-30"],
+      "ultimo_valor": {"fecha": "2026-07-30", "tempo": 110, "tempo_app": 330},
+      "patron": "Incremento lineal +2 BPM/día, sin días saltados, Tempo App = Tempo x3 en todo el rango.",
+      "nota": "Sin actualizaciones desde 2026-07-30 (~7 semanas antes de hoy)."
+    },
+    "song_bpm": [
+      {"cancion": "Stone Cold Crazy", "bpm": 128},
+      {"cancion": "Capitán Lawrence", "bpm": 154}
+    ]
+  }
+}
