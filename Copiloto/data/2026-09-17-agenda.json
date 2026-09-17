@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T06:58:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-16T20:45:00-05:00",
+        "end": "2026-09-17T04:00:00-05:00",
+        "duration_minutes": 240,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00."
+      },
+      {
+        "title": "Bici",
+        "start": "2026-09-17T04:00:00-05:00",
+        "end": "2026-09-17T05:45:00-05:00",
+        "duration_minutes": 105,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Mismo evento recurrente semanal (recurringEventId knm6v6vmmhiipir6ro4anvm5tm) que apareció el 27-ago, 3-sep y 10-sep con nombres distintos (Run 50min, Entreno, Bici); el horario del bloque es fijo, la actividad puntual varía."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-17T05:45:00-05:00",
+        "end": "2026-09-17T06:25:00-05:00",
+        "duration_minutes": 40,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-17T06:25:00-05:00",
+        "end": "2026-09-17T07:10:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-17T07:10:00-05:00",
+        "end": "2026-09-17T07:45:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-17T07:45:00-05:00",
+        "end": "2026-09-17T16:45:00-05:00",
+        "duration_minutes": 540,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "🎫 RESERVAR: Shibuya Sky — atardecer 16-oct 16:00-16:20",
+        "start": "2026-09-17T10:00:00-05:00",
+        "end": "2026-09-17T10:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Recordatorio de compra único (no aparece en las 3 semanas previas): la ventana de reserva abre hoy 10:00am hora Bogotá (18-sep 00:00 JST). Se solapa por completo con 'Trabajo Skandia'."
+      },
+      {
+        "title": "Hoy cambiamos cepillos de dientes",
+        "start": "2026-09-17T13:30:00-05:00",
+        "end": "2026-09-17T14:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas (aunque el evento tiene recurringEventId, no se ha repetido en ese periodo). Invitación de palejandraacuna@gmail.com aún sin responder (needsAction). Se solapa por completo con 'Trabajo Skandia'."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-17T16:45:00-05:00",
+        "end": "2026-09-17T17:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-17T17:15:00-05:00",
+        "end": "2026-09-17T17:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-17T17:45:00-05:00",
+        "end": "2026-09-17T18:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-17T18:15:00-05:00",
+        "end": "2026-09-17T18:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-17T18:45:00-05:00",
+        "end": "2026-09-17T19:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-17T19:15:00-05:00",
+        "end": "2026-09-17T19:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-17T19:40:00-05:00",
+        "end": "2026-09-17T20:45:00-05:00",
+        "duration_minutes": 65,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "🚨 CRÍTICO — RESERVAR: Limited Express Hida Nagoya→Takayama + Shinkansen Odawara→Nagoya",
+        "start": "2026-09-17T20:00:00-05:00",
+        "end": "2026-09-17T20:45:00-05:00",
+        "duration_minutes": 45,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Recordatorio de compra único (no aparece en las 3 semanas previas), marcado como el tramo MÁS crítico del viaje de octubre. Se solapa con los últimos 45 minutos de 'Preparar Dormida' y con el inicio del bloque de sueño.",
+        "warning": "Se solapa con 'Preparar Dormida' y termina justo cuando empieza 'Dormir' — cero margen para una compra que el propio título marca como crítica."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-17T20:45:00-05:00",
+        "end": "2026-09-18T04:00:00-05:00",
+        "duration_minutes": 195,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h15 (20:45-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 15.0,
+      "training_hours": 1.75,
+      "sleep_hours_within_today": 7.25,
+      "total_scheduled_hours_within_today": 24.0,
+      "free_gaps_over_60min": [],
+      "only_gap_found": null,
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "double_booked_events": [
+          "🎫 RESERVAR: Shibuya Sky (10:00-10:30) se solapa completamente con 'Trabajo Skandia' (07:45-16:45)",
+          "Hoy cambiamos cepillos de dientes (13:30-14:30, aún needsAction) se solapa completamente con 'Trabajo Skandia' (07:45-16:45)",
+          "🚨 CRÍTICO RESERVAR Hida/Takayama (20:00-20:45) se solapa con los últimos 45 min de 'Preparar Dormida' (19:40-20:45) y con el arranque de 'Dormir' (20:45)"
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Bici (04:00, sin margen)",
+          "Bici -> Arreglar (05:45, sin margen)",
+          "Arreglar -> Bono (06:25, sin margen)",
+          "Bono -> Ir a Skandia (07:10, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:45, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (16:45, sin margen)",
+          "Ir a Casa -> Descansar (17:15, sin margen)",
+          "Descansar -> Cursos (17:45, sin margen)",
+          "Cursos -> Comer (18:15, sin margen)",
+          "Comer -> Cursos (18:45, sin margen)",
+          "Cursos -> Bono (19:15, sin margen)",
+          "Bono -> Preparar Dormida (19:40, sin margen)",
+          "Preparar Dormida -> Dormir (20:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Recuerda realizar el pago de tu cuota, el próximo pago vence hoy",
+        "action_required": "Pagar hoy el/los producto(s) de Banco de Occidente que vencen (el correo no especifica monto exacto, verificar en canales digitales).",
+        "urgency": "alta"
+      },
+      {
+        "sender": "notifications-noreply@linkedin.com (LinkedIn)",
+        "subject": "You have 4 new messages",
+        "action_required": "Revisar y responder los 4 mensajes nuevos en LinkedIn.",
+        "urgency": "media"
+      },
+      {
+        "sender": "contacto@hogaru.com (Hogaru)",
+        "subject": "Evalúa el servicio que recibiste el Mie, 16 de Sep y ayúdanos a darte un servicio mejor!",
+        "action_required": "Calificar (opcional) el servicio de limpieza #6754425 hecho por Eucaris Del Carmen ayer.",
+        "urgency": "baja"
+      },
+      {
+        "sender": "noreply-accounts@google.com (Google)",
+        "subject": "You shared some Google Account data with MaaS Japan",
+        "action_required": "Verificar que el inicio de sesión con Google en MaaS Japan (16-sep 9:27pm) fue iniciado por mí.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay un solo minuto libre: de 00:00 a 24:00 está todo ocupado, sin ningún hueco de ningún tamaño (ni siquiera los 5 minutos que hubo el 3-sep). Los 13 empalmes entre bloques son todos sin margen. Y encima de eso hay tres choques reales, no solo falta de colchón: la reserva de Shibuya Sky (10:00-10:30) y el evento de pareja 'Hoy cambiamos cepillos de dientes' (13:30-14:30, invitación todavía sin aceptar) están literalmente encima de las 9 horas de Trabajo Skandia — si de verdad hay que atenderlos, alguien pierde. Peor aún: la reserva del tren Hida/Takayama, marcada por ti mismo como 'CRÍTICO — el tramo MÁS crítico del viaje', está metida en los últimos 45 minutos antes de dormir, encima de 'Preparar Dormida', con cero espacio si algo se atrasa. Es una compra de asientos con ventana fija que depende de que el trabajo termine exactamente a tiempo y que el sitio no falle — no es un plan, es una apuesta. Si el trabajo se corre aunque sea 15 minutos, o el pago del banco (vence hoy) toma más de un par de minutos, se cae la reserva crítica del viaje. No hay margen para absorber nada."
+}
