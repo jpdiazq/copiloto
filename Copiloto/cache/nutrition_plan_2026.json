@@ -1,0 +1,62 @@
+{
+  "source_file": "Nutrition Plan 2026.pdf",
+  "file_id": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+  "source_modified_time": "2026-04-13T02:22:23.770Z",
+  "cached_at": "2026-09-18T11:55:03Z",
+  "status": "ok",
+  "meses_desde_modificacion_aprox": 5.2,
+  "restricciones_1_mes_posiblemente_vencidas": true,
+  "recomendaciones_generales_vigentes": {
+    "ayuno_cena_desayuno": "12-14 h, evitar ayunos prolongados inicialmente",
+    "hora_desayuno": "7:00 am",
+    "hora_cena_max": "6:00 pm",
+    "hidratacion_dia": "2.4 L/día (agua + hidratación deporte)",
+    "hidratacion_antes_mediodia": "1 L antes de las 12pm",
+    "evitar_agua_con_gas": true,
+    "grasa_saludable_porciones_dia": 5
+  },
+  "restricciones_1_mes_posiblemente_vencidas_detalle": [
+    "Recomendaciones para comer fuera de casa (punto 3 del plan)",
+    "Lista de alimentos a evitar por 1 mes con sustitutos (punto 4 del plan)"
+  ],
+  "suplementos_base": [
+    {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+    {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+    {"nombre": "Neuressens (B12)", "dosis": "½ gotero sublingual con desayuno"},
+    {"nombre": "Proteína Vitanas", "dosis": "1 scoop/día"}
+  ],
+  "suplementos_ejercicio": [
+    "Compon X (metabolismo de grasas)",
+    "Gel Going",
+    "Creatina",
+    "Electrolitos Gu sin azúcar",
+    "Beet root powder"
+  ],
+  "mapa_tss_alimentacion": [
+    {
+      "escalon": "1 entreno TSS ≤60",
+      "ejemplo": "Swim 1700 m / Run 5 km / Indoor cycling 45 min",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (ej. 1 cda mantequilla de almendras o 'Nutella') — Desayuno",
+      "durante": "500 ml + 1 pastilla Gu"
+    },
+    {
+      "escalon": "1 entreno TSS ≥60",
+      "ejemplo": "Intervalos / Run 8-12 km",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable (ej. ½ scoop Vitanas + 1 cda mantequilla de almendras/'Nutella', o 1 huevo + ½ aguacate Hass) — Desayuno",
+      "durante": "500 ml + 1 pastilla Gu"
+    },
+    {
+      "escalon": "2 entrenos TSS 60-100",
+      "ejemplo": "Run+peso / Run+swim",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (ej. 3 cdas avena en hojuelas + 1 cda mantequilla de almendras + bebida vegetal, o 2 tajadas pan Mauka + 1 cda mantequilla de almendras). Entre sesiones: 1 cda mantequilla de almendras — Desayuno",
+      "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"
+    },
+    {
+      "escalon": "2 entrenos TSS >100",
+      "ejemplo": "Road cycling + running",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (ej. 2 tajadas pan Mauka + 1 cda mantequilla de almendras). Entre sesiones: 1 carbohidrato + 1 grasa saludable — Desayuno",
+      "durante": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going"
+    }
+  ],
+  "nota_pos_ejercicio": "El PDF titula esta tabla 'EJEMPLO PRE ENTRENO / POS EJERCICIO' pero el texto extraído bajo cada escalón solo distingue claramente 'pre-entreno' (con la etiqueta 'Desayuno') y 'durante' (hidratación cada sesión/40 min). No hay un bloque de post-ejercicio separable con confianza en la extracción de este PDF; no se inventó contenido para esa columna."
+}

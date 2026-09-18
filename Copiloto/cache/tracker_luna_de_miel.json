@@ -1,0 +1,31 @@
+{
+  "source_file": "Tracker Luna de Miel",
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "source_modified_time": "2026-08-31T03:07:47.003Z",
+  "cached_at": "2026-09-18T11:55:03Z",
+  "status": "ok",
+  "itinerario": {
+    "salida_bog": "10 de octubre de 2026",
+    "japon": "10-27 oct",
+    "tailandia": "28 oct - 6 nov"
+  },
+  "presupuesto_autoridad": {
+    "nota": "se distinguió de la pestaña de presupuesto vieja (IGNORAR) por el total en la fila TOTALES; la vieja totaliza $88,103,840 y coincide con el valor ya conocido como obsoleto",
+    "total_estimado": 77541182,
+    "presupuesto": 77000000,
+    "restante": -541182,
+    "cambio_vs_calibracion_previa": "el total estimado bajó de $78,392,442 (calibración jul-2026) a $77,541,182; sigue sobre presupuesto por $541,182"
+  },
+  "detalle_gastos": {
+    "total_pagado": 43548858,
+    "faltante_vs_total_estimado": 33992324,
+    "sin_pagar": [
+      {"categoria": "Hotel", "detalle": "Hotel Hokke Club Kyoto", "quien_paga": "Ale", "monto": 1112017},
+      {"categoria": "Hotel", "detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "quien_paga": "Juan", "monto": 959260},
+      {"categoria": "Atracciones", "detalle": "Elephant Nature Park", "quien_paga": "Juan", "monto": 145395},
+      {"categoria": "Otros", "detalle": "Ubigi eSIM", "quien_paga": "Juan", "monto": 208555}
+    ],
+    "cambio_vs_calibracion_previa": "en jul-2026 solo había 2 filas sin pagar (Hokke Club Kyoto $1,277,000 y APA Osaka $959,260); ahora hay 4, y el monto de Hokke Club Kyoto bajó a $1,112,017"
+  },
+  "pestañas_no_reportadas": ["comparativa de vuelos", "links de hoteles en Krabi"]
+}

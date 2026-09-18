@@ -1,0 +1,42 @@
+{
+  "source_file": "Rudiments Progress",
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "source_modified_time": "2026-07-14T00:57:41.119Z",
+  "cached_at": "2026-09-18T11:55:03Z",
+  "status": "ok",
+  "maximos_actuales": {
+    "single_stroke": 152,
+    "double_stroke": 123,
+    "five_stroke_roll": 138,
+    "paradiddle": 119,
+    "triple_paradiddle": 118,
+    "double_pedal": 105
+  },
+  "ultima_sesion_log": {
+    "fecha": "12/07/26",
+    "single_stroke": 149,
+    "paradiddle": 118
+  },
+  "ultimo_registro_por_rudimento": {
+    "single_stroke": {"fecha": "12/07/26", "valor": 149},
+    "double_stroke": {"fecha": "11/07/26", "valor": 122},
+    "five_stroke_roll": {"fecha": "10/07/26", "valor": 138, "nota": "iguala el máximo actual"},
+    "paradiddle": {"fecha": "12/07/26", "valor": 118},
+    "triple_paradiddle": {"fecha": "10/07/26", "valor": 118, "nota": "iguala el máximo actual"},
+    "double_pedal": {"fecha": "08/09/25", "valor": 105, "nota": "sin registros nuevos hace más de un año; iguala el máximo actual"}
+  },
+  "plan_25_semanas": {
+    "semana_actual_estimada": 13,
+    "fecha_semana_actual": "Sep 14 2026",
+    "target_endurance": 142,
+    "target_burst": 180,
+    "song_focus": "Capitan Lawrence (Mon/Fri), One (Machine Gun) (Wed)",
+    "proxima_semana": {"semana": 14, "fecha": "Sep 21 2026", "tipo": "FLEX WEEK / REST"},
+    "adherencia": "sin datos de BPM reales logrados (Endurance/Speed/Max Burst) desde ~semana 4 (mediados de julio 2026); no se puede medir adherencia reciente"
+  },
+  "rampa_tempo_pestaña_C": "completada, cubre 10-30 jul 2026, sube 70→110 (Tempo App = Tempo×3); no aplica a la fecha actual",
+  "bpm_canciones_pestaña_D": [
+    {"cancion": "Stone Cold Crazy", "bpm": 128},
+    {"cancion": "Capitán Lawrence", "bpm": 154}
+  ]
+}

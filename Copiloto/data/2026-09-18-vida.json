@@ -1,0 +1,181 @@
+{
+  "fecha": "2026-09-18",
+  "generado_at_utc": "2026-09-18T11:55:03Z",
+  "atleta": {
+    "nombre": "Juan Pablo Diaz Quintero",
+    "ubicacion_perfil": "Bogotá, Colombia",
+    "enfoque_actual": "Entrenar para un triatlón (vence 2026-10-04)"
+  },
+
+  "strava_ventana_reciente": {
+    "definicion_ventana": "actividades de hoy (cualquier hora) + actividades de ayer que empezaron después de las 12:00",
+    "ventana_vacia": true,
+    "detalle": "No hay actividades registradas en Strava ni para hoy (2026-09-18) ni para ayer tarde/noche (2026-09-17 después de 12:00). La actividad más reciente en Strava es del 2026-09-16 (fuera de la ventana) — se reporta abajo en la sección de 7 días, no aquí.",
+    "has_activity_today": false,
+    "has_activity_yesterday_pm": false,
+    "session_count_12h": 0,
+    "actividades": []
+  },
+
+  "strava_7_dias": {
+    "rango": "2026-09-11 a 2026-09-18",
+    "actividades": [
+      {
+        "id": "20199065073",
+        "nombre": "Morning Run",
+        "tipo": "Run",
+        "inicio_local": "2026-09-16T07:18:59",
+        "ubicacion": "Baltimore, Maryland",
+        "distancia_m": 6231.4,
+        "tiempo_movimiento_s": 2547,
+        "tiempo_transcurrido_s": 2552,
+        "desnivel_m": 12.8,
+        "fc_media": 126.1,
+        "fc_max": 143,
+        "potencia_media": null,
+        "tiene_watts": false,
+        "esfuerzo_relativo": 8,
+        "calorias": 396,
+        "cadencia_media": 80.4
+      }
+    ],
+    "esfuerzo_relativo_acumulado_7d": 8,
+    "zonas_atleta": {
+      "fc_zonas": [
+        {"zona": 1, "min": 0, "max": 135},
+        {"zona": 2, "min": 136, "max": 150},
+        {"zona": 3, "min": 151, "max": 165},
+        {"zona": 4, "min": 166, "max": 179},
+        {"zona": 5, "min": 180, "max": null}
+      ],
+      "fc_zona_fuente": "Manual",
+      "potencia_zonas_ftp": 188,
+      "ftp_estimada": false,
+      "potencia_zona_fuente": "Ftp",
+      "run_pace_zonas_m_s": [
+        {"zona": 1, "min": 0, "max": 2.494},
+        {"zona": 2, "min": 2.494, "max": 2.898},
+        {"zona": 3, "min": 2.898, "max": 3.228},
+        {"zona": 4, "min": 3.228, "max": 3.448},
+        {"zona": 5, "min": 3.448, "max": 3.668},
+        {"zona": 6, "min": 3.668, "max": null}
+      ],
+      "run_zona_fuente": "RacePace (5K de referencia: 24m 33s, no estimado)"
+    },
+    "kilometraje_equipo": {
+      "status": "sin_datos",
+      "detalle": "No hay bicicletas ni zapatillas registradas en Strava (get_gear devolvió lista vacía). No se puede evaluar el umbral de 700 km."
+    }
+  },
+
+  "drive": {
+    "reglas_extraccion_fuente": "Reglas_Extraccion_Drive.md (Drive fileId 1hZWQM2FvmeukiPAOYt8ZXXsrDKQmPgYw), calibrado 26-jul-2026",
+    "nutrition_plan_2026": {
+      "cache_status": "creado (no existía cache previo en Copiloto/cache/)",
+      "modified_time_drive": "2026-04-13T02:22:23.770Z",
+      "coincide_con_baseline_calibracion": true,
+      "schema_drift": false,
+      "resumen": {
+        "restricciones_1_mes_posiblemente_vencidas": true,
+        "meses_desde_modificacion_aprox": 5.2,
+        "hidratacion_dia_L": 2.4,
+        "ayuno_horas": "12-14",
+        "hora_desayuno": "7:00 am",
+        "hora_cena_max": "6:00 pm",
+        "suplementos_base": ["Magnesio Glicinato", "DK Mulsion (Vit D)", "Neuressens (B12)", "Proteína Vitanas"],
+        "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"]
+      },
+      "cache_file": "Copiloto/cache/nutrition_plan_2026.json"
+    },
+    "canciones_ftm": {
+      "cache_status": "creado (no existía cache previo)",
+      "modified_time_drive": "2026-08-30T22:42:11.911Z",
+      "modified_time_baseline_calibracion": "2026-07-10T16:51:06.727Z",
+      "cambio_detectado": true,
+      "schema_drift": false,
+      "resumen": {
+        "total_canciones_en_setlist": 18,
+        "al_100_porciento": 4,
+        "sin_empezar_0_porciento": 2,
+        "nota": "'% Avance Batería' vacía en todas las filas, no reportada como 0%. Pestaña de rotación 2024 ignorada por regla."
+      },
+      "cache_file": "Copiloto/cache/canciones_ftm.json"
+    },
+    "rudiments_progress": {
+      "cache_status": "creado (no existía cache previo)",
+      "modified_time_drive": "2026-07-14T00:57:41.119Z",
+      "coincide_con_baseline_calibracion": true,
+      "schema_drift": false,
+      "resumen": {
+        "maximos_actuales": {"single_stroke": 152, "double_stroke": 123, "five_stroke_roll": 138, "paradiddle": 119, "triple_paradiddle": 118, "double_pedal": 105},
+        "semana_actual_plan": 13,
+        "adherencia_semanas_recientes": "sin datos de BPM logrados desde ~semana 4 (jul-2026)"
+      },
+      "cache_file": "Copiloto/cache/rudiments_progress.json"
+    },
+    "tracker_luna_de_miel": {
+      "cache_status": "creado (no existía cache previo)",
+      "modified_time_drive": "2026-08-31T03:07:47.003Z",
+      "modified_time_baseline_calibracion": "2026-07-15T01:55:07.007Z",
+      "cambio_detectado": true,
+      "schema_drift": false,
+      "resumen": {
+        "total_estimado": 77541182,
+        "presupuesto": 77000000,
+        "restante": -541182,
+        "total_pagado": 43548858,
+        "faltante": 33992324,
+        "filas_sin_pagar": 4
+      },
+      "cache_file": "Copiloto/cache/tracker_luna_de_miel.json"
+    }
+  },
+
+  "alimentacion": {
+    "caso": "C",
+    "razon": "La ventana de actividad reciente (hoy + ayer PM) está vacía en Strava.",
+    "confidence": "inferred",
+    "recomendacion_especifica": null,
+    "mensaje": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "contexto_calendario_no_vinculante": "Hay una sesión 'Nadar + Run' agendada hoy 04:00–07:20 (America/Bogota) y 'Fortalecimiento Tren Inferior' 16:40–17:40; ninguna aparece aún en Strava. Esto es solo contexto de calendario, no se usó para elegir un escalón.",
+    "escalones": [
+      {
+        "escalon": "1 entreno TSS ≤60",
+        "ejemplo": "Swim 1700 m / Run 5 km / Indoor cycling 45 min",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (ej. 1 cda mantequilla de almendras o 'Nutella') — Desayuno"
+      },
+      {
+        "escalon": "1 entreno TSS ≥60",
+        "ejemplo": "Intervalos / Run 8-12 km",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable (ej. ½ scoop Vitanas + 1 cda mantequilla de almendras/'Nutella', o 1 huevo + ½ aguacate Hass) — Desayuno"
+      },
+      {
+        "escalon": "2 entrenos TSS 60-100",
+        "ejemplo": "Run+peso / Run+swim",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (ej. 3 cdas avena en hojuelas + 1 cda mantequilla de almendras + bebida vegetal, o 2 tajadas pan Mauka + 1 cda mantequilla de almendras). Entre sesiones: 1 cda mantequilla de almendras — Desayuno"
+      },
+      {
+        "escalon": "2 entrenos TSS >100",
+        "ejemplo": "Road cycling + running",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (ej. 2 tajadas pan Mauka + 1 cda mantequilla de almendras). Entre sesiones: 1 carbohidrato + 1 grasa saludable — Desayuno"
+      }
+    ],
+    "reglas_fijas_del_plan": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_dia_L": 2.4,
+      "hidratacion_antes_mediodia_L": 1,
+      "evitar_agua_con_gas": true,
+      "grasa_saludable_porciones_dia": 5,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (B12)", "dosis": "½ gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop/día"}
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+      "nota_restricciones_1_mes": "Las restricciones de comidas fuera de casa y la lista de alimentos a evitar (marcadas 'durante 1 MES' en el plan de abril 2026) tienen más de 5 meses de antigüedad — se marcan como posiblemente vencidas, no se recitan como vigentes."
+    }
+  }
+}
