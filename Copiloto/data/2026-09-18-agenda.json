@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T06:58:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-17T20:45:00-05:00",
+        "end": "2026-09-18T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Solo las 4h dentro de 00:00-04:00 cuentan como sueño de hoy."
+      },
+      {
+        "title": "Nadar + Run",
+        "start": "2026-09-18T04:00:00-05:00",
+        "end": "2026-09-18T07:20:00-05:00",
+        "duration_minutes": 200,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque de entrenamiento matutino recurrente (mismo horario diario antes de ir a Skandia); la actividad puntual varía (Run, Bici, Piscina, Entrenamiento, Nadar, Entrenar, Nadar + Run). El mismo título exacto \"Nadar + Run\" ya se usó el 16-sep."
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-18T07:20:00-05:00",
+        "end": "2026-09-18T08:10:00-05:00",
+        "duration_minutes": 50,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-18T08:10:00-05:00",
+        "end": "2026-09-18T16:40:00-05:00",
+        "duration_minutes": 510,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Fortalecimiento Tren Inferior",
+        "start": "2026-09-18T16:40:00-05:00",
+        "end": "2026-09-18T17:40:00-05:00",
+        "duration_minutes": 60,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque de fortalecimiento recurrente justo al salir del trabajo; el foco muscular varía (\"Fortalecimiento Tren Inferior\" el 28-ago y 11-sep, \"Fortalecimiento General Skandia\" el 9-sep y 15-sep) — mismo patrón, 4 apariciones en 3 semanas."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-18T17:40:00-05:00",
+        "end": "2026-09-18T18:10:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-18T18:10:00-05:00",
+        "end": "2026-09-18T19:25:00-05:00",
+        "duration_minutes": 75,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-18T19:25:00-05:00",
+        "end": "2026-09-18T19:55:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-18T19:55:00-05:00",
+        "end": "2026-09-18T22:00:00-05:00",
+        "duration_minutes": 125,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-18T22:00:00-05:00",
+        "end": "2026-09-19T05:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo las 2h dentro de 22:00-24:00 cuentan como sueño de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.67,
+      "training_hours": 4.33,
+      "sleep_hours_within_today": 6.0,
+      "total_scheduled_hours_within_today": 24.0,
+      "free_gaps_over_60min": [],
+      "gaps_note": "No hay ningún hueco libre en todo el día, ni siquiera de pocos minutos: los eventos están encadenados sin interrupción de 00:00 a 24:00.",
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Nadar + Run (04:00, sin margen)",
+          "Nadar + Run -> Ir a Skandia (07:20, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (08:10, sin margen)",
+          "Trabajo Skandia -> Fortalecimiento Tren Inferior (16:40, sin margen)",
+          "Fortalecimiento Tren Inferior -> Ir a Casa (17:40, sin margen)",
+          "Ir a Casa -> Cursos (18:10, sin margen)",
+          "Cursos -> Bono (19:25, sin margen)",
+          "Bono -> Leer + Meditar + Preparar Dormida (19:55, sin margen)",
+          "Leer + Meditar + Preparar Dormida -> Dormir (22:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "palejandraacuna@gmail.com (Alejandra Acuña Niño)",
+        "subject": "Invitación: Reservemos Shibuya Sky lun 21 de sept de 2026 12:00 - 13:00 (COT)",
+        "action_required": "Responder (aceptar/rechazar) la invitación a la reunión 'Reservemos Shibuya Sky' del lunes 21-sep 12:00-13:00; asistencia marcada como opcional por la organizadora.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay ningún margen, en absoluto: la agenda está encadenada de 00:00 a 24:00 sin un solo minuto suelto en ningún punto del día — ni siquiera un hueco de 5 minutos como el que hubo el 3-sep. Las nueve transiciones del día son todas a cero colchón: dormir→entrenar (4:00), entrenar→ir a Skandia (7:20), ir a Skandia→trabajar (8:10), trabajar→fortalecimiento (16:40), fortalecimiento→ir a casa (17:40), ir a casa→cursos (18:10), cursos→bono (19:25), bono→rutina de dormida (19:55), rutina de dormida→dormir (22:00). No hay overlap directo con el bloque de entrenamiento ni con el de sueño, pero solo porque no hay overlap de nada: todo el día es una sola cadena sin respiro. Si el entrenamiento matutino se corre 10 minutos, si la salida de Skandia se atrasa, o si cursos se extiende, no hay dónde absorberlo — se cae en cascada hasta la hora de dormir. Es un día 100% rutinario, sin nada atípico, pero rutinario no es lo mismo que liviano: es el ejemplo más extremo de cero holgura que ha aparecido en las últimas 3 semanas."
+}
