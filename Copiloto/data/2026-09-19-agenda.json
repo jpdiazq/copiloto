@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T06:58:57-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-18T22:00:00-05:00",
+        "end": "2026-09-19T05:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 05:00."
+      },
+      {
+        "title": "Bici",
+        "start": "2026-09-19T05:00:00-05:00",
+        "end": "2026-09-19T10:00:00-05:00",
+        "duration_minutes": 300,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque de entrenamiento largo de fin de semana. Título 'Bici' aparece 3 veces en las 3 semanas previas (29-ago, 10-sep, 17-sep) — recurrente."
+      },
+      {
+        "title": "Cita ginecología",
+        "start": "2026-09-19T08:00:00-05:00",
+        "end": "2026-09-19T09:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "salud",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Se traslapa por completo con el bloque de entrenamiento 'Bici' (05:00-10:00) — 60 min de doble reserva."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-19T10:00:00-05:00",
+        "end": "2026-09-19T11:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "⚠️ SE AGOTA — RESERVAR: Bus Nohi Takayama→Shirakawa-go→Kanazawa",
+        "start": "2026-09-19T10:00:00-05:00",
+        "end": "2026-09-19T10:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Este título específico no aparece antes, aunque es parte de una serie de recordatorios de reserva para el viaje a Japón (5 títulos distintos de 'RESERVAR' en las 3 semanas previas). Se traslapa con 'Bono' (10:00-11:00) — 15 min de doble reserva, sin involucrar entrenamiento ni sueño."
+      },
+      {
+        "title": "Onces y Arreglar",
+        "start": "2026-09-19T11:00:00-05:00",
+        "end": "2026-09-19T12:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "Solo aparece 1 vez en las 3 semanas previas (29-ago), por debajo del umbral de 3+. Los otros dos sábados del periodo (5-sep, 12-sep) el usuario estaba de viaje (Medellín, Baltimore), así que la rutina de sábado no tuvo chance de repetirse."
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-19T12:00:00-05:00",
+        "end": "2026-09-19T12:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "música",
+        "is_atypical": false,
+        "note": "Aparece 4 veces en las 3 semanas previas (29-ago, 31-ago, 9-sep, 16-sep) — recurrente."
+      },
+      {
+        "title": "Practicar Bateria",
+        "start": "2026-09-19T12:30:00-05:00",
+        "end": "2026-09-19T13:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "música",
+        "is_atypical": true,
+        "note": "Aparece 2 veces en las 3 semanas previas ('Practicar Bateria' 29-ago, 'Practicar Batería' 30-ago), por debajo del umbral de 3+."
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-19T15:00:00-05:00",
+        "end": "2026-09-19T18:00:00-05:00",
+        "duration_minutes": 180,
+        "category": "formación",
+        "is_atypical": false,
+        "note": "Título recurrente (aparece muchas veces en las 3 semanas previas), aunque normalmente corre en la tarde-noche de entre semana (~17:30-19:15); hoy ocupa la tarde completa de sábado (15:00-18:00)."
+      },
+      {
+        "title": "Cumpleaños Fredy",
+        "start": "2026-09-19T18:30:00-05:00",
+        "end": "2026-09-19T23:30:00-05:00",
+        "duration_minutes": 300,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Se traslapa con el inicio del bloque de sueño 'Dormir' (23:00-06:30) — 30 min de doble reserva (23:00-23:30)."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-19T23:00:00-05:00",
+        "end": "2026-09-20T06:30:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana; solo se cuenta 1h (23:00-24:00) dentro del día de hoy. Arranca 30 min antes de que termine 'Cumpleaños Fredy' (18:30-23:30)."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 12.75,
+      "training_hours": 5.0,
+      "sleep_hours_within_today": 6.0,
+      "total_scheduled_hours_within_today": 23.75,
+      "double_booked_hours": 1.5,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-19T13:30:00-05:00",
+          "end": "2026-09-19T15:00:00-05:00",
+          "duration_minutes": 90
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": true,
+        "overlaps_with_sleep_block": true,
+        "overlap_details": [
+          "Cita ginecología (08:00-09:00) se traslapa por completo con el bloque de entrenamiento Bici (05:00-10:00) — 60 min de doble reserva.",
+          "Dormir (23:00-06:30) se traslapa con el final de Cumpleaños Fredy (18:30-23:30) — 30 min de doble reserva (23:00-23:30)."
+        ],
+        "other_double_bookings": [
+          "⚠️ SE AGOTA — RESERVAR: Bus Nohi... (10:00-10:15) se traslapa con Bono (10:00-11:00) — 15 min, no involucra entrenamiento ni sueño."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Bici (05:00, sin margen)",
+          "Bici -> Bono (10:00, sin margen)",
+          "Bono -> Onces y Arreglar (11:00, sin margen)",
+          "Onces y Arreglar -> Rudiments (12:00, sin margen)",
+          "Rudiments -> Practicar Bateria (12:30, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Puede haber otras opciones de ponerte al día, pregúntanos",
+        "action_required": "Contactar al banco: reportan que no han recibido el pago de un producto y ofrecen opciones de normalización.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "comunicados@envios.davibank.com (DAVIbank)",
+        "subject": "FE DE ERRATAS: Reintegro de saldo a favor.",
+        "action_required": "Revisar la corrección enviada sobre el reintegro de saldo a favor (el correo original del 18-sep tenía un error).",
+        "urgency": "media"
+      },
+      {
+        "sender": "infodigital@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Privado Extracto Digital 2026-09-17",
+        "action_required": "Revisar el extracto digital del mes por posibles novedades o cargos no reconocidos.",
+        "urgency": "media"
+      },
+      {
+        "sender": "FacturaCTSColombia@cen.biz (Servicios Generales Suramericana S.A.S.)",
+        "subject": "811036875;SERVICIOS GENERALES SURAMERICANA S.A.S.;182118790563;01;...",
+        "action_required": "Verificar que la factura electrónica coincide con el pago ya realizado por Nu ($51.175) y archivarla.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "El sábado arranca roto: 'Bici' (entrenamiento de 5h, 05:00-10:00) y 'Cita ginecología' (08:00-09:00) están en el calendario al mismo tiempo — 60 minutos de choque real, no hay forma de estar en las dos. Termina igual de roto: 'Cumpleaños Fredy' va hasta las 23:30 pero 'Dormir' arranca a las 23:00 — o te vas de la fiesta 30 minutos antes o le robas esos 30 minutos al sueño. En todo el día solo hay un hueco libre de más de 60 minutos (13:30-15:00, 90 min); todo lo demás está encadenado sin colchón, incluyendo un choque menor entre 'Bono' y una reserva urgente de bus para Japón a las 10:00. Aparte de la agenda: hay una notificación del Banco de Occidente diciendo que no han recibido el pago de un producto — eso no se resuelve solo, hay que llamarlos."
+}
