@@ -1,0 +1,31 @@
+{
+  "file_id": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+  "title": "Canciones FtM",
+  "cached_at": "2026-08-30T22:42:11.911Z",
+  "extracted_on": "2026-09-19T06:51:28-05:00",
+  "schema_status": "ok",
+  "setlist": [
+    {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 100, "ultima_vez_tocada": "2026-07-09", "anio": 1984, "duracion_s": 272},
+    {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "idioma": "Inglés", "pct_avance": 100, "ultima_vez_tocada": "2026-05-23", "anio": 2001, "duracion_s": 219},
+    {"orden": 3, "cancion": "Stone Cold Crazy", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 80, "ultima_vez_tocada": "2026-07-09", "anio": 1998, "duracion_s": 138},
+    {"orden": 4, "cancion": "Capitán Lawrence", "autor": "WarCry", "idioma": "Español", "pct_avance": 95, "ultima_vez_tocada": "2026-07-09", "anio": 2002, "duracion_s": 347},
+    {"orden": 5, "cancion": "Wasted Years", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 100, "ultima_vez_tocada": "2026-08-24", "anio": 1986, "duracion_s": 310},
+    {"orden": 6, "cancion": "Iron Man", "autor": "Black Sabbath", "idioma": "Inglés", "pct_avance": 100, "ultima_vez_tocada": "2026-07-09", "anio": 1970, "duracion_s": 354},
+    {"orden": 7, "cancion": "The Memory Remains", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 95, "ultima_vez_tocada": "2026-08-24", "anio": 1997, "duracion_s": 279},
+    {"orden": 8, "cancion": "Master of Puppets", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 95, "ultima_vez_tocada": "2026-05-23", "anio": 1986, "duracion_s": 515},
+    {"orden": 9, "cancion": "The Number of the Beast", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 85, "ultima_vez_tocada": "2026-08-24", "anio": 1982, "duracion_s": 291},
+    {"orden": 10, "cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 75, "ultima_vez_tocada": "2026-08-24", "anio": 1984, "duracion_s": 364},
+    {"orden": 11, "cancion": "For Whom the Bell Tolls", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 90, "ultima_vez_tocada": "2026-08-24", "anio": 1984, "duracion_s": 310},
+    {"orden": 12, "cancion": "Pegaso", "autor": "Tierra Santa", "idioma": "Español", "pct_avance": 85, "ultima_vez_tocada": "2026-08-17", "anio": 2001, "duracion_s": 242},
+    {"orden": 13, "cancion": "Fade to Black", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 75, "ultima_vez_tocada": "2026-08-24", "anio": 1984, "duracion_s": 417},
+    {"orden": 14, "cancion": "Fear of the Dark", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 80, "ultima_vez_tocada": "2026-07-09", "anio": 1992, "duracion_s": 439},
+    {"orden": 15, "cancion": "Seek and Destroy", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 75, "ultima_vez_tocada": "2026-08-24", "anio": 1983, "duracion_s": 414},
+    {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "idioma": "Inglés", "pct_avance": 45, "ultima_vez_tocada": "2026-08-24", "anio": 1983, "duracion_s": 252},
+    {"orden": 17, "cancion": "One", "autor": "Metallica", "idioma": "Inglés", "pct_avance": 30, "ultima_vez_tocada": "2026-08-24", "anio": 1989, "duracion_s": 446},
+    {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "idioma": "Inglés", "pct_avance": null, "ultima_vez_tocada": null, "anio": null, "duracion_s": null, "nota": "Fila incompleta en el origen, sin dato de % avance — no se reporta como 0%."}
+  ],
+  "pct_avance_promedio": {"valor": 82.6, "base": "17 canciones con dato (excluye #18, sin datos)"},
+  "pct_avance_bateria": "vacío en todas las filas — nunca reportar como 0%",
+  "candidatas_pestana_b": "Existe pestaña de candidatas (Metallica/Iron Maiden/Libre) con Puntaje de dificultad 2.0-7.0, para sugerir próximo tema — no se reporta como progreso.",
+  "pestana_ignorada": "Rotación semanal sep-dic 2024 con canciones de otro proyecto — ignorada por completo, datos muertos."
+}

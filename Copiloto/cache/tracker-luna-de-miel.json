@@ -1,0 +1,28 @@
+{
+  "file_id": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "title": "Tracker Luna de Miel",
+  "cached_at": "2026-08-31T03:07:47.003Z",
+  "extracted_on": "2026-09-19T06:51:28-05:00",
+  "schema_status": "ok",
+  "itinerario": {"salida_bog": "2026-10-10", "japon": "10-28 oct 2026", "tailandia": "28 oct - 6 nov 2026", "dias_hasta_salida": 21},
+  "presupuesto_vigente": {
+    "total_estimado": 77541182,
+    "presupuesto": 77000000,
+    "restante": -541182,
+    "faltante_presup_menos_pagado": 33992324,
+    "nota": "Pestaña 'Detalle Presupuesto' (válida). En calibración (26-jul) el total era $78,392,442 / restante -$1,392,442; el restante mejoró desde entonces."
+  },
+  "presupuesto_viejo_ignorado": {"total": 88103840, "restante": -11103840, "nota": "Pestaña de presupuesto vieja, estructuralmente idéntica pero desactualizada — ignorada por regla."},
+  "detalle_gastos": {
+    "total_pagado_check": 43548858,
+    "sin_pagar": [
+      {"detalle": "Hotel Hokke Club Kyoto", "quien_paga": "Ale", "monto": 1112017},
+      {"detalle": "APA Hotel and Resort Osaka Namba Ekimae Tower", "quien_paga": "Juan", "monto": 959260},
+      {"detalle": "Elephant Nature Park (Atracciones)", "quien_paga": "Juan", "monto": 145395},
+      {"detalle": "Ubigi eSIM (Otros)", "quien_paga": "Juan", "monto": 208555}
+    ],
+    "total_sin_pagar": 2425227,
+    "nota": "Columna 'Pagado' contiene el texto literal 'CHECK' cuando está pagado; vacío = no pagado. Dos ítems sin pagar (Elephant Nature Park, Ubigi eSIM) son nuevos respecto a la calibración del 26-jul, que solo tenía los hoteles de Kyoto y Osaka pendientes."
+  },
+  "pestanas_ignoradas": ["Comparativa de vuelos", "Links de hoteles en Krabi — material de investigación, no estado"]
+}

@@ -1,0 +1,28 @@
+{
+  "file_id": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "title": "Rudiments Progress",
+  "cached_at": "2026-07-14T00:57:41.119Z",
+  "extracted_on": "2026-09-19T06:51:28-05:00",
+  "schema_status": "ok",
+  "maximos_actuales": {
+    "single_stroke": 152,
+    "double_stroke": 123,
+    "five_stroke_roll": 138,
+    "paradiddle": 119,
+    "triple_paradiddle": 118,
+    "double_pedal": 105
+  },
+  "ultima_sesion_log": {"fecha": "2026-07-12", "single_stroke": 149, "paradiddle": 118},
+  "plan_25_semanas": {
+    "semana_actual_estimada": 13,
+    "fecha_semana": "2026-09-14",
+    "target_endurance": 142,
+    "target_burst": 180,
+    "song_focus": "Capitan Lawrence / One (Machine Gun)",
+    "real_logrado_semana_actual": "sin datos registrados aún (columnas Endurance/Speed/Max Burst BPM vacías para esta semana)",
+    "semana_siguiente": {"semana": 14, "fecha": "2026-09-21", "tipo": "FLEX WEEK / REST"}
+  },
+  "rampa_tempo": {"rango_fechas": "2026-07-10 a 2026-07-30", "tempo_inicial": 70, "tempo_final": 110, "tempo_app_final": 330, "nota": "Tempo App = Tempo x 3 (subdivisión en sextillizos)"},
+  "bpm_canciones": [{"cancion": "Stone Cold Crazy", "bpm": 128}, {"cancion": "Capitán Lawrence", "bpm": 154}],
+  "notas_extraccion": "Filas 'Max' y 'Max - 25' excluidas del histórico (son calculadas, no sesiones). Double Pedal es la última columna del log; 9 columnas vacías intermedias ignoradas. La pestaña del plan de 25 semanas aparece con el nombre de tab 'Doble Pedal' en vez de un nombre descriptivo, pero la estructura de columnas coincide con lo calibrado — no hay schema drift."
+}
