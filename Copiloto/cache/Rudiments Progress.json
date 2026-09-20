@@ -1,0 +1,53 @@
+{
+  "archivo": "Rudiments Progress",
+  "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+  "modifiedTime": "2026-09-19T16:01:17.912Z",
+  "cached_at": "2026-09-20",
+  "status": "extracted",
+  "schema_drift": false,
+  "maximos_actuales": {
+    "single_stroke": 152,
+    "double_stroke": 123,
+    "five_stroke_roll": 138,
+    "paradiddle": 119,
+    "triple_paradiddle": 118,
+    "double_pedal": 105
+  },
+  "ultima_sesion_log": {
+    "fecha": "2026-09-19",
+    "valores": {"single_stroke": 147},
+    "nota": "Única columna registrada en esta sesión; no superó el máximo histórico (152)."
+  },
+  "plan_25_semanas": {
+    "semana_actual_por_fecha": {
+      "week": 13,
+      "date_mon": "2026-09-14",
+      "song_focus": "Capitan Lawrence / One (Machine Gun)",
+      "target_endurance_mon": 142,
+      "target_burst_wed": 180,
+      "reales_logrados": "sin dato — columnas Endurance/Speed/Max Burst BPM vacías para esta semana"
+    },
+    "proxima_semana": {
+      "week": 14,
+      "date_mon": "2026-09-21",
+      "tipo": "FLEX WEEK / REST",
+      "nota_plan": "Take a break or catch up"
+    },
+    "ultima_semana_con_reales_logrados": {
+      "week": 4,
+      "date_mon": "2026-07-13",
+      "song_focus": "Fade to Black",
+      "mon": {"target_endurance": 116, "endurance_bpm_real": 113},
+      "wed": {"target_burst": 145, "speed_bpm_real": 139, "max_burst_bpm_real": 120}
+    },
+    "nota_adherencia": "El plan sigue subiendo targets semana a semana (target endurance 116 en semana 4 → 142 en semana 13), pero no hay BPM reales registrados desde la semana 4 (13-jul-2026): 9 semanas sin dato de adherencia real vs target."
+  },
+  "rampa_tempo": {
+    "rango": "2026-07-10 a 2026-07-30",
+    "ultimo_dato": {"fecha": "2026-07-30", "tempo": 110, "tempo_app": 330},
+    "nota": "Sin datos nuevos desde el 30-jul-2026."
+  },
+  "bpm_canciones": {"Stone Cold Crazy": 128, "Capitán Lawrence": 154},
+  "cambio_vs_cache_anterior": "modifiedTime cambió (2026-07-14T00:57:41.119Z → 2026-09-19T16:01:17.912Z). El único cambio detectado en el histórico (Pestaña A) es una fila nueva: 19/09/26 con Single Stroke=147. Máximos actuales, plan de 25 semanas, rampa de tempo y BPM de canciones no cambiaron respecto al cache anterior (cached_at 2026-08-06).",
+  "nota_extraccion": "Filas 'Max' y 'Max - 25' excluidas del histórico por ser calculadas, no sesiones. Double Pedal leída como última columna (9 columnas vacías intermedias ignoradas). Rampa de tempo con formato de fecha MM-DD-YYYY. Huella de estructura coincide con la calibración de Reglas_Extraccion_Drive.md — sin schema_drift."
+}

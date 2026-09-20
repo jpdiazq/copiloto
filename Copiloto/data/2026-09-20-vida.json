@@ -1,0 +1,212 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T06:52:56-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_reciente": {
+      "criterio": "Actividades de hoy (2026-09-20) sin importar la hora, más actividades de ayer (2026-09-19) que hayan empezado después de las 12:00.",
+      "has_activity_today": false,
+      "has_activity_yesterday_pm": false,
+      "session_count_12h": 0,
+      "empty": true,
+      "actividades": [],
+      "nota": "La ventana viene vacía: no hay actividades de Strava registradas ni hoy (2026-09-20) ni ayer (2026-09-19) después de las 12:00. No se rellenó con la actividad más reciente encontrada fuera de la ventana (16-sep) — esa se reporta únicamente en la sección de 7 días."
+    },
+    "ventana_7_dias": {
+      "rango_consultado": "2026-09-13 a 2026-09-20",
+      "actividades": [
+        {
+          "id": "20199065073",
+          "nombre": "Morning Run",
+          "tipo": "Run",
+          "inicio_local": "2026-09-16T07:18:59",
+          "ubicacion": "Baltimore, Maryland",
+          "duracion_min": 42.5,
+          "duracion_transcurrida_min": 42.53,
+          "distancia_km": 6.23,
+          "desnivel_m": 12.8,
+          "fc_media": 126.1,
+          "fc_max": 143,
+          "potencia_media": null,
+          "potencia_disponible": false,
+          "cadencia_media_spm": 80.38,
+          "calorias": 396,
+          "esfuerzo_relativo": 8
+        }
+      ],
+      "esfuerzo_relativo_acumulado_7d": 8,
+      "nota_actividades": "Solo se registró una actividad en toda la ventana de 7 días (13 al 20 de sep). Fuera de la ventana reciente del paso 1 (empezó hace más de 24h), se reporta aquí como contexto de carga de la semana.",
+      "zonas_atleta": {
+        "heart_rate_zones": [
+          {"min": 0, "max": 135},
+          {"min": 136, "max": 150},
+          {"min": 151, "max": 165},
+          {"min": 166, "max": 179},
+          {"min": 180}
+        ],
+        "heart_rate_zone_source": "Manual",
+        "power_zones": [
+          {"min": 0, "max": 103},
+          {"min": 104, "max": 141},
+          {"min": 142, "max": 169},
+          {"min": 170, "max": 197},
+          {"min": 198, "max": 226},
+          {"min": 227, "max": 282},
+          {"min": 283}
+        ],
+        "power_zone_source": "Ftp",
+        "ftp": 188,
+        "ftp_is_estimated": false,
+        "run_zones": [
+          {"min": 0, "max": 2.494},
+          {"min": 2.494, "max": 2.898},
+          {"min": 2.898, "max": 3.228},
+          {"min": 3.228, "max": 3.448},
+          {"min": 3.448, "max": 3.668},
+          {"min": 3.668}
+        ],
+        "run_zone_source": "RacePace",
+        "sample_race_pace": {"best_effort_type": "Fastest5k", "time": "24m 33s", "is_estimated": false}
+      },
+      "contexto_objetivo": {
+        "focus_type": "TrainForEvent",
+        "descripcion": "Train for a triathlon",
+        "expira_local": "2026-10-04T23:59:59"
+      },
+      "kilometraje_equipo": {
+        "status": "sin equipo (zapatillas/bici) registrado en Strava",
+        "gear": [],
+        "alerta_700km": "no evaluable — sin datos de equipo"
+      }
+    }
+  },
+  "drive": {
+    "fuente_reglas": "Reglas_Extraccion_Drive.md (fileId 1hZWQM2FvmeukiPAOYt8ZXXsrDKQmPgYw, calibrado 26-jul-2026)",
+    "nutrition_plan_2026": {
+      "archivo": "Nutrition Plan 2026.pdf",
+      "cache_status": "sin cambio de modifiedTime vs. calibración original (2026-04-13T02:22:23.770Z) — extraído completo porque no existía cache previo en Copiloto/cache/ de este repo",
+      "cache_path": "Copiloto/cache/Nutrition Plan 2026.pdf.json",
+      "schema_drift": false,
+      "resumen": {
+        "vencida_check": {
+          "fecha_plan": "abril 2026",
+          "meses_transcurridos_aprox": 5.2,
+          "restricciones_1_mes": "vencidas"
+        },
+        "reglas_fijas": {
+          "ayuno_horas": "12-14",
+          "hora_desayuno": "7:00 am",
+          "hora_cena_max": "6:00 pm",
+          "hidratacion_litros_dia": 2.4,
+          "hidratacion_antes_mediodia_litros": 1,
+          "evitar_agua_con_gas": true,
+          "suplementos_base": [
+            {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+            {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+            {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+            {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+          ],
+          "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"]
+        }
+      }
+    },
+    "canciones_ftm": {
+      "archivo": "Canciones FtM",
+      "cache_status": "modifiedTime (2026-08-30T22:42:11.911Z) sin cambio vs. último cache conocido — reutilizado sin reabrir el archivo",
+      "cache_path": "Copiloto/cache/Canciones FtM.json",
+      "schema_drift": false,
+      "resumen": {
+        "canciones_en_setlist": 19,
+        "top_menos_avance": [
+          {"cancion": "Nothing Else Matters", "avance_pct": 0},
+          {"cancion": "Hallowed be Thy Name", "avance_pct": 0},
+          {"cancion": "One", "avance_pct": 30},
+          {"cancion": "The Trooper", "avance_pct": 45}
+        ],
+        "nota": "Detalle completo del setlist en Copiloto/cache/Canciones FtM.json."
+      }
+    },
+    "rudiments_progress": {
+      "archivo": "Rudiments Progress",
+      "cache_status": "modifiedTime cambió (2026-07-14T00:57:41.119Z → 2026-09-19T16:01:17.912Z) — reextraído",
+      "cache_path": "Copiloto/cache/Rudiments Progress.json",
+      "schema_drift": false,
+      "resumen": {
+        "maximos_actuales": {
+          "single_stroke": 152,
+          "double_stroke": 123,
+          "five_stroke_roll": 138,
+          "paradiddle": 119,
+          "triple_paradiddle": 118,
+          "double_pedal": 105
+        },
+        "ultima_sesion_log": {"fecha": "2026-09-19", "valores": {"single_stroke": 147}},
+        "plan_25_semanas_semana_actual": {
+          "week": 13,
+          "date_mon": "2026-09-14",
+          "target_endurance_mon": 142,
+          "target_burst_wed": 180,
+          "reales_logrados": "sin dato"
+        },
+        "proxima_semana": {"week": 14, "tipo": "FLEX WEEK / REST", "date_mon": "2026-09-21"},
+        "nota_adherencia": "9 semanas sin BPM reales registrados desde la semana 4 (13-jul-2026), mientras el target de la Pestaña B sigue subiendo cada semana."
+      }
+    },
+    "tracker_luna_de_miel": {
+      "archivo": "Tracker Luna de Miel",
+      "cache_status": "modifiedTime (2026-08-31T03:07:47.003Z) sin cambio vs. último cache conocido — reutilizado sin reabrir el archivo",
+      "cache_path": "Copiloto/cache/Tracker Luna de Miel.json",
+      "schema_drift": false,
+      "resumen": {
+        "itinerario": {"salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026"},
+        "presupuesto": {"total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182},
+        "gastos": {"pagado": 43548858, "falta": 33992324, "items_sin_pagar": 4}
+      }
+    }
+  },
+  "alimentacion": {
+    "caso": "C",
+    "motivo": "La ventana de actividad del paso 1 (hoy + ayer después de 12:00) vino vacía — no hay sesión de hoy que determine el protocolo.",
+    "confidence": "inferred",
+    "recomendacion_texto": "sin actividad registrada a esta hora — elige escalón según lo que vayas a hacer",
+    "escalones": [
+      {
+        "carga": "1 entreno TSS ≤60",
+        "ejemplo": "Swim 1700 m · SB Pierna · Running 5 km · Indoor cycling 45 min",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (1 cda mantequilla de almendras o \"Nutella\")"
+      },
+      {
+        "carga": "1 entreno TSS ≥60",
+        "ejemplo": "Intervalos · Run 8 km · Run 12 km",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable (½ scoop Vitanas + 1 cda mantequilla de almendras o \"Nutella\" + 1 huevo + ½ aguacate Hass)"
+      },
+      {
+        "carga": "2 entrenamientos TSS 60-100",
+        "ejemplo": "Run + peso · Run + swim",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (3 cdas avena en hojuelas + 1 cda mantequilla de almendras/\"Nutella\" + bebida vegetal, o 2 tajadas de pan Mauka + 1 cda mantequilla de almendras/\"Nutella\"). Entre sesiones: 1 cda mantequilla de almendras"
+      },
+      {
+        "carga": "2 entrenamientos TSS >100",
+        "ejemplo": "Road Cycling + running",
+        "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (2 tajadas de pan Mauka + 1 cda mantequilla de almendras/\"Nutella\"). Entre sesiones: 1 carbohidrato + 1 grasa saludable"
+      }
+    ],
+    "reglas_fijas": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+      "restricciones_1_mes_status": "vencidas (plan fechado abril 2026, hoy 2026-09-20, ~5.2 meses después)"
+    }
+  },
+  "tono_nota": "Sección entrenamiento: informativa (carga, fatiga, contexto de la carrera objetivo), sin recomendación de saltar o no sesiones. Resto de secciones: solo datos, sin interpretación adicional."
+}

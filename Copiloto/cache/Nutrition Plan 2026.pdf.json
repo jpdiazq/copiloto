@@ -1,0 +1,61 @@
+{
+  "archivo": "Nutrition Plan 2026.pdf",
+  "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+  "modifiedTime": "2026-04-13T02:22:23.770Z",
+  "cached_at": "2026-09-20",
+  "status": "extracted",
+  "schema_drift": false,
+  "vencida_check": {
+    "fecha_plan": "abril 2026",
+    "hoy": "2026-09-20",
+    "meses_transcurridos_aprox": 5.2,
+    "restricciones_1_mes": "vencidas"
+  },
+  "recomendaciones": {
+    "ayuno_horas": "12-14",
+    "hora_desayuno": "7:00 am",
+    "hora_cena_max": "6:00 pm",
+    "hidratacion_litros_dia": 2.4,
+    "hidratacion_antes_mediodia_litros": 1,
+    "evitar_agua_con_gas": true
+  },
+  "suplementos_base": [
+    {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+    {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+    {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+    {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+  ],
+  "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+  "restricciones_temporales_1_mes": {
+    "status": "vencidas",
+    "nota": "El plan está fechado abril 2026 y estas restricciones decían 'durante 1 MES'. Hoy (2026-09-20) son más de 5 meses después de la última modificación del archivo.",
+    "items": ["Leche", "Queso", "Crema de leche / queso crema / esparcibles convencionales", "Mantequilla de maní / Nutella / mermelada convencional", "Pan blanco, pastas, trigo y derivados", "Embutidos convencionales", "Aceite vegetal", "Chocolate con azúcar para tomar"]
+  },
+  "escalones_tss": [
+    {
+      "carga": "1 entreno TSS ≤60",
+      "ejemplo": "Swim 1700 m · SB Pierna · Running 5 km · Indoor cycling 45 min",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 grasa saludable (1 cda mantequilla de almendras o \"Nutella\")",
+      "pos_entreno": "500 ml + 1 pastilla Gu, seguido de Desayuno"
+    },
+    {
+      "carga": "1 entreno TSS ≥60",
+      "ejemplo": "Intervalos · Run 8 km · Run 12 km",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 proteína + 1 grasa saludable (½ scoop Vitanas + 1 cda mantequilla de almendras o \"Nutella\" + 1 huevo + ½ aguacate Hass)",
+      "pos_entreno": "500 ml + 1 pastilla Gu, seguido de Desayuno"
+    },
+    {
+      "carga": "2 entrenamientos TSS 60-100",
+      "ejemplo": "Run + peso · Run + swim",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (3 cdas avena en hojuelas + 1 cda mantequilla de almendras/\"Nutella\" + bebida vegetal, o 2 tajadas de pan Mauka + 1 cda mantequilla de almendras/\"Nutella\"). Entre sesiones: 1 cda mantequilla de almendras",
+      "pos_entreno": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going, seguido de Desayuno"
+    },
+    {
+      "carga": "2 entrenamientos TSS >100",
+      "ejemplo": "Road Cycling + running",
+      "pre_entreno": "Compon X + 1 scoop Beet root + 1 carbohidrato + 1 grasa saludable (2 tajadas de pan Mauka + 1 cda mantequilla de almendras/\"Nutella\"). Entre sesiones: 1 carbohidrato + 1 grasa saludable",
+      "pos_entreno": "Cada 40 min: 500 ml + 1 pastilla Gu + 1 gel Going, seguido de Desayuno"
+    }
+  ],
+  "nota_extraccion": "Extraído solo de RECOMENDACIONES, SUPLEMENTOS BASE, SUPLEMENTOS EJERCICIO y DEPORTE Y NUTRICIÓN (tabla DURACIÓN DEL ENTRENAMIENTO-ESFUERZO / EJEMPLO PRE ENTRENO / POS EJERCICIO), per regla transversal. No se extrajo de RECETAS ni de las tablas de porciones/alimentos por comida. Archivo sin modificar desde la calibración de Reglas_Extraccion_Drive.md (26-jul-2026) — huella de estructura coincide, sin schema_drift."
+}

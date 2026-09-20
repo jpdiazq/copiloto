@@ -1,0 +1,22 @@
+{
+  "archivo": "Tracker Luna de Miel",
+  "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+  "modifiedTime": "2026-08-31T03:07:47.003Z",
+  "cached_at": "2026-09-20",
+  "status": "extracted",
+  "schema_drift": false,
+  "itinerario": {"salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026"},
+  "presupuesto": {"pestana_usada": "válida (AUTORIDAD) — total $77,541,182", "total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182},
+  "gastos": {
+    "pagado": 43548858,
+    "falta": 33992324,
+    "sin_pagar": [
+      {"detalle": "Hotel Hokke Club Kyoto", "categoria": "Hotel", "quien_pago": "Ale", "monto": 1112017},
+      {"detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "categoria": "Hotel", "quien_pago": "Juan", "monto": 959260},
+      {"detalle": "Elephant Nature Park", "categoria": "Atracciones", "quien_pago": "Juan", "monto": 145395},
+      {"detalle": "Ubigi eSIM", "categoria": "Otros", "quien_pago": "Juan", "monto": 208555}
+    ]
+  },
+  "cambio_vs_cache_anterior": "Sin cambios: modifiedTime (2026-08-31T03:07:47.003Z) idéntico al del último cache verificado (cached_at 2026-08-31). Se reutilizó esa extracción sin reabrir el archivo, per regla del paso 3c.",
+  "nota_extraccion": "Se usó la pestaña de presupuesto que totaliza $77,541,182 (AUTORIDAD, fila TOTALES), no la vieja de ~$88M (pestaña F, ignorada). En Detalle Gastos, 'Pagado'='CHECK' se interpretó como pagado y vacío como no pagado. Fila 'Hotel Hana Takayama' mantiene una columna extra ($5,823,579) fuera de la estructura Categoría|Detalle|Quién pagó|Pagado|Monto — se ignoró, se usó Monto=$659,512. No se reportaron pestañas de comparativa de vuelos, links de hoteles ni 'Políticas Equipaje'. Huella de estructura verificada contra Reglas_Extraccion_Drive.md — sin schema_drift."
+}

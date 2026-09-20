@@ -1,0 +1,33 @@
+{
+  "archivo": "Canciones FtM",
+  "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+  "modifiedTime": "2026-08-30T22:42:11.911Z",
+  "cached_at": "2026-09-20",
+  "status": "extracted",
+  "schema_drift": false,
+  "setlist": [
+    {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+    {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "avance_pct": 100, "ult_vez_tocada": "2026-05-23"},
+    {"orden": 3, "cancion": "Stone Cold Crazy", "autor": "Metallica", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+    {"orden": 4, "cancion": "Capitán Lawrence", "autor": "WarCry", "avance_pct": 95, "ult_vez_tocada": "2026-07-09"},
+    {"orden": 5, "cancion": "Wasted Years", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 6, "cancion": "Iron Man", "autor": "Black Sabbath", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+    {"orden": 7, "cancion": "The Memory Remains", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 8, "cancion": "Master of Puppets", "autor": "Metallica", "avance_pct": 95, "ult_vez_tocada": "2026-05-23"},
+    {"orden": 9, "cancion": "The Number of the Beast", "autor": "Iron Maiden", "avance_pct": 85, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 10, "cancion": "2 Minutes to Midnight", "autor": "Iron Maiden", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 11, "cancion": "For Whom the Bell Tolls", "autor": "Metallica", "avance_pct": 90, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 12, "cancion": "Pegaso", "autor": "Tierra Santa", "avance_pct": 85, "ult_vez_tocada": "2026-08-17"},
+    {"orden": 13, "cancion": "Fade to Black", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 14, "cancion": "Fear of the Dark", "autor": "Iron Maiden", "avance_pct": 80, "ult_vez_tocada": "2026-07-09"},
+    {"orden": 15, "cancion": "Seek and Destroy", "autor": "Metallica", "avance_pct": 75, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "avance_pct": 45, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 17, "cancion": "One", "autor": "Metallica", "avance_pct": 30, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 17, "cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "avance_pct": 0, "ult_vez_tocada": "2026-08-24"},
+    {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "avance_pct": 0, "ult_vez_tocada": null}
+  ],
+  "avance_bateria_pct": "vacío en todas las filas — no reportado como 0%",
+  "candidatas_nota": "Pestaña 'Repertorio' sigue listando 'Hallowed be Thy Name' (puntaje 4.6) y 'Nothing Else Matters' (puntaje 4) como candidatas, a pesar de que ya aparecen en el setlist principal — la pestaña de candidatas no se actualizó al promoverlas.",
+  "cambio_vs_cache_anterior": "Sin cambios: modifiedTime (2026-08-30T22:42:11.911Z) idéntico al del último cache verificado (cached_at 2026-08-31). Se reutilizó esa extracción sin reabrir el archivo, per regla del paso 3c.",
+  "nota_extraccion": "Encabezados leídos desde la fila 2 de 'Setlist General'. Se ignoraron los paneles laterales (estadísticas de playlist, 'Próximo Toque', celdas de duración promedio) y la pestaña 'Calendario 1' (rotación semanal 2024 de otro proyecto — datos muertos). Las filas de 'Hallowed be Thy Name' y 'Nothing Else Matters' repiten Orden=17 y 18 — inconsistencia de numeración en la hoja fuente, reportada tal como aparece. Huella de estructura coincide con la calibración de Reglas_Extraccion_Drive.md — sin schema_drift."
+}
