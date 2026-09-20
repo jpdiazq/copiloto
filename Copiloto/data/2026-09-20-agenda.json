@@ -1,0 +1,122 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T06:58:18-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-19T23:00:00-05:00",
+        "end": "2026-09-20T06:30:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 06:30. Solo cuentan las 6.5h (00:00-06:30) dentro de hoy."
+      },
+      {
+        "title": "Run",
+        "start": "2026-09-20T06:30:00-05:00",
+        "end": "2026-09-20T09:10:00-05:00",
+        "duration_minutes": 160,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "Título 'Run' apareció solo 2 veces en las últimas 3 semanas (bajo el umbral de 3+). El bloque de entreno matutino recurre casi a diario pero con nombre distinto cada vez (Bici, Nadar + Run, Entreno, Rudiments, Fortalecimiento)."
+      },
+      {
+        "title": "Desayunar y Arreglar",
+        "start": "2026-09-20T09:10:00-05:00",
+        "end": "2026-09-20T10:10:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "Título similar a 'Desayunar' apareció solo 2 veces en las últimas 3 semanas (bajo el umbral de 3+)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-20T10:10:00-05:00",
+        "end": "2026-09-20T11:00:00-05:00",
+        "duration_minutes": 50,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Practicar Batería",
+        "start": "2026-09-20T11:00:00-05:00",
+        "end": "2026-09-20T12:30:00-05:00",
+        "duration_minutes": 90,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "Título similar ('Practicar Batería' / 'Practicar Bateria') apareció solo 2 veces en las últimas 3 semanas (bajo el umbral de 3+)."
+      },
+      {
+        "title": "Planear Semana + LinkedIn",
+        "start": "2026-09-20T18:15:00-05:00",
+        "end": "2026-09-20T19:45:00-05:00",
+        "duration_minutes": 90,
+        "category": "personal",
+        "is_atypical": true,
+        "note": "Apareció solo 2 veces en las últimas 3 semanas (bajo el umbral de 3+)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-20T19:45:00-05:00",
+        "end": "2026-09-20T20:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-20T20:15:00-05:00",
+        "end": "2026-09-20T21:15:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Termina a las 21:15, pero 'Dormir' arranca a las 21:00: se pisan 15 minutos."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-20T21:00:00-05:00",
+        "end": "2026-09-21T04:15:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Arranca a las 21:00, 15 minutos antes de que termine 'Preparar Dormida' (21:15) — choque directo con el bloque anterior. Solo se cuentan las 3h (21:00-24:00) dentro de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 6.33,
+      "training_hours": 2.67,
+      "sleep_hours_within_today": 9.5,
+      "total_scheduled_hours_within_today": 18.25,
+      "overlap_minutes_double_counted": 15,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-20T12:30:00-05:00",
+          "end": "2026-09-20T18:15:00-05:00",
+          "duration_minutes": 345
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": true,
+        "zero_buffer_transitions": [
+          "Dormir -> Run (06:30, sin margen)",
+          "Run -> Desayunar y Arreglar (09:10, sin margen)",
+          "Desayunar y Arreglar -> Bono (10:10, sin margen)",
+          "Bono -> Practicar Batería (11:00, sin margen)",
+          "Planear Semana + LinkedIn -> Bono (19:45, sin margen)",
+          "Bono -> Preparar Dormida (20:15, sin margen)",
+          "Preparar Dormida -> Dormir (21:00, se pisan 15 minutos — Dormir arranca antes de que termine Preparar Dormida)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [],
+    "note": "De 30 correos no leídos en las últimas 24h (excluyendo Skandia y La Sabana), ninguno requirió acción directa. Fue casi 100% newsletters y marketing (Morning Brew, InvestingMail x2, AllStarCharts x2, Substack, AliExpress x2, SeatGeek, Ticketmaster, Ulta, LATAM, Davivienda, Banco de Occidente, Farmatodo, Juan Valdez, Luxury Escapes, Yelp, TripAdvisor, Apollo, CFA Institute), más confirmaciones de pago de Hogaru (informativas, sin acción), una notificación de Google Home, solicitudes de reseña de Amazon/MercadoLibre (opcionales) y una invitación de LinkedIn (opcional, sin urgencia)."
+  },
+  "friction": "El único choque real es de sueño consigo mismo: 'Dormir' arranca a las 21:00 pero 'Preparar Dormida' no termina hasta las 21:15 — se pisan 15 minutos, literalmente empiezas a dormir antes de terminar de prepararte para dormir. Fuera de eso, el día no está sobrecargado: hay un hueco libre de 5h45m (12:30-18:15) sin nada agendado, así que hay margen de sobra si algo se corre. Lo que sí está sucio es la nomenclatura: 4 de los 9 bloques de hoy (Run, Desayunar y Arreglar, Practicar Batería, Planear Semana + LinkedIn) salen como atípicos solo porque el título cambia cada vez que se repiten — si eso es a propósito, bien, pero si la idea es tener series recurrentes reales, ahora mismo ninguna de esas cuatro cruza el umbral de 3 apariciones en 3 semanas y el tracking de patrones se vuelve ruido."
+}
