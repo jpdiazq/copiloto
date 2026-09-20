@@ -1,0 +1,126 @@
+{
+  "fecha_reporte": "2026-09-20",
+  "periodo_7_dias": "2026-09-14 a 2026-09-20",
+  "strava": {
+    "actividades": [
+      {
+        "source_id": "strava_activity_20199065073",
+        "fecha": "2026-09-16",
+        "nombre": "Morning Run",
+        "tipo": "Run",
+        "duracion_min": 42.45,
+        "distancia_km": 6.23,
+        "desnivel_m": 12.8,
+        "fc_media": 126.1,
+        "fc_max": 143,
+        "potencia_media_w": null,
+        "esfuerzo_relativo": 8,
+        "nota": "Baltimore, Maryland — fuera de la rutina habitual (Usaquén), coincide con viaje."
+      }
+    ],
+    "totales_por_disciplina": {
+      "nado": {"km": 0, "min": 0},
+      "bici": {"km": 0, "min": 0},
+      "trote": {"km": 6.23, "min": 42.45}
+    },
+    "esfuerzo_relativo_semana_actual": 8,
+    "comparacion_esfuerzo_relativo_3_semanas_previas": [
+      {"semana": "2026-09-07 a 2026-09-13", "esfuerzo_relativo": 0, "nota": "sin actividades registradas — semana de descanso total tras la Media Maratón de Medellín"},
+      {"semana": "2026-08-31 a 2026-09-06", "esfuerzo_relativo": 224, "nota": "incluye 'Medía Maratón Medellín - PR!!' del 2026-09-06 (21.28 km, esfuerzo_relativo 193, 41 achievements, 41 PRs)"},
+      {"semana": "2026-08-24 a 2026-08-30", "esfuerzo_relativo": 106, "nota": "incluye Morning Run del 2026-08-30 (13.92 km, esfuerzo_relativo 63); una 'Evening Workout' del 2026-08-24 no reportó esfuerzo_relativo, se excluyó del total"}
+    ],
+    "tendencia_esfuerzo": "La semana actual (8) es la más baja de las últimas 4 semanas, muy por debajo de las 3 previas (0, 224 y 106). El patrón es: descarga post-carrera (semana -1 en cero), luego una sola actividad ligera esta semana coincidiendo con un viaje a Baltimore. Sin trote de volumen ni bici ni nado desde la Media Maratón.",
+    "reparto_tiempo_zona_fc_min": {
+      "z1_0_135": 37.17,
+      "z2_136_150": 5.37,
+      "z3_151_165": 0,
+      "z4_166_179": 0,
+      "z5_180_mas": 0,
+      "metodologia": "Bucketing del stream heart_rate (resolución máxima) de la única actividad de la semana (Morning Run, 2026-09-16) contra las zonas manuales del atleta (Z1 0-135, Z2 136-150, Z3 151-165, Z4 166-179, Z5 180+). FC máxima registrada en la semana: 143 bpm, dentro de Z2."
+    },
+    "kilometraje_acumulado_equipo": {
+      "status": "sin_datos",
+      "nota": "get_gear no devuelve bicicletas ni zapatillas registradas en la cuenta de Strava. No es posible calcular kilometraje acumulado ni verificar contra ningún umbral."
+    }
+  },
+  "contexto_carrera": {
+    "media_maraton_medellin": {"fecha": "2026-09-06", "status": "completada", "resultado": "PR — 21.28 km en 1:53:39, 41 achievements, 41 PRs, esfuerzo_relativo 193", "semanas_restantes": 0},
+    "cientoonce_huila": {"fecha": "2026-10-04", "semanas_restantes": 2},
+    "tono": "informativo — se expone la tendencia, no se dicta la semana siguiente",
+    "reparto_semana_actual_min": {"bici": 0, "trote": 42.45, "nado": 0},
+    "reparto_3_semanas_previas_min": [
+      {"semana": "2026-09-07 a 2026-09-13", "bici": 0, "trote": 0, "nado": 0},
+      {"semana": "2026-08-31 a 2026-09-06", "bici": 0, "trote": 214.27, "nado": 0, "nota": "incluye la Media Maratón (113.65 min) más 3 runs de rodaje corto"},
+      {"semana": "2026-08-24 a 2026-08-30", "bici": 46.38, "trote": 208.96, "nado": 0}
+    ],
+    "tendencia": "El trote cayó de 208.96 y 214.27 min en las dos semanas previas a la carrera, a 0 min la semana de descanso post-carrera, y apenas 42.45 min esta semana (una sola salida corta en Baltimore). La bici solo aparece en la semana -3 (46.38 min) y no ha vuelto a registrarse. El nado sigue en 0 en las 4 semanas del periodo. A 2 semanas de Cientoonce Huila, el volumen de entrenamiento sigue muy por debajo del que precedió a la Media Maratón."
+  },
+  "bateria_rudiments": {
+    "source_id": "gdrive_file_1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+    "plan_25_semanas": {
+      "semana_actual": 13,
+      "fecha_lunes": "2026-09-14",
+      "song_focus": "Capitan Lawrence",
+      "objetivo_resistencia_bpm": 142,
+      "objetivo_rafaga_bpm": 180,
+      "reales_registrados_esta_semana": "sin registros — columnas Endurance BPM / Speed BPM / Max Burst BPM vacías en las 4 filas de la semana 13",
+      "nota": "La semana 14 (lunes 2026-09-21, justo después de este periodo) es FLEX WEEK / REST en el plan."
+    },
+    "log_sesiones_rudimentos": {
+      "sesion_en_ventana": {"fecha": "2026-09-19", "valores": {"single_stroke": 147}, "nota": "no supera el máximo histórico de single_stroke (152)"},
+      "sesion_previa_a_la_ventana": {"fecha": "2026-07-12", "valores": {"single_stroke": 149, "paradiddle": 118}},
+      "nota": "Brecha de más de 2 meses (12-jul a 19-sep) sin entradas en el log antes de esta semana."
+    },
+    "maximos_actuales": {
+      "single_stroke": 152,
+      "double_stroke": 123,
+      "five_stroke_roll": 138,
+      "paradiddle": 119,
+      "triple_paradiddle": 118,
+      "double_pedal": 105
+    },
+    "conclusion": "Semana 13 sin reales logrados en el plan de 25 semanas, pero sí hubo una sesión de práctica en el log general de rudimentos (19-sep, single_stroke 147) — la primera en más de dos meses."
+  },
+  "verificacion_precision": {
+    "metodo": "5 afirmaciones tomadas al azar de los JSON de la semana (2026-09-14 a 2026-09-20), verificadas reabriendo cada source_id original (actividad Strava o archivo de Drive), no releyendo el propio cache.",
+    "aciertos": "5/5",
+    "detalle": [
+      {
+        "afirmacion": "Última actividad Strava antes del 2026-09-16: 'Medía Maratón Medellín - PR!!' (2026-09-06), 21.28 km, 1:53:39, desnivel 114.4 m, esfuerzo_relativo 193, 41 PRs",
+        "origen": "2026-09-16-vida.json",
+        "source_id": "strava_activity_20060669355",
+        "resultado": "acierto",
+        "verificacion": "list_activities: distance=21280.9m (21.28km), moving_time=6819s (1:53:39), elevation_gain=114.4, relative_effort=193, achievement_count=41, pr_count=41"
+      },
+      {
+        "afirmacion": "Rudiments Progress — máximos actuales: single_stroke 152, double_pedal 105",
+        "origen": "2026-09-16-vida.json",
+        "source_id": "gdrive_file_1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+        "resultado": "acierto",
+        "verificacion": "Fila 'Max' de la pestaña de log: 152,123,138,119,118,...,105 (Double Pedal como última columna)"
+      },
+      {
+        "afirmacion": "Plan 25 semanas — semana 7 (lunes 2026-08-03): song_focus Pegaso, target_endurance 125, target_burst 160",
+        "origen": "2026-09-16-vida.json",
+        "source_id": "gdrive_file_1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+        "resultado": "acierto",
+        "verificacion": "Fila '7, Aug 3 2026, Mon, PAD, Endurance: 5 min steady, 125, 160, Pegaso' en la pestaña del plan de 25 semanas"
+      },
+      {
+        "afirmacion": "Canciones FtM — 'Pegaso': % Avance 85%, Ult. Vez Tocada 2026-08-17",
+        "origen": "2026-09-16-vida.json",
+        "source_id": "gdrive_file_1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+        "resultado": "acierto",
+        "verificacion": "Fila orden 12 del setlist: Pegaso, Tierra Santa, % Avance 85%, Ult. Vez Tocada 8/17/2026"
+      },
+      {
+        "afirmacion": "Tracker Luna de Miel — presupuesto: total_estimado 77541182, restante -541182",
+        "origen": "2026-09-16-vida.json",
+        "source_id": "gdrive_file_1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+        "resultado": "acierto",
+        "verificacion": "Fila TOTALES de la pestaña de presupuesto (AUTORIDAD): TOTAL $77,541,182, Presupuesto $77,000,000, Restante -$541,182"
+      }
+    ],
+    "fallaron": []
+  }
+}
