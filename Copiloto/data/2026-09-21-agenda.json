@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T06:57:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-20T21:00:00-05:00",
+        "end": "2026-09-21T04:15:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:15."
+      },
+      {
+        "title": "Run",
+        "start": "2026-09-21T04:15:00-05:00",
+        "end": "2026-09-21T05:45:00-05:00",
+        "duration_minutes": 90,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque diario recurrente de entrenamiento matutino (mismo horario entre semana); la actividad puntual varía (Bici, Run, Nadar, Entrenamiento)."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-21T05:45:00-05:00",
+        "end": "2026-09-21T06:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-21T06:15:00-05:00",
+        "end": "2026-09-21T06:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-21T06:40:00-05:00",
+        "end": "2026-09-21T07:15:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-21T07:15:00-05:00",
+        "end": "2026-09-21T16:30:00-05:00",
+        "duration_minutes": 555,
+        "category": "trabajo",
+        "location": "SKANDIA Planeacion Financiera S.A.",
+        "is_atypical": false
+      },
+      {
+        "title": "Reservemos Shibuya Sky",
+        "start": "2026-09-21T12:00:00-05:00",
+        "end": "2026-09-21T13:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Reunión/llamada con Alejandra (palejandraacuna@gmail.com) para reservar Shibuya Sky, agendada en medio de Trabajo Skandia (07:15-16:30) — se traslapa por completo con el bloque laboral."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-21T16:30:00-05:00",
+        "end": "2026-09-21T17:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-21T17:00:00-05:00",
+        "end": "2026-09-21T17:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-21T17:30:00-05:00",
+        "end": "2026-09-21T18:15:00-05:00",
+        "duration_minutes": 45,
+        "category": "desarrollo",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-21T18:15:00-05:00",
+        "end": "2026-09-21T18:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-21T18:45:00-05:00",
+        "end": "2026-09-21T19:05:00-05:00",
+        "duration_minutes": 20,
+        "category": "música",
+        "is_atypical": false,
+        "note": "Título similar apareció 4 veces en las 3 semanas previas (bloque de práctica de batería antes del Bono de la noche)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-21T19:05:00-05:00",
+        "end": "2026-09-21T19:25:00-05:00",
+        "duration_minutes": 20,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ensayo",
+        "start": "2026-09-21T19:25:00-05:00",
+        "end": "2026-09-21T22:25:00-05:00",
+        "duration_minutes": 180,
+        "category": "música",
+        "is_atypical": true,
+        "note": "Solo apareció 2 veces en las 3 semanas previas (31-ago y 10-sep, ambas en el mismo horario 19:25-22:25) — no llega al umbral de 3+ para considerarse recurrente por la regla, aunque el horario exacto se repite cada ~10 días.",
+        "conflict_note": "A las 20:00-20:15 se cruza con la tarea 'RESERVAR: Tren Kanazawa→Kioto', metida en medio del ensayo de 3 horas."
+      },
+      {
+        "title": "🎫 RESERVAR: Tren Kanazawa→Kioto (Thunderbird)",
+        "start": "2026-09-21T20:00:00-05:00",
+        "end": "2026-09-21T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "viaje",
+        "is_atypical": true,
+        "note": "Tarea puntual de reserva de viaje (única, no recurrente). Programada dentro del bloque de Ensayo (19:25-22:25) — se traslapa por completo."
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-21T22:30:00-05:00",
+        "end": "2026-09-21T23:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-21T23:00:00-05:00",
+        "end": "2026-09-22T06:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuenta 1h (23:00-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 17.17,
+      "training_hours": 1.5,
+      "sleep_hours_within_today": 5.25,
+      "total_scheduled_hours_within_today": 23.92,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-21T22:25:00-05:00",
+        "end": "2026-09-21T22:30:00-05:00",
+        "duration_minutes": 5
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "double_bookings": [
+          "Reservemos Shibuya Sky (12:00-13:00) se traslapa por completo con Trabajo Skandia (07:15-16:30): llamada personal metida en medio de la jornada laboral.",
+          "🎫 RESERVAR: Tren Kanazawa→Kioto (20:00-20:15) se traslapa por completo con Ensayo (19:25-22:25): tarea de reserva de viaje metida en medio del ensayo."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Run (04:15, sin margen)",
+          "Run -> Arreglar (05:45, sin margen)",
+          "Arreglar -> Bono (06:15, sin margen)",
+          "Bono -> Ir a Skandia (06:40, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:15, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (16:30, sin margen)",
+          "Ir a Casa -> Descansar (17:00, sin margen)",
+          "Descansar -> Cursos (17:30, sin margen)",
+          "Cursos -> Comer (18:15, sin margen)",
+          "Comer -> Rudiments (18:45, sin margen)",
+          "Rudiments -> Bono (19:05, sin margen)",
+          "Bono -> Ensayo (19:25, sin margen)",
+          "Preparar Dormida -> Dormir (23:00, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [],
+    "note": "12 correos no leídos en las últimas 24h; ninguno requiere una acción concreta de mi parte. Son newsletters/boletines financieros (Apollo, Morning Brew, DataTrek, Valora Analitik, AllStarCharts, Milk Road, CFA Institute), marketing (AliExpress, Duolingo, Yelp), un dígito de notificaciones de LinkedIn, y un ticket de GetYourGuide (Alejandra reservó la ceremonia del té en Kioto para el 22-oct) que es solo confirmación, sin acción pendiente hoy."
+  },
+  "friction": "El día está lleno de 00:00 a 24:00 con un solo hueco libre de 5 minutos (22:25-22:30) — cero margen real. Trece transiciones seguidas sin colchón, incluyendo llegar a Skandia justo cuando empieza el trabajo y encadenar, después de 9h15 laborales, Ir a Casa → Descansar → Cursos → Comer → Rudiments → Bono → Ensayo sin respiro hasta las 22:30. Hay dos choques de agenda reales: 'Reservemos Shibuya Sky' con Alejandra está metida a las 12:00-13:00 en plena mitad de Trabajo Skandia, y la reserva del tren Kanazawa→Kioto (con probable fecha límite de disponibilidad) está a las 20:00-20:15 dentro del Ensayo de 3 horas — si el ensayo no se puede interrumpir, esa reserva se hace tarde o no se hace. Si el trabajo se extiende un solo minuto o el tráfico se atrasa, todo el resto del día se cae en cascada porque no hay dónde absorberlo."
+}
