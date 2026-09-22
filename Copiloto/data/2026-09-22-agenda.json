@@ -1,0 +1,162 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T06:57:48-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-21T23:00:00-05:00",
+        "end": "2026-09-22T06:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 06:00."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-22T06:00:00-05:00",
+        "end": "2026-09-22T07:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-22T07:00:00-05:00",
+        "end": "2026-09-22T07:35:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-22T07:35:00-05:00",
+        "end": "2026-09-22T17:00:00-05:00",
+        "duration_minutes": 565,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Fortalecimiento General Skandia",
+        "start": "2026-09-22T17:45:00-05:00",
+        "end": "2026-09-22T19:00:00-05:00",
+        "duration_minutes": 75,
+        "category": "entrenamiento",
+        "is_atypical": true,
+        "note": "Título similar apareció solo 2 veces en las 3 semanas previas (09-sep, 15-sep), por debajo del umbral de 3+ para considerarse recurrente."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-22T19:00:00-05:00",
+        "end": "2026-09-22T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-22T19:30:00-05:00",
+        "end": "2026-09-22T20:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-22T20:00:00-05:00",
+        "end": "2026-09-22T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar/Estirar + Preparar Dormida",
+        "start": "2026-09-22T20:15:00-05:00",
+        "end": "2026-09-22T20:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-22T20:45:00-05:00",
+        "end": "2026-09-23T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h15m (20:45-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 12.75,
+      "training_hours": 1.25,
+      "sleep_hours_within_today": 9.25,
+      "total_scheduled_hours_within_today": 23.25,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-22T17:00:00-05:00",
+        "end": "2026-09-22T17:45:00-05:00",
+        "duration_minutes": 45
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Arreglar (06:00, sin margen)",
+          "Arreglar -> Ir a Skandia (07:00, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:35, sin margen)",
+          "Fortalecimiento General Skandia -> Ir a Casa (19:00, sin margen)",
+          "Ir a Casa -> Comer (19:30, sin margen)",
+          "Comer -> Bono (20:00, sin margen)",
+          "Bono -> Leer + Meditar/Estirar + Preparar Dormida (20:15, sin margen)",
+          "Leer + Meditar/Estirar + Preparar Dormida -> Dormir (20:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Puede haber otras opciones de ponerte al día, pregúntanos",
+        "action_required": "Contactar al banco para regularizar el pago que no ha sido recibido.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "do-not-reply@ses.binance.com (Binance)",
+        "subject": "[Binance] New Device or IP Login Alert - 2026-09-21",
+        "action_required": "Verificar si el inicio de sesión desde nuevo dispositivo/IP fue propio; si no, cambiar contraseña de inmediato.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "info@payulatam.com (PayU)",
+        "subject": "Transacción Rechazada (Cinemark Colombia, 2 intentos)",
+        "action_required": "Revisar el método de pago y reintentar la compra en Cinemark si aún se necesita.",
+        "urgency": "media"
+      },
+      {
+        "sender": "info@colombia.cfasociety.org (CFA Society Colombia)",
+        "subject": "Asamblea extraordinaria CFA Society Colombia | jueves 24 de septiembre",
+        "action_required": "Confirmar asistencia a la asamblea extraordinaria del jueves 24.",
+        "urgency": "media"
+      },
+      {
+        "sender": "francisco@tributi.com (Tributi)",
+        "subject": "¿aún no has comenzado tu declaración de renta?",
+        "action_required": "Iniciar o continuar la declaración de renta antes del vencimiento.",
+        "urgency": "media"
+      },
+      {
+        "sender": "contacto@hogaru.com (Hogarú)",
+        "subject": "Tu servicio de limpieza Hogarú será el Miércoles, 23 de Septiembre del 2026",
+        "action_required": "Confirmar disponibilidad/acceso en casa para el servicio de limpieza de mañana 1:00pm.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "El día está bloqueado de corrido: de 00:00 a 17:00 no hay ni un minuto libre (dormir, arreglarse, transporte y 9h25m de trabajo se empalman sin colchón), y de 19:00 a 04:00 del día siguiente vuelve a estar completamente lleno (transporte, comer, rutina nocturna, dormir). El único hueco libre de todo el día es de 45 minutos (17:00-17:45), y no alcanza para lo que llegó hoy por correo: pago vencido con Banco de Occidente, alerta de inicio de sesión nuevo en Binance que hay que verificar YA por seguridad, dos rechazos de pago en Cinemark, asamblea extraordinaria de CFA Society Colombia el jueves que requiere confirmar asistencia, declaración de renta pendiente, y el servicio de limpieza de mañana. Seis pendientes reales contra 45 minutos de margen — no alcanza, algo se va a quedar sin atender. Además hay ocho transiciones de cero margen en el día (Arreglar->Ir a Skandia, Ir a Skandia->Trabajo Skandia, Fortalecimiento->Ir a Casa, etc.): cualquier atraso en el trabajo o el tráfico empuja todo lo demás, incluida la hora de dormir. No hay choque directo con el bloque de sueño ni con el de entrenamiento, pero el entrenamiento de hoy (Fortalecimiento General Skandia) es atípico frente al patrón de las últimas 3 semanas, así que si se cae por el trabajo, no hay dónde reponerlo."
+}
