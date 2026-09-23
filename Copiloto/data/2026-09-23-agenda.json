@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T06:56:54-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-22T20:45:00-05:00",
+        "end": "2026-09-23T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Dentro de hoy solo cuentan las 4h (00:00-04:00)."
+      },
+      {
+        "title": "Nadar + Run",
+        "start": "2026-09-23T04:00:00-05:00",
+        "end": "2026-09-23T07:20:00-05:00",
+        "duration_minutes": 200,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque de entrenamiento matutino recurrente en días de Skandia; la actividad puntual varía semana a semana (Bici, Run, Nadar, Entrenamiento, Nadar+Run) pero el slot y su función son los mismos."
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-23T07:20:00-05:00",
+        "end": "2026-09-23T08:10:00-05:00",
+        "duration_minutes": 50,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-23T08:10:00-05:00",
+        "end": "2026-09-23T17:00:00-05:00",
+        "duration_minutes": 530,
+        "category": "trabajo",
+        "location": "Skandia, Cra 19 #109A - 30, Bogotá, Colombia",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-23T17:00:00-05:00",
+        "end": "2026-09-23T17:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-23T17:30:00-05:00",
+        "end": "2026-09-23T18:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "formación",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-23T18:30:00-05:00",
+        "end": "2026-09-23T19:00:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-23T19:00:00-05:00",
+        "end": "2026-09-23T19:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "personal",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-23T19:30:00-05:00",
+        "end": "2026-09-23T19:45:00-05:00",
+        "duration_minutes": 15,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-23T19:45:00-05:00",
+        "end": "2026-09-23T20:30:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-23T20:45:00-05:00",
+        "end": "2026-09-24T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Dentro de hoy solo cuentan las 3h15 (20:45-24:00)."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.17,
+      "training_hours": 3.33,
+      "sleep_hours_within_today": 7.25,
+      "total_scheduled_hours_within_today": 23.75,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-23T20:30:00-05:00",
+        "end": "2026-09-23T20:45:00-05:00",
+        "duration_minutes": 15
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Nadar + Run (04:00, sin margen)",
+          "Nadar + Run -> Ir a Skandia (07:20, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (08:10, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (17:00, sin margen)",
+          "Ir a Casa -> Cursos (17:30, sin margen)",
+          "Cursos -> Comer (18:30, sin margen)",
+          "Comer -> Rudiments (19:00, sin margen)",
+          "Rudiments -> Bono (19:30, sin margen)",
+          "Bono -> Leer + Meditar + Preparar Dormida (19:45, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Queremos apoyarte para que estés al día en tus obligaciones",
+        "action_required": "Pagar o negociar el pago mínimo que lleva varias semanas vencido, o llamar a la línea de negociación.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "reservation@pimalai.com (Pimalai Resort & Spa)",
+        "subject": "Re: Inquiry Reservation # 47722SG014395",
+        "action_required": "Pagar THB 57,632 (prepago reserva de luna de miel) vía Flywire antes del 2-oct 17:00 hora Tailandia y enviar los datos del vuelo de llegada a Krabi.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "sanroqueros1@gmail.com (invitación de calendario)",
+        "subject": "Invitación actualizada: Grooming Bono Diaz - Border Collie - Juan Pablo jue 24 de sept de 2026 09:00 - 11:00 (COT)",
+        "action_required": "Confirmar asistencia (Sí/No/Quizás) a la cita de grooming de Bono mañana 9:00-11:00.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Los once bloques de hoy son 100% rutina recurrente, cero eventos atípicos — pero eso no significa que sobre tiempo: el día está lleno de 00:00 a 24:00 con un único hueco de 15 minutos (20:30-20:45) y nueve transiciones sin ningún margen, empezando a las 4:00 (Dormir->Nadar+Run) y terminando en una cadena de cinco actividades sin respiro entre las 17:00 y las 20:30 (Ir a Casa, Cursos, Comer, Rudiments, Bono, Leer+Meditar+Preparar Dormida). El entrenamiento y el sueño no chocan con nada, eso está bien resuelto. El problema real está en el correo: hay dos pendientes de plata sin espacio en esta agenda — el pago mínimo de Banco de Occidente, vencido hace semanas, y el prepago de THB 57,632 para la reserva de luna de miel en Pimalai, que vence el 2 de octubre. Ninguno de los dos cabe en un día sin huecos libres de más de 15 minutos. Si el trabajo se corre o el tráfico se atrasa, toda la tarde se empuja en cascada y esos dos pagos se siguen postergando."
+}
