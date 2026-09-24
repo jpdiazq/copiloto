@@ -1,0 +1,225 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T06:57:05-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-23T20:45:00-05:00",
+        "end": "2026-09-24T04:00:00-05:00",
+        "duration_minutes": 240,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Solo se cuentan las 4h dentro del día de hoy."
+      },
+      {
+        "title": "Bici",
+        "start": "2026-09-24T04:00:00-05:00",
+        "end": "2026-09-24T05:45:00-05:00",
+        "duration_minutes": 105,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Bloque diario recurrente de entrenamiento matutino (mismo horario cada día); la actividad puntual rota (Bici, Run, Nadar, Entrenar). 'Bici' específicamente apareció 2 veces en las 3 semanas previas (10-sep, 17-sep), pero el bloque en sí es prácticamente diario."
+      },
+      {
+        "title": "Arreglar",
+        "start": "2026-09-24T05:45:00-05:00",
+        "end": "2026-09-24T06:25:00-05:00",
+        "duration_minutes": 40,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-24T06:25:00-05:00",
+        "end": "2026-09-24T07:10:00-05:00",
+        "duration_minutes": 45,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-24T07:10:00-05:00",
+        "end": "2026-09-24T07:45:00-05:00",
+        "duration_minutes": 35,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-24T07:45:00-05:00",
+        "end": "2026-09-24T16:45:00-05:00",
+        "duration_minutes": 540,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Grooming Bono Diaz - Border Collie - Juan Pablo",
+        "start": "2026-09-24T09:00:00-05:00",
+        "end": "2026-09-24T11:00:00-05:00",
+        "duration_minutes": 120,
+        "category": "mascota",
+        "location": "SanRoque SPA - Grooming Canino y Felino",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas. Cita de grooming del perro, agendada apenas el 22-sep. Se solapa por completo con 'Trabajo Skandia' (07:45-16:45) — conflicto real, no colchón ajustado."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-24T16:45:00-05:00",
+        "end": "2026-09-24T17:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Descansar",
+        "start": "2026-09-24T17:15:00-05:00",
+        "end": "2026-09-24T17:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-24T17:45:00-05:00",
+        "end": "2026-09-24T18:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "formación",
+        "is_atypical": false
+      },
+      {
+        "title": "Comer",
+        "start": "2026-09-24T18:15:00-05:00",
+        "end": "2026-09-24T18:45:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-24T18:45:00-05:00",
+        "end": "2026-09-24T19:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "formación",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-24T19:15:00-05:00",
+        "end": "2026-09-24T19:40:00-05:00",
+        "duration_minutes": 25,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-24T19:40:00-05:00",
+        "end": "2026-09-24T20:15:00-05:00",
+        "duration_minutes": 35,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "🎫 RESERVAR: Tren Kioto→Hiroshima (Shinkansen 8:00 AM)",
+        "start": "2026-09-24T20:00:00-05:00",
+        "end": "2026-09-24T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "viaje/tarea",
+        "is_atypical": true,
+        "note": "No aparece en las 3 semanas previas: tarea puntual de preparación del viaje de oct-24 a Japón. Se solapa con 'Preparar Dormida' (19:40-20:15). Descripción original: confirmar horario 8:00 AM para llegar con el día completo libre en Hiroshima."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-24T20:45:00-05:00",
+        "end": "2026-09-25T04:00:00-05:00",
+        "duration_minutes": 195,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h15 (20:45-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 14.5,
+      "training_hours": 1.75,
+      "sleep_hours_within_today": 7.25,
+      "total_scheduled_hours_within_today": 23.5,
+      "free_gaps_over_60min": [],
+      "only_gap_found": {
+        "start": "2026-09-24T20:15:00-05:00",
+        "end": "2026-09-24T20:45:00-05:00",
+        "duration_minutes": 30
+      },
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "double_bookings": [
+          {
+            "event_a": "Grooming Bono Diaz - Border Collie - Juan Pablo",
+            "event_b": "Trabajo Skandia",
+            "overlap": "09:00-11:00",
+            "description": "La cita de grooming del perro se solapa por completo (2h) con el horario laboral en Skandia. No es un colchón ajustado, es un doble compromiso simultáneo."
+          }
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Bici (04:00, sin margen)",
+          "Bici -> Arreglar (05:45, sin margen)",
+          "Arreglar -> Bono (06:25, sin margen)",
+          "Bono -> Ir a Skandia (07:10, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (07:45, sin margen)",
+          "Trabajo Skandia -> Ir a Casa (16:45, sin margen)",
+          "Ir a Casa -> Descansar (17:15, sin margen)",
+          "Descansar -> Cursos (17:45, sin margen)",
+          "Cursos -> Comer (18:15, sin margen)",
+          "Comer -> Cursos (18:45, sin margen)",
+          "Cursos -> Bono (19:15, sin margen)",
+          "Bono -> Preparar Dormida (19:40, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "no-reply@accounts.google.com (Google)",
+        "subject": "Critical security alert",
+        "action_required": "Revisar la alerta de contraseñas filtradas en una brecha de datos y cambiarlas en los sitios afectados.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente)",
+        "subject": "Queremos conocer tu situación, cuéntanos para poder ayudarte",
+        "action_required": "Contactar al banco para aclarar la situación de cartera/mora mencionada antes de que escale.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "nu@soynu.com.co (Nu)",
+        "subject": "No pierdas Nu Plus",
+        "action_required": "Usar $900.000 con las tarjetas Nu antes de que termine el mes para conservar el beneficio Nu Plus.",
+        "urgency": "media"
+      },
+      {
+        "sender": "palejandraacuna@gmail.com",
+        "subject": "Fwd: [20260919131839151018806]Booking Details from Tokyo Disney Resort",
+        "action_required": "Revisar y confirmar los detalles de la reserva de Tokyo Disney Resort para el viaje de octubre.",
+        "urgency": "media"
+      },
+      {
+        "sender": "extractos@extractos.davibank.com (Davivienda)",
+        "subject": "Extracto Electrónico Cartera",
+        "action_required": "Revisar el extracto del crédito 207410306918 y verificar que no haya pago pendiente.",
+        "urgency": "media"
+      },
+      {
+        "sender": "contacto@hogaru.com (Hogaru)",
+        "subject": "Evalúa el servicio que recibiste el Mie, 23 de Sep y ayúdanos a darte un servicio mejor!",
+        "action_required": "Calificar el servicio de limpieza de Eucaris Del Carmen (opcional).",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "El día está lleno de 05:45 a 20:15 sin un solo colchón: 14.5 horas comprometidas encadenadas transición tras transición con cero margen. El único hueco libre es de 30 minutos (20:15-20:45), nada de más de 60. Pero lo grave no es lo ajustado, es que hay un doble compromiso real: la cita de grooming del perro (09:00-11:00, SanRoque SPA) se solapa por completo con el horario laboral en Skandia — dos horas en las que no se puede estar en ambos sitios a la vez, y eso no se resuelve con más apuro, se resuelve decidiendo ahora quién lleva al perro o si se reagenda. Además, hoy llegaron dos correos de urgencia alta sin ningún espacio en la agenda para atenderlos: una alerta de contraseñas filtradas y un mensaje de Banco de Occidente sobre una situación de cartera — ninguno de los dos cabe en los 30 minutos libres que quedan. Si el trabajo se corre aunque sea un poco, todo lo que sigue (casa, cursos, comida, preparar la maleta del viaje) se atrasa en cascada hasta la hora de dormir."
+}
