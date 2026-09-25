@@ -1,0 +1,155 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T06:57:53-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-24T20:45:00-05:00",
+        "end": "2026-09-25T04:00:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 04:00. Título recurrente casi todos los días de las 3 semanas previas."
+      },
+      {
+        "title": "Nadar + Run",
+        "start": "2026-09-25T04:00:00-05:00",
+        "end": "2026-09-25T07:20:00-05:00",
+        "duration_minutes": 200,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Título idéntico apareció 3 veces en las 3 semanas previas (16-sep, 18-sep, 23-sep) — bloque recurrente de entrenamiento matutino."
+      },
+      {
+        "title": "Ir a Skandia",
+        "start": "2026-09-25T07:20:00-05:00",
+        "end": "2026-09-25T08:10:00-05:00",
+        "duration_minutes": 50,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Trabajo Skandia",
+        "start": "2026-09-25T08:10:00-05:00",
+        "end": "2026-09-25T16:40:00-05:00",
+        "duration_minutes": 510,
+        "category": "trabajo",
+        "location": "Skandia",
+        "is_atypical": false
+      },
+      {
+        "title": "Fortalecimiento Tren Inferior",
+        "start": "2026-09-25T16:40:00-05:00",
+        "end": "2026-09-25T17:40:00-05:00",
+        "duration_minutes": 60,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Patrón 'Fortalecimiento...' (Tren Inferior / General Skandia) aparece 5 veces en las 3 semanas previas (09, 11, 15, 18, 22-sep) — recurrente aunque el título varía ligeramente."
+      },
+      {
+        "title": "Ir a Casa",
+        "start": "2026-09-25T17:40:00-05:00",
+        "end": "2026-09-25T18:10:00-05:00",
+        "duration_minutes": 30,
+        "category": "transporte",
+        "is_atypical": false
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-25T18:10:00-05:00",
+        "end": "2026-09-25T19:25:00-05:00",
+        "duration_minutes": 75,
+        "category": "estudio",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-25T19:25:00-05:00",
+        "end": "2026-09-25T19:55:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Leer + Meditar + Preparar Dormida",
+        "start": "2026-09-25T19:55:00-05:00",
+        "end": "2026-09-25T22:00:00-05:00",
+        "duration_minutes": 125,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Título similar recurrente (variantes 'Leer + Meditar...' / 'Preparar Dormida') en 7+ días de las 3 semanas previas. Interrumpido 15 min por la tarea de reserva de tren (ver siguiente evento)."
+      },
+      {
+        "title": "🎫 RESERVAR: Tren Hiroshima→Shin-Osaka",
+        "start": "2026-09-25T20:00:00-05:00",
+        "end": "2026-09-25T20:15:00-05:00",
+        "duration_minutes": 15,
+        "category": "tarea",
+        "is_atypical": false,
+        "note": "Se solapa por completo con 'Leer + Meditar + Preparar Dormida' (no resta tiempo libre adicional, por eso se excluye de las horas comprometidas para no duplicar). El patrón '🎫 RESERVAR: ...' (recordatorios de compra de tiquetes para el viaje a Japón) apareció 6 veces en las 3 semanas previas (09, 16, 17×2, 19, 21, 24-sep) con títulos distintos cada vez pero el mismo propósito recurrente — se clasifica como recurrente por patrón, no por título exacto."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-25T22:00:00-05:00",
+        "end": "2026-09-26T05:00:00-05:00",
+        "duration_minutes": 420,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan 2h (22:00-24:00) dentro de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 13.67,
+      "training_hours": 4.33,
+      "sleep_hours_within_today": 6.0,
+      "total_scheduled_hours_within_today": 24.0,
+      "free_gaps_over_60min": [],
+      "gaps_found": "Ninguno. El día está encadenado de 00:00 a 24:00 sin ni un solo minuto de hueco entre bloques.",
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Nadar + Run (04:00, sin margen)",
+          "Nadar + Run -> Ir a Skandia (07:20, sin margen)",
+          "Ir a Skandia -> Trabajo Skandia (08:10, sin margen)",
+          "Trabajo Skandia -> Fortalecimiento Tren Inferior (16:40, sin margen)",
+          "Fortalecimiento Tren Inferior -> Ir a Casa (17:40, sin margen)",
+          "Ir a Casa -> Cursos (18:10, sin margen)",
+          "Cursos -> Bono (19:25, sin margen)",
+          "Bono -> Leer + Meditar + Preparar Dormida (19:55, sin margen)",
+          "Leer + Meditar + Preparar Dormida -> Dormir (22:00, sin margen)"
+        ],
+        "other_overlaps": [
+          "🎫 RESERVAR: Tren Hiroshima→Shin-Osaka (20:00-20:15) se solapa dentro de 'Leer + Meditar + Preparar Dormida' — interrumpe el único bloque de desconexión del día."
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "cynegociacion@bancodeoccidente.com.co (Banco de Occidente - Negociación)",
+        "subject": "Queremos conocer tu situación, cuéntanos para poder ayudarte",
+        "action_required": "Contactar a la línea de conciliación/negociación de Banco de Occidente para resolver la mora en producto(s) financiero(s) antes de que escale.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "TradingAssistant@interactivebrokers.com",
+        "subject": "FTDR down more than 5% (UXXX91654)",
+        "action_required": "Revisar la posición en FTDR tras la caída de más de 5% y decidir si se ajusta.",
+        "urgency": "media"
+      },
+      {
+        "sender": "notifications-noreply@linkedin.com",
+        "subject": "You have 1 new invitation",
+        "action_required": "Revisar y responder (aceptar/ignorar) la nueva invitación de contacto en LinkedIn.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "Hoy no hay ningún margen: la agenda está encadenada de 00:00 a 24:00 sin un solo hueco libre, con nueve transiciones de cero minutos de colchón (Dormir→Nadar+Run a las 04:00, →Ir a Skandia a las 07:20, →Trabajo Skandia a las 08:10, →Fortalecimiento a las 16:40, →Ir a Casa a las 17:40, →Cursos a las 18:10, →Bono a las 19:25, →Leer/Meditar a las 19:55, →Dormir a las 22:00). No es un hueco pequeño el que falta, es que no hay ninguno de ningún tamaño. Si Trabajo Skandia (8.5h, 08:10-16:40) se extiende aunque sea unos minutos, todo lo que sigue se atrasa en cascada hasta la hora de dormir, porque no hay dónde absorber el atraso. Encima, el único bloque de desconexión antes de dormir ('Leer + Meditar + Preparar Dormida', 19:55-22:00) queda interrumpido por la tarea de reservar el tren de Japón (20:00-20:15): ni esa hora está libre de pendientes. El día suma 4.33h de entrenamiento (natación+run de madrugada y fortalecimiento en la noche) más 8.5h de trabajo y solo 6h de sueño dentro del día — es una carga alta sin ningún colchón para imprevistos, y el patrón de cero margen se repite día tras día en las últimas semanas, no es un caso aislado."
+}
