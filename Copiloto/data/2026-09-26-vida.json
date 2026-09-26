@@ -1,0 +1,217 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T06:52:11-05:00",
+  "timezone": "America/Bogota",
+  "strava": {
+    "ventana_12h": {
+      "has_activity_today": false,
+      "has_activity_yesterday_pm": false,
+      "session_count_12h": 0,
+      "activities": [],
+      "nota": "Ventana vacía: sin actividades registradas hoy (2026-09-26) ni ayer (2026-09-25) después de las 12:00. La actividad más reciente en Strava es del 2026-09-21 (fuera de esta ventana) — se reporta abajo, en la sección de 7 días, no aquí."
+    },
+    "ventana_7_dias": {
+      "rango": "2026-09-19 a 2026-09-26",
+      "activities": [
+        {
+          "id": "20276237445",
+          "name": "Evening Workout",
+          "sport_type": "Workout",
+          "start_local": "2026-09-21T20:18:41-05:00",
+          "duration_minutes": 104.67,
+          "distance_km": 0,
+          "elevation_gain_m": 0,
+          "avg_heartrate": 120.7,
+          "max_heartrate": 163,
+          "avg_watts": null,
+          "has_device_watts": false,
+          "relative_effort": 19,
+          "calories": 656
+        }
+      ],
+      "relative_effort_acumulado_7d": 19,
+      "zonas_atleta": {
+        "heart_rate_zones": [
+          {"zona": 1, "min": 0, "max": 135},
+          {"zona": 2, "min": 136, "max": 150},
+          {"zona": 3, "min": 151, "max": 165},
+          {"zona": 4, "min": 166, "max": 179},
+          {"zona": 5, "min": 180, "max": null}
+        ],
+        "heart_rate_zone_source": "Manual",
+        "power_zones": [
+          {"zona": 1, "min": 0, "max": 103},
+          {"zona": 2, "min": 104, "max": 141},
+          {"zona": 3, "min": 142, "max": 169},
+          {"zona": 4, "min": 170, "max": 197},
+          {"zona": 5, "min": 198, "max": 226},
+          {"zona": 6, "min": 227, "max": 282},
+          {"zona": 7, "min": 283, "max": null}
+        ],
+        "ftp": 188,
+        "ftp_is_estimated": false,
+        "run_zones_pace_min_per_km": [
+          {"zona": 1, "min": 0, "max": 2.494},
+          {"zona": 2, "min": 2.494, "max": 2.898},
+          {"zona": 3, "min": 2.898, "max": 3.228},
+          {"zona": 4, "min": 3.228, "max": 3.448},
+          {"zona": 5, "min": 3.448, "max": 3.668},
+          {"zona": 6, "min": 3.668, "max": null}
+        ],
+        "run_zone_source": "RacePace",
+        "sample_race_pace": {"best_effort_type": "Fastest5k", "time": "24m 33s", "is_estimated": false}
+      },
+      "kilometraje_equipo": {
+        "status": "sin_gear_registrado",
+        "bikes": [],
+        "shoes": [],
+        "nota": "get_gear devolvió lista vacía — no hay bicis ni zapatillas registradas en Strava para este atleta. No se puede calcular kilometraje acumulado ni evaluar el umbral de 700 km."
+      },
+      "contexto_carrera_objetivo": {
+        "current_focus": "TrainForEvent — \"Train for a triathlon\"",
+        "expires_at_local": "2026-10-04T23:59:59",
+        "nota": "Solo 1 actividad registrada en los últimos 7 días (2026-09-21, esfuerzo relativo 19) a 8 días de que expire el objetivo de triatlón declarado en el perfil. get_training_plan no devolvió un plan configurado, solo un enlace promocional de Runna."
+      }
+    },
+    "provenance": "Strava MCP: list_activities (rango 2026-09-19T00:00:00 a 2026-09-26T23:59:59), get_activity_performance, get_athlete_zones, get_gear, get_athlete_profile, get_training_plan."
+  },
+  "drive": {
+    "Nutrition Plan 2026.pdf": {
+      "fileId": "1ag6ySjRZMQNmhwlYZcOCRx-BC19Nku5y",
+      "modifiedTime_actual": "2026-04-13T02:22:23.770Z",
+      "cache_usado": {"cached_at": "2026-08-06", "modifiedTime_en_cache": "2026-04-13T02:22:23.770Z"},
+      "status": "cached_no_change",
+      "schema_drift": false,
+      "data": {
+        "recomendaciones": {
+          "ayuno_horas": "12-14",
+          "hora_desayuno": "7:00 am",
+          "hora_cena_max": "6:00 pm",
+          "hidratacion_litros_dia": 2.4,
+          "hidratacion_antes_mediodia_litros": 1,
+          "evitar_agua_con_gas": true,
+          "porciones_grasa_saludable_dia": 5
+        },
+        "suplementos_base": [
+          {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+          {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+          {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+          {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+        ],
+        "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"],
+        "restricciones_temporales_1_mes": {
+          "status": "vencidas",
+          "nota": "El plan está fechado abril 2026 y estas restricciones decían 'durante 1 MES'. Hoy (2026-09-26) son más de 5 meses después de la fecha del plan — con mayor razón que en la calibración anterior (2026-08-06), estas restricciones ya no aplican.",
+          "items": ["Leche", "Queso", "Crema de leche / queso crema / esparcibles convencionales", "Mantequilla de maní / Nutella / mermelada convencional", "Pan blanco, pastas, trigo y derivados", "Embutidos convencionales", "Aceite vegetal", "Chocolate con azúcar para tomar"]
+        },
+        "escalones_tss": [
+          {"carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu"},
+          {"carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu"},
+          {"carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going"},
+          {"carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going"}
+        ]
+      }
+    },
+    "Canciones FtM": {
+      "fileId": "1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o",
+      "modifiedTime_actual": "2026-08-30T22:42:11.911Z",
+      "cache_usado": {"cached_at": "2026-08-31", "modifiedTime_en_cache": "2026-08-30T22:42:11.911Z"},
+      "status": "cached_no_change",
+      "schema_drift": false,
+      "data": {
+        "setlist_top": [
+          {"orden": 1, "cancion": "Aces High", "autor": "Iron Maiden", "avance_pct": 100, "ult_vez_tocada": "2026-07-09"},
+          {"orden": 2, "cancion": "Toxicity", "autor": "System of a Down", "avance_pct": 100, "ult_vez_tocada": "2026-05-23"},
+          {"orden": 16, "cancion": "The Trooper", "autor": "Iron Maiden", "avance_pct": 45, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 17, "cancion": "One", "autor": "Metallica", "avance_pct": 30, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 17, "cancion": "Hallowed be Thy Name", "autor": "Iron Maiden", "avance_pct": 0, "ult_vez_tocada": "2026-08-24"},
+          {"orden": 18, "cancion": "Nothing Else Matters", "autor": "Metallica", "avance_pct": 0, "ult_vez_tocada": null}
+        ],
+        "total_canciones_setlist": 18,
+        "avance_bateria_pct": "vacío en todas las filas — no reportado como 0%",
+        "nota_cache": "Canciones con menor avance: The Trooper (45%), One (30%), Hallowed be Thy Name y Nothing Else Matters (0%, nunca tocadas)."
+      }
+    },
+    "Rudiments Progress": {
+      "fileId": "1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw",
+      "modifiedTime_actual": "2026-09-19T16:01:17.912Z",
+      "cache_usado": {"cached_at": "2026-09-21", "modifiedTime_en_cache": "2026-09-19T16:01:17.912Z"},
+      "status": "cached_no_change",
+      "schema_drift": false,
+      "data": {
+        "maximos_actuales": {
+          "single_stroke": 152,
+          "double_stroke": 123,
+          "five_stroke_roll": 138,
+          "paradiddle": 119,
+          "triple_paradiddle": 118,
+          "double_pedal": 105
+        },
+        "ultima_sesion_log": {"fecha": "2026-09-19", "valores": {"single_stroke": 147}},
+        "plan_25_semanas": {
+          "semana_actual_por_fecha": {
+            "week": 14,
+            "date_mon": "2026-09-21",
+            "type_focus": "FLEX WEEK / REST",
+            "notes": "Take a break or catch up",
+            "reales_logrados": "sin dato — semana de descanso, sin BPM objetivo"
+          },
+          "ultima_semana_con_reales_logrados": {"week": 4, "date_mon": "2026-07-13", "song_focus": "Fade to Black"}
+        }
+      }
+    },
+    "Tracker Luna de Miel": {
+      "fileId": "1yB7L5CJZLLdNXrmayQQt3Qg0vbKFvmItFguG5mcylVA",
+      "modifiedTime_actual": "2026-08-31T03:07:47.003Z",
+      "cache_usado": {"cached_at": "2026-08-31", "modifiedTime_en_cache": "2026-08-31T03:07:47.003Z"},
+      "status": "cached_no_change",
+      "schema_drift": false,
+      "data": {
+        "itinerario": {"salida_bog": "2026-10-10", "japon": "10-27 oct 2026", "tailandia": "28 oct - 6 nov 2026"},
+        "dias_hasta_salida": 14,
+        "presupuesto": {"pestana_usada": "válida (AUTORIDAD) — total $77,541,182", "total_estimado": 77541182, "presupuesto": 77000000, "restante": -541182},
+        "gastos": {
+          "pagado": 43548858,
+          "falta": 33992324,
+          "sin_pagar": [
+            {"detalle": "Hotel Hokke Club Kyoto", "categoria": "Hotel", "quien_pago": "Ale", "monto": 1112017},
+            {"detalle": "Hotel APA Hotel and Resort Osaka Namba Ekimae Tower", "categoria": "Hotel", "quien_pago": "Juan", "monto": 959260},
+            {"detalle": "Elephant Nature Park", "categoria": "Atracciones", "quien_pago": "Juan", "monto": 145395},
+            {"detalle": "Ubigi eSIM", "categoria": "Otros", "quien_pago": "Juan", "monto": 208555}
+          ]
+        }
+      }
+    }
+  },
+  "alimentacion": {
+    "caso": "C",
+    "escalon_confidence": "inferred",
+    "nota": "Ventana de actividad (paso 1) vacía — sin actividad registrada hoy ni ayer después de las 12:00. No se recomienda un escalón específico. Elige según lo que vayas a hacer:",
+    "tabla_escalones_pre_entreno": [
+      {"carga": "1 entreno TSS ≤60", "ejemplo": "Swim 1700 m · Run 5 km · Indoor 45 min", "pre_entreno": "Compon X + beet root + 1 grasa saludable", "durante": "500 ml + 1 pastilla Gu"},
+      {"carga": "1 entreno TSS ≥60", "ejemplo": "Intervalos · Run 8–12 km", "pre_entreno": "+ 1 proteína", "durante": "500 ml + 1 pastilla Gu"},
+      {"carga": "2 entrenos TSS 60-100", "ejemplo": "Run+peso · Run+swim", "pre_entreno": "+ 1 carbohidrato", "durante": "c/40 min: 500 ml + Gu + gel Going"},
+      {"carga": "2 entrenos TSS >100", "ejemplo": "Ruta + running", "pre_entreno": "+ carbohidrato, y entre sesiones", "durante": "c/40 min: 500 ml + Gu + gel Going"}
+    ],
+    "sin_actividad_registrada_a_esta_hora": "elige escalón según lo que vayas a hacer",
+    "reglas_fijas_del_plan": {
+      "ayuno_horas": "12-14",
+      "hora_desayuno": "7:00 am",
+      "hora_cena_max": "6:00 pm",
+      "hidratacion_litros_dia": 2.4,
+      "hidratacion_antes_mediodia_litros": 1,
+      "evitar_agua_con_gas": true,
+      "suplementos_base": [
+        {"nombre": "Magnesio Glicinato", "dosis": "1 pastilla desayuno + 1 cena"},
+        {"nombre": "DK Mulsion (Vitamina D)", "dosis": "5 gotas con desayuno"},
+        {"nombre": "Neuressens (Vitamina B12)", "dosis": "1/2 gotero sublingual con desayuno"},
+        {"nombre": "Proteína Vitanas", "dosis": "1 scoop al día"}
+      ],
+      "suplementos_ejercicio": ["Compon X", "Gel Going", "Creatina", "Electrolitos Gu sin azúcar", "Beet root powder"]
+    },
+    "restricciones_temporales_1_mes": {
+      "status": "vencidas",
+      "nota": "Plan fechado abril 2026, restricciones decían 'durante 1 MES'; hoy (2026-09-26) son más de 5 meses después."
+    }
+  }
+}
