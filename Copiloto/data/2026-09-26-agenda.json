@@ -1,0 +1,156 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T06:15:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-25T22:00:00-05:00",
+        "end": "2026-09-26T05:00:00-05:00",
+        "duration_minutes": 300,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 05:00. Solo se cuentan las 5h dentro del día de hoy."
+      },
+      {
+        "title": "Bici",
+        "start": "2026-09-26T05:00:00-05:00",
+        "end": "2026-09-26T10:00:00-05:00",
+        "duration_minutes": 300,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Título 'Bici' aparece 4 veces en las 3 semanas previas (recurrente), pero casi siempre dura ~1h45 (jueves 10, 17 y 24-sep). La duración de 5h de hoy solo tiene un precedente: el sábado 19-sep, también 05:00-10:00. Es el único sábado comparable en la ventana (los otros dos sábados, 5 y 12-sep, fueron días de viaje/maratón sin agenda normal)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-26T10:00:00-05:00",
+        "end": "2026-09-26T11:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Bloque recurrente (rutina con el perro Bono); coincide exactamente con el horario del sábado 19-sep."
+      },
+      {
+        "title": "Onces y Arreglar",
+        "start": "2026-09-26T11:00:00-05:00",
+        "end": "2026-09-26T12:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": true,
+        "note": "Solo aparece 1 vez en las 3 semanas previas (sábado 19-sep, mismo horario exacto). No llega a las 3+ repeticiones que se usan como umbral de recurrencia, aunque coincide con el único sábado comparable disponible."
+      },
+      {
+        "title": "Rudiments",
+        "start": "2026-09-26T12:00:00-05:00",
+        "end": "2026-09-26T12:30:00-05:00",
+        "duration_minutes": 30,
+        "category": "música",
+        "is_atypical": false,
+        "note": "Título recurrente: aparece 4 veces en las 3 semanas previas (9, 19, 21, 23-sep)."
+      },
+      {
+        "title": "Practicar Bateria",
+        "start": "2026-09-26T12:30:00-05:00",
+        "end": "2026-09-26T13:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "música",
+        "is_atypical": true,
+        "note": "Título similar ('Practicar Bateria' / 'Practicar Batería') aparece solo 2 veces en las 3 semanas previas (19 y 20-sep), por debajo del umbral de 3+."
+      },
+      {
+        "title": "Cursos",
+        "start": "2026-09-26T15:00:00-05:00",
+        "end": "2026-09-26T18:00:00-05:00",
+        "duration_minutes": 180,
+        "category": "estudio",
+        "is_atypical": false,
+        "note": "Título muy recurrente (9+ veces en 3 semanas), aunque normalmente dura 30-75 min entre semana. El bloque de 3h de hoy coincide exactamente con el del sábado 19-sep (15:00-18:00)."
+      },
+      {
+        "title": "CARLOS VIVES MAYORES - SEGUNDA FECHA",
+        "start": "2026-09-26T20:00:00-05:00",
+        "end": "2026-09-26T21:00:00-05:00",
+        "duration_minutes": 60,
+        "category": "personal",
+        "location": "Movistar Arena",
+        "is_atypical": true,
+        "note": "Evento único, no aparece en las 3 semanas previas. Invitado: palejandraacuna@gmail.com. Sin bloques de 'Ir a' / 'Volver' asociados, a diferencia de otros compromisos del calendario."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-26T23:00:00-05:00",
+        "end": "2026-09-27T06:30:00-05:00",
+        "duration_minutes": 60,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan 60 min (23:00-24:00) dentro del día de hoy."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 7.5,
+      "training_hours": 5.0,
+      "sleep_hours_within_today": 6.0,
+      "total_scheduled_hours_within_today": 18.5,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-26T13:30:00-05:00",
+          "end": "2026-09-26T15:00:00-05:00",
+          "duration_minutes": 90
+        },
+        {
+          "start": "2026-09-26T18:00:00-05:00",
+          "end": "2026-09-26T20:00:00-05:00",
+          "duration_minutes": 120
+        },
+        {
+          "start": "2026-09-26T21:00:00-05:00",
+          "end": "2026-09-26T23:00:00-05:00",
+          "duration_minutes": 120
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": false,
+        "zero_buffer_transitions": [
+          "Dormir -> Bici (05:00, sin margen)",
+          "Bici -> Bono (10:00, sin margen)",
+          "Bono -> Onces y Arreglar (11:00, sin margen)",
+          "Onces y Arreglar -> Rudiments (12:00, sin margen)",
+          "Rudiments -> Practicar Bateria (12:30, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "info@focorace.com (Focorace)",
+        "subject": "😱 📷 ¡Último llamado! Tus fotos de Maratón Medellín 2026",
+        "action_required": "Descargar las fotos de la Media Maratón de Medellín antes de que expire el acceso.",
+        "urgency": "alta"
+      },
+      {
+        "sender": "contacto@hogaru.com (Hogaru)",
+        "subject": "Revisa tus limpiezas de octubre, Juan Pablo",
+        "action_required": "Revisar y confirmar (o ajustar) la programación de limpiezas de octubre.",
+        "urgency": "media"
+      },
+      {
+        "sender": "notifications-noreply@linkedin.com (LinkedIn)",
+        "subject": "You have 4 new invitations",
+        "action_required": "Revisar y responder (aceptar/ignorar) las 4 invitaciones de contacto pendientes.",
+        "urgency": "baja"
+      },
+      {
+        "sender": "tripadvisorbusiness@rcm.tripadvisor.com (TripAdvisor)",
+        "subject": "¿Qué le ha parecido la estancia en Hotel Santorini Casablanca?",
+        "action_required": "Dejar (u omitir) la reseña del hotel; sin plazo definido.",
+        "urgency": "baja"
+      }
+    ]
+  },
+  "friction": "La mañana no tiene ningún respiro: desde que termina de dormir a las 05:00 hasta las 13:30 son 8.5 horas seguidas sin un solo hueco — Bici (5h, el bloque de entrenamiento más largo que ha tenido en las últimas 3 semanas), y de ahí directo a Bono, Onces y Arreglar, Rudiments y Practicar Batería, todo encadenado sin margen. Después de una sesión de entrenamiento de 5 horas no hay ningún bloque de descanso o recuperación antes de meterse a tareas de motricidad fina (batería). El concierto de Carlos Vives en el Movistar Arena solo tiene bloqueada 1 hora (20:00-21:00), pero un concierto real casi nunca termina puntual y no hay ningún bloque de transporte de ida ni de vuelta como sí existe para otros compromisos del día — eso significa que el margen real hasta 'Dormir' a las 23:00 (ya de por sí solo 2 horas después de que termina el concierto en el calendario) probablemente se va a comer. Si el concierto se extiende o el tráfico de salida del Arena tarda, la hora de dormir se corre en un día que ya empezó con 5 horas de entrenamiento a las 5am — eso no es sostenible dos días seguidos."
+}
