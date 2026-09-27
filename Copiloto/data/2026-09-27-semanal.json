@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T11:35:41-05:00",
+  "timezone": "America/Bogota",
+  "periodo_analizado": "2026-09-21 a 2026-09-27",
+  "strava": {
+    "actividades_7_dias": [
+      {
+        "fecha": "2026-09-21",
+        "nombre": "Evening Workout",
+        "tipo": "Workout (indoor, sin distancia)",
+        "duracion_min": 104.67,
+        "distancia_km": 0,
+        "desnivel_m": 0,
+        "fc_media": 120.7,
+        "fc_max": 163,
+        "potencia_media": null,
+        "esfuerzo_relativo": 19,
+        "nota": "Sin distancia/desnivel registrados (entreno indoor tipo 'Workout'). Sin datos de potencia (has_device_watts: false)."
+      },
+      {
+        "fecha": "2026-09-27",
+        "nombre": "Morning Run",
+        "tipo": "Run",
+        "duracion_min": 70.22,
+        "distancia_km": 10.02,
+        "desnivel_m": 7.3,
+        "fc_media": 143.5,
+        "fc_max": 166,
+        "potencia_media": null,
+        "esfuerzo_relativo": 20,
+        "nota": "Sin datos de potencia (has_device_watts: false). Cadencia media 81.2 spm."
+      }
+    ],
+    "totales_por_disciplina": {
+      "nado": { "tiempo_min": 0, "distancia_km": 0, "sesiones": 0 },
+      "bici": { "tiempo_min": 0, "distancia_km": 0, "sesiones": 0 },
+      "trote": { "tiempo_min": 70.22, "distancia_km": 10.02, "sesiones": 1 },
+      "otro_indoor": { "tiempo_min": 104.67, "distancia_km": 0, "sesiones": 1, "nota": "'Evening Workout' no clasifica como nado/bici/trote; se reporta aparte." }
+    },
+    "esfuerzo_relativo": {
+      "semana_actual_2026-09-21_a_2026-09-27": 39,
+      "semana_anterior_1_2026-09-14_a_2026-09-20": 8,
+      "semana_anterior_2_2026-09-07_a_2026-09-13": 0,
+      "semana_anterior_3_2026-08-31_a_2026-09-06": 224,
+      "nota": "La semana -3 incluye la Media Maratón Medellín (esfuerzo_relativo 193 de esa sola actividad) más 4 sesiones de rodaje. La semana -2 no tiene actividades registradas en Strava."
+    },
+    "reparto_tiempo_zona_fc": {
+      "metodo": "Suma de tiempo en zona calculada sobre streams de FC segundo a segundo de las 2 actividades de la semana (zonas manuales del atleta: Z1 0-135, Z2 136-150, Z3 151-165, Z4 166-179, Z5 180+).",
+      "zona_1_min": 96.05,
+      "zona_1_pct": 54.9,
+      "zona_2_min": 66.2,
+      "zona_2_pct": 37.8,
+      "zona_3_min": 12.53,
+      "zona_3_pct": 7.2,
+      "zona_4_min": 0.13,
+      "zona_4_pct": 0.1,
+      "zona_5_min": 0,
+      "zona_5_pct": 0,
+      "tiempo_total_con_fc_min": 174.9
+    },
+    "kilometraje_acumulado_equipo": {
+      "interpretacion": "equipo = gear (bicis/zapatillas) registrado en Strava, siguiendo la misma convención usada por el sistema en el cache 'vida.json' del 2026-09-27.",
+      "status": "sin_gear_registrado",
+      "nota": "get_gear no devolvió bicis ni zapatillas asociadas a la cuenta de Strava. No hay kilometraje de equipo/gear para reportar.",
+      "nota_alternativa": "Si 'equipo' se refería a club/team de Strava: el atleta pertenece a 'System Running' (9 miembros) y 'RunnersLab' (130 miembros), pero la API de clubes no expone kilometraje acumulado del club."
+    }
+  },
+  "contexto_carrera": {
+    "media_maraton_medellin": {
+      "fecha": "2026-09-06",
+      "estado": "ya_corrida",
+      "semanas_desde_la_carrera": 3,
+      "resultado_strava": "Medía Maratón Medellín - PR!! · 21.28 km · 1:53:39 (moving_time 6819s) · esfuerzo_relativo 193 · 41 logros/PRs en Strava"
+    },
+    "cientoonce_huila": {
+      "fecha": "2026-10-04",
+      "semanas_restantes": 1,
+      "dias_restantes": 7,
+      "nota": "El focus actual del atleta en Strava es 'TrainForEvent — Train for a triathlon', vence 2026-10-04 (coincide con esta fecha)."
+    },
+    "reparto_disciplinas_semana_actual": "100% run/indoor: 10.02 km de trote + 104.7 min de entreno indoor sin distancia. 0% nado, 0% bici.",
+    "comparacion_3_semanas_previas": {
+      "semana_-1_2026-09-14_a_2026-09-20": "100% trote (1 sesión, 6.23 km). 0% nado, 0% bici.",
+      "semana_-2_2026-09-07_a_2026-09-13": "Sin actividades registradas en Strava.",
+      "semana_-3_2026-08-31_a_2026-09-06": "Trote 35.47 km en 4 sesiones (incluye la Media Maratón) + 96.5 min de entreno indoor. 0% nado, 0% bici."
+    },
+    "tendencia_informativa": "En las 4 semanas revisadas (2026-08-31 a 2026-09-27) no hay una sola actividad de nado ni de bici registrada en Strava — toda la carga fue trote o entreno indoor sin distancia, pese a que el focus declarado en Strava es entrenar para un triatlón. Se expone como tendencia observada, sin sugerir ajustes para la semana siguiente."
+  },
+  "bateria_rudiments": {
+    "fuente": "Google Sheet 'Rudiments Progress' (fileId 1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw), pestañas 'Tracker Rudiments' y 'Doble Pedal' (plan de 25 semanas).",
+    "plan_25_semanas": {
+      "semana_actual_por_fecha": {
+        "week": 14,
+        "date_mon": "2026-09-21",
+        "type_focus": "FLEX WEEK / REST",
+        "target_endurance": "-",
+        "target_burst": "-",
+        "song_focus": "-",
+        "notes": "Take a break or catch up"
+      }
+    },
+    "reales_registrados_esta_semana": {
+      "hay_registros": false,
+      "detalle": "Semana sin registros: la semana 14 es de descanso (sin objetivo de BPM) y el último log en 'Tracker Rudiments' es del 2026-09-19 (single_stroke=147), fecha anterior al inicio de esta semana (2026-09-21). No se registró ninguna sesión entre el 21 y el 27 de septiembre."
+    },
+    "maximos_actuales_referencia": {
+      "single_stroke": 152,
+      "double_stroke": 123,
+      "five_stroke_roll": 138,
+      "paradiddle": 119,
+      "triple_paradiddle": 118,
+      "double_pedal": 105
+    },
+    "ultima_semana_con_reales_logrados": {
+      "week": 4,
+      "date_mon": "2026-07-13",
+      "song_focus": "Fade to Black"
+    }
+  },
+  "verificacion_precision": {
+    "metodo": "5 afirmaciones elegidas al azar entre los JSON generados esta semana (2026-09-27-vida.json y 2026-09-27-alpha.json en Drive) y sus fuentes primarias reabiertas para contrastar.",
+    "resultado": "5/5",
+    "afirmaciones": [
+      {
+        "afirmacion": "Máximos actuales de Rudiments: single_stroke 152, double_stroke 123, five_stroke_roll 138, paradiddle 119, triple_paradiddle 118, double_pedal 105.",
+        "source_id": "Google Sheet 'Rudiments Progress' (1uYP_F-yydk6RRWgPnPWBUnay6owcLAfefHOVXgny8cw), pestaña 'Tracker Rudiments', fila 'Max'.",
+        "resultado": "correcta",
+        "detalle": "Fila 'Max' reabierta: 152,123,138,119,118,...,105 — coincide exactamente."
+      },
+      {
+        "afirmacion": "La semana 14 del plan de 25 semanas (lunes 2026-09-21) es 'FLEX WEEK / REST', sin objetivo de BPM, con nota 'Take a break or catch up'.",
+        "source_id": "Google Sheet 'Rudiments Progress', pestaña 'Doble Pedal', fila semana 14.",
+        "resultado": "correcta",
+        "detalle": "Fila reabierta: '14,Sep 21 2026,...,FLEX WEEK / REST,-,-,-,Take a break or catch up' — coincide."
+      },
+      {
+        "afirmacion": "En el repertorio de batería, 'Capitán Lawrence' (WarCry) tiene 95% de avance y se tocó por última vez el 2026-07-09.",
+        "source_id": "Google Sheet 'Canciones FtM' (1cIYnUYgQqYS1qB6-IDFOamekzvYO7D5L07ymY42BW-o).",
+        "resultado": "correcta",
+        "detalle": "Fila reabierta: '4,Capitán Lawrence,WarCry,42,95,Español,95%,7/9/2026,...' — % Avance y fecha coinciden."
+      },
+      {
+        "afirmacion": "La actividad Strava 'Evening Workout' del 2026-09-21 tiene FC media 120.7, FC máx 163 y esfuerzo relativo 19.",
+        "source_id": "Strava activity 20276237445 (get_activity_performance).",
+        "resultado": "correcta",
+        "detalle": "Reabierta en vivo: average_heartrate 120.687 (redondea a 120.7), max_heartrate 163, relative_effort 19 — coincide."
+      },
+      {
+        "afirmacion": "Colpensiones tiene nueva presidenta: De la Espriella designó a Beatriz Eugenia Vélez.",
+        "source_id": "Gmail message 1a0dfb24ff34eb91 (Valora Analitik newsletter, 2026-09-26T21:49:07Z).",
+        "resultado": "correcta",
+        "detalle": "Correo reabierto: 'Colpensiones ya tiene nueva presidenta: De la Espriella designó a Beatriz Eugenia Vélez' — coincide (el JSON normalizó tildes: 'designo'/'Velez' en vez de 'designó'/'Vélez', sin cambio de sentido)."
+      }
+    ]
+  }
+}
