@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T08:30:00-05:00",
+  "timezone": "America/Bogota",
+  "calendar": {
+    "events": [
+      {
+        "title": "Dormir",
+        "start": "2026-09-26T23:00:00-05:00",
+        "end": "2026-09-27T06:30:00-05:00",
+        "duration_minutes": 450,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño de la noche anterior, termina hoy a las 06:30."
+      },
+      {
+        "title": "Run",
+        "start": "2026-09-27T06:30:00-05:00",
+        "end": "2026-09-27T09:10:00-05:00",
+        "duration_minutes": 160,
+        "category": "entrenamiento",
+        "is_atypical": false,
+        "note": "Mismo evento recurrente (mismo id de serie) que el domingo pasado (20-sep), mismo horario 06:30-09:10."
+      },
+      {
+        "title": "Desayunar y Arreglar",
+        "start": "2026-09-27T09:10:00-05:00",
+        "end": "2026-09-27T10:10:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-27T10:10:00-05:00",
+        "end": "2026-09-27T11:00:00-05:00",
+        "duration_minutes": 50,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Practicar Batería",
+        "start": "2026-09-27T11:00:00-05:00",
+        "end": "2026-09-27T12:30:00-05:00",
+        "duration_minutes": 90,
+        "category": "personal",
+        "is_atypical": false,
+        "note": "Ensayo semanal recurrente de batería, mismo horario que domingos anteriores (13-sep, 20-sep)."
+      },
+      {
+        "title": "Planear Semana + LinkedIn",
+        "start": "2026-09-27T18:15:00-05:00",
+        "end": "2026-09-27T19:45:00-05:00",
+        "duration_minutes": 90,
+        "category": "personal",
+        "is_atypical": false,
+        "note": "Bloque recurrente de domingo (mismo horario 06-sep, 20-sep)."
+      },
+      {
+        "title": "Bono",
+        "start": "2026-09-27T19:45:00-05:00",
+        "end": "2026-09-27T20:15:00-05:00",
+        "duration_minutes": 30,
+        "category": "rutina",
+        "is_atypical": false
+      },
+      {
+        "title": "Preparar Dormida",
+        "start": "2026-09-27T20:15:00-05:00",
+        "end": "2026-09-27T21:15:00-05:00",
+        "duration_minutes": 60,
+        "category": "rutina",
+        "is_atypical": false,
+        "note": "Se solapa 15 min con el bloque 'Dormir' que empieza a las 21:00 (ver conflicts)."
+      },
+      {
+        "title": "Dormir",
+        "start": "2026-09-27T21:00:00-05:00",
+        "end": "2026-09-28T04:15:00-05:00",
+        "duration_minutes": 435,
+        "category": "sueño",
+        "is_atypical": false,
+        "note": "Bloque de sueño que continúa mañana. Solo se cuentan las 3h (21:00-24:00) dentro de hoy. Empieza 15 min antes de que termine 'Preparar Dormida' (ver conflicts)."
+      }
+    ],
+    "stats": {
+      "committed_hours_non_sleep_non_training": 6.33,
+      "training_hours": 2.67,
+      "sleep_hours_within_today": 9.5,
+      "total_scheduled_hours_within_today": 18.25,
+      "free_gaps_over_60min": [
+        {
+          "start": "2026-09-27T12:30:00-05:00",
+          "end": "2026-09-27T18:15:00-05:00",
+          "duration_minutes": 345
+        }
+      ],
+      "conflicts": {
+        "overlaps_with_training_block": false,
+        "overlaps_with_sleep_block": true,
+        "overlaps": [
+          "Preparar Dormida (20:15-21:15) se solapa 15 min con Dormir (21:00-04:15): entre 21:00 y 21:15 ambos bloques están activos a la vez."
+        ],
+        "zero_buffer_transitions": [
+          "Dormir -> Run (06:30, sin margen)",
+          "Run -> Desayunar y Arreglar (09:10, sin margen)",
+          "Desayunar y Arreglar -> Bono (10:10, sin margen)",
+          "Bono -> Practicar Batería (11:00, sin margen)",
+          "Planear Semana + LinkedIn -> Bono (19:45, sin margen)",
+          "Bono -> Preparar Dormida (20:15, sin margen)"
+        ]
+      }
+    }
+  },
+  "gmail": {
+    "window": "últimas 24h",
+    "excluded_domains": ["Skandia", "Universidad de La Sabana"],
+    "actionable_unread": [
+      {
+        "sender": "facturacioncolombia@grupovanti.com (VANTI)",
+        "subject": "Factura VANTI",
+        "action_required": "Abrir el PDF adjunto (Factura 63265651) y pagar antes de la fecha límite indicada; el cuerpo del correo no trae el monto ni la fecha.",
+        "urgency": "media"
+      }
+    ]
+  },
+  "friction": "Hoy no hay sobrecarga: es el día más liviano de las últimas semanas, con un bloque libre de 5h45 seguidas (12:30-18:15) y solo 6.33h de compromisos fuera de sueño y entrenamiento. Cero choques con el bloque de entrenamiento. Lo único que sí está mal es un error de agenda, no de carga: 'Preparar Dormida' (20:15-21:15) y 'Dormir' (21:00-04:15) se solapan 15 minutos — alguno de los dos quedó mal editado y toca correrlo. Fuera de eso, un solo correo pendiente de acción (factura de VANTI, sin fecha límite visible en el cuerpo) y ninguna carga real que resolver hoy."
+}
